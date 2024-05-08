@@ -1,4 +1,4 @@
-My LeetCode Proile - https://leetcode.com/PrinceKushwaha1992/
+My LeetCode Profile - https://leetcode.com/PrinceKushwaha1992/
 
 Solved more than 124 problems
 
