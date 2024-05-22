@@ -13,16 +13,16 @@ public class Currency {
 		for (int i = numString.length() - 1; i >= 0; i--) {
 			char c = numString.charAt(i);
 			if (count % 3 == 0 && count != 0) {
-				newString = newString + "," + c;
+				//newString = newString + "," + c;
 				sb.append("," + c);
 				count++;
 			} else {
-				newString = newString + c;
+				//newString = newString + c;
 				sb.append(c);
 				count++;
 			}
 		}
-		System.out.println(newString);
+		//System.out.println(newString);
 		System.out.println(sb.reverse());
 	}
 }

@@ -1,8 +1,9 @@
 package programs;
+
 import java.util.HashSet;
 import java.util.Set;
 
-class LongestSubstringWithoutRepeating1 {
+class LongestSubstringWithoutRepeating {
 
 	public static void main(String[] args) {
 		String s = "pwwkew";

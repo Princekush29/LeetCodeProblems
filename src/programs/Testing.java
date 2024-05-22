@@ -1,7 +1,10 @@
 package programs;
-class Testing {
-	public static void main(String args[]) {
-		String s = 50 + 30 + "Sachin" + 40 + 40;
-		System.out.println(s);
+
+public class Testing {
+	public static void main(String[] args) {
+		
+		String s = "1234";
+		int num = Integer.parseInt(s);
+		System.out.println(num);
 	}
 }

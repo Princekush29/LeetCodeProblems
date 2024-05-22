@@ -23,11 +23,11 @@ public class LinkdeinProgramming2 {
 		}
 		Iterator<Integer> itr = s.iterator();
 		while (itr.hasNext()) {
-			System.out.println(itr.next());
+			System.out.println("Set "+itr.next());
 		}
 		System.out.println("0000");
 		Object[] arr1 = s.toArray();
-		System.out.println(arr1.length);
+		System.out.println("Length is "+arr1.length);
 		for (int i = 0; i < arr1.length; i++) {
 			System.out.println(arr1[i]);
 		}
