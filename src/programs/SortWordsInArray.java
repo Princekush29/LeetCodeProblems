@@ -19,6 +19,7 @@ public class SortWordsInArray {
 		}
 		System.out.println(Arrays.toString(names));
 		System.out.println("++");
+		
 		//Method2
 		Arrays.sort(names);
 		System.out.println(Arrays.toString(names));

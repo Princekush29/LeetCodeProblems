@@ -1,13 +1,17 @@
 package programs;
+
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 import java.util.Map.Entry;
 
 public class CountDuplicate {
 
 	public static void main(String[] args) {
-		int arr[] = {10, 20, 25, 30, 25, 25, 35, 40, 40};
+		int arr[] = { 10, 20, 25, 30, 25, 25, 35, 40, 40 };
 		int size;
 		size = arr.length;
 		System.out.println(size);
@@ -22,7 +26,7 @@ public class CountDuplicate {
 		}
 		System.out.println("Method 1");
 		System.out.println(hm);
-		
+
 		System.out.println("Method 2");
 		for (Map.Entry<Integer, Integer> hm1 : hm.entrySet()) {
 			if (hm1.getValue() > 1)
@@ -34,16 +38,39 @@ public class CountDuplicate {
 		while (itr.hasNext() && itr1.hasNext()) {
 			System.out.println(itr.next() + " " + itr1.next());
 		}
-		
-		System.out.println("Method 4");
-		Iterator<Entry<Integer, Integer>> itr3 = hm.entrySet().iterator(); 
-        
-        while(itr3.hasNext()) 
-        { 
-             Entry<Integer, Integer> entry = itr3.next(); 
-             System.out.println("Key = " + entry.getKey() +  
-                                 ", Value = " + entry.getValue()); 
-        } 
 
+		System.out.println("Method 4");
+		Iterator<Entry<Integer, Integer>> itr3 = hm.entrySet().iterator();
+
+		while (itr3.hasNext()) {
+			Entry<Integer, Integer> entry = itr3.next();
+			System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+		}
+
+		// For Set - Method 5
+		System.out.println("Method 5");
+		Set<Integer> s = new HashSet<Integer>();
+		s.add(1234);
+		Iterator<Integer> itr5 = s.iterator();
+		while (itr5.hasNext()) {
+			System.out.println(itr5.next());
+		}
+
+		// Method 6
+		System.out.println("Method 6");
+		for (Integer a : s) {
+			System.out.println(a);
+		}
+			
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		al.add(10);
+		System.out.println("Method 6 for ArrayList");
+		for(Integer al1:al) {
+			System.out.println(al1);
+		}
+		System.out.println("Method 6 with for loop");
+		for(int i=0;i<al.size();i++) {
+			System.out.println(al.get(i));
+		}
 	}
 }

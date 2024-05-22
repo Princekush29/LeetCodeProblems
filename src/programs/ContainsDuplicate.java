@@ -19,5 +19,7 @@ public class ContainsDuplicate {
 			System.out.println("Contains Duplicate");
 		else
 			System.out.println("Don't contain Duplicate");
+		
+		//Method 2 - Use map 
 	}
 }

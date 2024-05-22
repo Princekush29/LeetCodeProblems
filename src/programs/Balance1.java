@@ -15,6 +15,8 @@ public class Balance1 {
 	public static boolean verifyBalanceString(String balanceString) {
 
 		Stack<Character> stack = new Stack<Character>();
+		// Using ArrayDeque is faster than using Stack class
+//		Deque<Character> stack = new ArrayDeque<Character>();
 
 		for (int i = 0; i < balanceString.length(); i++) {
 			char c = balanceString.charAt(i);
