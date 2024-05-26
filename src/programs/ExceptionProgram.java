@@ -1,6 +1,6 @@
 package programs;
 
-public class Exception {
+public class ExceptionProgram {
 
 	public static void main(String[] args) {
 
@@ -12,7 +12,7 @@ public class Exception {
 
 		try {
 			int c = a / b;
-		} catch (ArithmeticException e) {
+		} catch (Exception e) {
 			System.out.println(e);
 		}
 
