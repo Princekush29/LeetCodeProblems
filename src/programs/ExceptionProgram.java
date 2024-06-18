@@ -15,6 +15,9 @@ public class ExceptionProgram {
 		} catch (Exception e) {
 			System.out.println(e);
 		}
+		finally {
+			System.out.println("Finally");
+		}
 
 		System.out.println("444");
 		System.out.println("555");

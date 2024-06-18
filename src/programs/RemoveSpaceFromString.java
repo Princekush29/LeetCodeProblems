@@ -13,5 +13,7 @@ public class RemoveSpaceFromString {
 			}
 		}
 		System.out.println(newStr);
+		String s1=s.replaceAll(" +", "");
+		System.out.println(s1);
 	}
 }

@@ -11,7 +11,7 @@ public class TestingDPWorld {
 		shuffle(arr);
 	}
 
-	public static void shuffle(int[] arr) {
+	public static void shuffle(int arr[]) {
 		int temp;
 		Random rand = new Random();
 
