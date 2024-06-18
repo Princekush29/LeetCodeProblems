@@ -7,12 +7,15 @@ public class SortAlphabetInString {
 		String s = "zzzabcdefgh";
 
 		// Method1
+		System.out.println("Method 1 start");
 		char charArray[] = s.toCharArray();
 		Arrays.sort(charArray);
 		System.out.println(charArray);
-		System.out.println("----------");
+		System.out.println(Arrays.toString(charArray));
+		System.out.println("Method 1 end");
 
 		// Method2
+		System.out.println("Method 2 start");
 		String s123 = "asdfg";
 		char charArray1[] = s123.toCharArray();
 		char temp;
@@ -26,8 +29,10 @@ public class SortAlphabetInString {
 			}
 		}
 		System.out.println(charArray1);
-		System.out.println("===========");
+		System.out.println("Method 2 end");
+		
 		// Method3
+		System.out.println("Method 3 start");
 		String s1 = "ACB";
 		char arr[] = s1.toCharArray();
 		int len = arr.length;
@@ -43,10 +48,11 @@ public class SortAlphabetInString {
 		for (int i = 0; i < len; i++) {
 			System.out.print(arr[i]);
 		}
-
-		// Method4
 		System.out.println();
-		System.out.println("Method4++++++");
+		System.out.println("Method 3 end");
+		
+		// Method4		
+		System.out.println("Method 4 start");
 		String s11 = "zxcvbnm";
 		int arr1[] = new int[s11.length()];
 		for (int i = 0; i < s11.length(); i++) {
@@ -70,5 +76,7 @@ public class SortAlphabetInString {
 			char c = (char) arr1[i];
 			System.out.print(c);
 		}
+		System.out.println();
+		System.out.println("Method 4 end");
 	}
 }

@@ -13,4 +13,4 @@ public class StringToInteger {
 		String a1 = Integer.toString(a);
 		System.out.println(a1);
 	}
-}	
+}

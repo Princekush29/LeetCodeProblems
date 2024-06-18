@@ -15,6 +15,7 @@ public class SecondLargestInArray {
 				firstLargest = arr[i];
 			}
 		}
+		System.out.println("++");
 		System.out.println(secondLargest);
 
 		// Method2

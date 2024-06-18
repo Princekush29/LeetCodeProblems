@@ -1,4 +1,5 @@
 package programs;
+
 import java.util.Arrays;
 
 public class RotateAnArrayByOne {
@@ -35,5 +36,22 @@ public class RotateAnArrayByOne {
 		}
 		System.out.println(Arrays.toString(arr3));
 		
+		//Method 3
+		int arr4[]= {1,2,3,4,5};
+		int m=2;
+		int p=0;
+		int len = arr4.length-1;
+		//o/p - 3,4,5,1,2
+		for(int u=0;p<m;) {
+			temp = arr4[u];
+			for(int b=0;b<arr4.length-1;b++) {
+				arr4[b]=arr4[b+1];
+			}
+			arr4[len]=temp;
+			p++;
+		
+		}
+		System.out.println("Output is "+Arrays.toString(arr4));
 	}
+	
 }
