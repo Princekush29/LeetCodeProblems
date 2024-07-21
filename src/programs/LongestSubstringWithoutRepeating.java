@@ -1,6 +1,6 @@
 package programs;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 class LongestSubstringWithoutRepeating {
@@ -15,7 +15,8 @@ class LongestSubstringWithoutRepeating {
 		int length = s.length();
 		int maxlength = 0;
 
-		Set<Character> charSet = new HashSet<Character>();
+		Set<Character> charSet = new LinkedHashSet<Character>();
+		
 		int left = 0;
 
 		for (int right = 0; right < length; right++) {
@@ -30,6 +31,8 @@ class LongestSubstringWithoutRepeating {
 				charSet.add(s.charAt(right));
 			}
 		}
+		System.out.println(charSet);
 		return maxlength;
+		
 	}
 }

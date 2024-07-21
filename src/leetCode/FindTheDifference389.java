@@ -11,7 +11,7 @@ public class FindTheDifference389 {
 
 		for (int i = 0; i < s.length(); i++) {
 			String p = s.charAt(i) + "";
-			t = t.replaceAll(p, "");
+			t = t.replaceFirst(p, "");
 		}
 		return t.charAt(0);
 	}

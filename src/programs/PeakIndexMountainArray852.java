@@ -1,5 +1,6 @@
 /*
-	 * Code-70 | Java Problem : You are given a 0-indexed array mountain. Your task
+	 * Code-70 | Java Problem : You are given a 0-indexed array mountain. 
+Your task
 	 * is to find all the peaks in the mountain array. Return an array that consists
 	 * of indices of peaks in the given array in any order.
 	 */
@@ -8,7 +9,7 @@
 package programs;
 
 
-public class LinkdeinProgramming4 {
+public class PeakIndexMountainArray852 {
 
 	public static void main(String[] args) {
 

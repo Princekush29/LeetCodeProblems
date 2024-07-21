@@ -4,6 +4,8 @@ public class CountNoOfWords {
 
 	public static void main(String[] args) {
 		String s = "One Two   Three    Four";
+		s=s.replaceAll(" +", " ");
+		System.out.println("S is "+s);
 		String arr[] = s.split(" ");
 		System.out.println(arr.length);
 		int count = 0;

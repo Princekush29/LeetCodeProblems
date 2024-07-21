@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.TreeMap;
 
-readonly class PrintMap {
+class PrintMap {
 
 	public static void main(String[] args) {
 

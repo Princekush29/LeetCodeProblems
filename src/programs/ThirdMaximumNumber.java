@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class LinkdeinProgramming2 {
+public class ThirdMaximumNumber {
 
 	public static void main(String[] args) {
 		/*
@@ -23,9 +23,9 @@ public class LinkdeinProgramming2 {
 		}
 		Iterator<Integer> itr = s.iterator();
 		while (itr.hasNext()) {
-			System.out.println("Set "+itr.next());
+			System.out.println("Set values "+itr.next());
 		}
-		System.out.println("0000");
+
 		Object[] arr1 = s.toArray();
 		System.out.println("Length is "+arr1.length);
 		for (int i = 0; i < arr1.length; i++) {
