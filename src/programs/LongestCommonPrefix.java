@@ -9,6 +9,8 @@ public class LongestCommonPrefix {
 		String input[] = { "flower", "fly", "flow" };
 		
 		Arrays.sort(input);
+		System.out.println(Arrays.toString(input));
+		
 		int length = input.length;
 		String newStr="";
 		int end = Math.min(input[0].length(), input[length-1].length());

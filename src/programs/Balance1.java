@@ -1,4 +1,5 @@
 package programs;
+
 import java.util.Stack;
 
 public class Balance1 {
@@ -48,5 +49,7 @@ public class Balance1 {
 			}
 		}
 		return stack.isEmpty();
+		// true if and only if this vector has no components,
+		// that is, its size is zero; false otherwise.
 	}
-}  
+}

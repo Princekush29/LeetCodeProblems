@@ -25,7 +25,7 @@ public class TestCompany {
 		int x2 = 4;
 		// o/p - 2, 5
 		int token1 = 0, token2 = 0;
-		for (int i = 0, j = arr2.length - 1; i < arr2.length; i++, j--) {
+		for (int i = 0, j = arr2.length - 1; i < j; i++, j--) {
 			if (x2 == arr2[i] && token1 == 0) {
 				System.out.println("First is " + i);
 				token1 = 1;
