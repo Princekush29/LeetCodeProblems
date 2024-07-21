@@ -1,8 +1,8 @@
 My LeetCode Profile - https://leetcode.com/PrinceKushwaha1992/
 
-Solved more than 135 problems
+Solved more than 142 problems
 
-Easy - 125
+Easy - 132
 
 Medium - 8
 
