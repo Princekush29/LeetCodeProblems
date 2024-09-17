@@ -16,27 +16,25 @@ public class Testingo9 {
 
 		/*
 		 * Input: s = "abc", t = "ahbgdc" Output: true Input: s = "axc", t = "ahbgdc"
-		 * Output: false
-		 * axc --> hbxafdc
+		 * Output: false axc --> hbxafdc
 		 */
 
-		String s = "abc";
+		String s = "axc";
 		String t = "ahbgdc";
-		String newStr = "";
-		for (int i = 0, j = 0; i < s.length() && j < t.length();) {
+		int i, j;
+		for (i = 0, j = 0; i < s.length() && j < t.length();) {
 			if (s.charAt(i) == t.charAt(j)) {
-				newStr = newStr + s.charAt(i);
 				i++;
 				j++;
 			} else {
 				j++;
 			}
 		}
-		if (s.equals(newStr)) {
+
+		if (i == s.length()) {
 			System.out.println("True");
 		} else {
 			System.out.println("False");
 		}
 	}
-
 }

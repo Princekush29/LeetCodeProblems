@@ -1,11 +1,12 @@
 package programs;
+
 import java.util.Arrays;
 
 public class TargetSum {
 
 	public static void main(String[] args) {
 
-		int nums[] = { 2, 7, 11, 15 };
+		int nums[] = { 1, 8, 2, 7, 11, 15 };
 		int target = 9;
 		System.out.println(twoSum(nums, target));
 	}

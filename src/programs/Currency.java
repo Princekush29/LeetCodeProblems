@@ -14,7 +14,9 @@ public class Currency {
 			char c = numString.charAt(i);
 			if (count % 3 == 0 && count != 0) {
 				//newString = newString + "," + c;
-				sb.append("," + c);
+				//sb.append("," + c);
+				sb.append(",");
+				sb.append(c);
 				count++;
 			} else {
 				//newString = newString + c;

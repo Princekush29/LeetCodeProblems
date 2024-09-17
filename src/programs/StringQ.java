@@ -1,4 +1,5 @@
 package programs;
+
 public class StringQ {
 
 	public static void main(String[] args) {

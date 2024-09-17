@@ -4,18 +4,18 @@ class This {
 	public static void main(String args[]) {
 		Student s1 = new Student(111, "ankit", 5000f);
 		s1.display();
-		Student s2=new Student();		
+		Student s2 = new Student();
 	}
 }
 
 class Student {
-	int rollno;
+	int instanceVariable;
 	String name1;
 	float fee1;
 
-	Student(int rollno, String name, float fee) {
+	Student(int parameter, String name, float fee) {
 		System.out.println("I am parameterized constructor");
-		this.rollno = rollno;
+		this.instanceVariable = parameter;
 		name1 = name;
 		fee1 = fee;
 	}
@@ -25,6 +25,6 @@ class Student {
 	}
 
 	void display() {
-		System.out.println(rollno + " " + name1 + " " + fee1);
+		System.out.println(instanceVariable + " " + name1 + " " + fee1);
 	}
 }

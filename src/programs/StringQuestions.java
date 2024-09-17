@@ -1,6 +1,6 @@
 package programs;
 
-public class Linkdein {
+public class StringQuestions {
 	public static void main(String args[]) {
 		//Q1
 		String str = "ONE" + 1 + 2 + "TWO" + "THREE" + 3 + 4 + "FOUR" + "FIVE" + 5;
@@ -16,5 +16,7 @@ public class Linkdein {
 
 		System.out.println(str1 == str2);
 		System.out.println(str1 == str3);
+		System.out.println(str1.equals(str2));
+		System.out.println(str1.equals(str3));
 	}
 }

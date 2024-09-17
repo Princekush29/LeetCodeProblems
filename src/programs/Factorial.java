@@ -1,8 +1,13 @@
 package programs;
 
+import java.util.Scanner;
+
 public class Factorial {
 	public static void main(String[] args) {
-		int n = 5, fact = 1;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number: " );
+		long n = sc.nextLong();
+		int fact = 1;
 		for (int i = 1; i <= n; i++) {
 			fact = fact * i;
 		}

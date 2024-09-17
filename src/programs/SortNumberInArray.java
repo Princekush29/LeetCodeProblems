@@ -1,6 +1,7 @@
 package programs;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class SortNumberInArray {
 
@@ -10,7 +11,7 @@ public class SortNumberInArray {
 		int arr1[] = { 1, 2, 3, 4, 5, 1, 3, 4 };
 		int arr2[] = { 1, 2, 7, 5, 4, 3, 2 };
 		int arr3[] = { 10, 20, 70, 50, 40, 30, 20 };
-		
+
 		// Method1
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
@@ -24,7 +25,7 @@ public class SortNumberInArray {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
 		}
-		
+
 		// Method2
 		System.out.println("---");
 
@@ -43,14 +44,6 @@ public class SortNumberInArray {
 		// Method3
 		Arrays.sort(arr2);
 		System.out.println("Array 2 is " + Arrays.toString(arr2));
+
 	}
 }
-
-
-
-
-
-
-
-
-

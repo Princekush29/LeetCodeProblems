@@ -1,6 +1,6 @@
 package programs;
 
-public class LinkdeinProgramming {
+public class ExceptionQuestion {
 
 	public static void main(String args[]) {
 		try {
