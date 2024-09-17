@@ -2,7 +2,7 @@ package programs;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Question2 {
+public class HashMapQuestion {
 
 	public static void main(String[] args) {
 

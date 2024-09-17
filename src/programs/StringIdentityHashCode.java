@@ -1,6 +1,6 @@
 package programs;
 
-public class StringA {
+public class StringIdentityHashCode {
 
 	public static void main(String[] args) {
 		String a = "Apple";

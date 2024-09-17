@@ -1,4 +1,5 @@
 package programs;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -8,7 +9,6 @@ public class Question_String {
 
 	public static void main(String[] args) {
 		method10();
-		method1();
 		method2();
 		method3();
 		method4();
@@ -17,25 +17,15 @@ public class Question_String {
 	public static void method10() {
 		String s = "abcdef";
 		s = s.replaceAll("[aeiouAEIOU]", "");
-		System.out.println(s);
-	}
-
-	public static void method1() {
-		// from array A, write a java code to delete the duplicate elements in the array
-		int a[] = { 1, 2, 3, 4, 1, 2, 2, 6, 7, 4 };
-		// b [] ={1,2,3,4,6,7}
-		Set<Integer> s = new HashSet<Integer>();
-		for (int i = 0; i < a.length; i++) {
-			s.add(a[i]);
-		}
-		System.out.println(s);
+		System.out.println("Method 10 " + s);
 	}
 
 	public static void method2() {
 		String str = "elephant";
 		// method 10 - not contain vowels - aeiou --> lphnt
 		// method 3 - reverse str - tna..
-		// method 2 - should not have duplicate alphebets-->lphant
+		// method 2 - should not have duplicate alphebets-->lphant - Using map
+		// method 2 - should not have duplicate alphebets-->lphant - Using set
 
 		Map<Character, Integer> hm1 = new HashMap<>();
 		for (int i = 0; i < str.length(); i++) {
@@ -51,6 +41,14 @@ public class Question_String {
 				System.out.print(hm2.getKey());
 			}
 		}
+		System.out.println();
+		System.out.println("Using set");
+		String str1 = "apple";
+		Set<Character> s = new HashSet<Character>();
+		for(int i=0;i<str1.length();i++) {
+			s.add(str1.charAt(i));
+		}
+		System.out.println(s);
 	}
 
 	public static void method3() {

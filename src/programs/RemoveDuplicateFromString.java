@@ -1,4 +1,5 @@
 package programs;
+
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -6,9 +7,9 @@ import java.util.Set;
 public class RemoveDuplicateFromString {
 
 	public static void main(String[] args) {
-		String str = "aabbccdds";
+		String str = "aaabbbccdds";
 		// Method1
-		//String str = "aabbccdd";
+		// String str = "aabbccdd";
 		Set<Character> s = new HashSet<Character>();
 		for (int i = 0; i < str.length(); i++) {
 			s.add(str.charAt(i));
@@ -24,24 +25,22 @@ public class RemoveDuplicateFromString {
 			System.out.print(itr.next());
 		}
 		System.out.println("+");
-		
+		System.out.println("String "+ str);
 		// Method2
-		/*
-		 * for (int i = 0; i < str.length(); i++) { char newchar = str.charAt(i); for
-		 * (int j = i + 1; j < str.length(); j++) { if(str.charAt(i) == str.charAt(j)) {
-		 * str = str.replace(newchar, ' '); break; } } }
-		 */
-		System.out.println(str);
+		System.out.println("Method 2");
+		for (int i = 0; i < str.length(); i++) {
+			char newchar = str.charAt(i);
+			for (int j = i+1; j < str.length(); j++) {
+				if (str.charAt(i) == str.charAt(j)) {
+					String newchar1 = newchar + "";
+					str = str.replaceFirst(newchar1, "");
+					// break;
+					j--;
+				} else if (str.charAt(i) != str.charAt(j)) {
+					break;
+				}
+			}
+		}
+		System.out.println("Output is "+str);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-

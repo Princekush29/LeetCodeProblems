@@ -12,7 +12,7 @@ public class SubArrayWithSum {
 		 */
 
 		int arr[] = { 1, 4, 20, 3, 10, 5 }, sum = 33, currentSum = 0;
-		// int arr[]={1, 4, 0, 0, 3, 10, 5}, sum = 7, currentSum=0;
+		
 		for (int i = 0; i < arr.length; i++) {
 			currentSum = arr[i];
 			for (int j = i + 1; j < arr.length; j++) {

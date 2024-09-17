@@ -30,7 +30,6 @@ public class UpperCaseToLowerCase {
 				c1 = (char) (c1 + 32);
 				System.out.print(c1);
 			}
-
 		}
 	}
 }

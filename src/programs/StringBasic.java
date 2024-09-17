@@ -7,6 +7,7 @@ public class StringBasic {
 		String s2 =s1;
 		String s3 =new String("abc");
 		String s4 = s1+"def";
+		
 		System.out.println(s1.equals (s2));// - True
 		System.out.println(s1.equals(s3)); //- True
 		System.out.println(s1.equals(s4));// - False

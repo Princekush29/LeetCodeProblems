@@ -6,7 +6,7 @@ public class MethodOverloading {
 		add(10, 12);
 		add(10, 12, 11);
 		add(1.4, 2.5);
-		MethodOverloading(10);
+		MethodOverloading1(10);
 	}
 
 	public static void add(int a, int b) {
@@ -24,7 +24,7 @@ public class MethodOverloading {
 		System.out.println(d);
 	}
 
-	public static void MethodOverloading(int a) {
+	public static void MethodOverloading1(int a) {
 		System.out.println(a);
 	}
 }

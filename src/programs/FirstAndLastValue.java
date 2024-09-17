@@ -1,6 +1,6 @@
 package programs;
 
-public class TestCompany {
+public class FirstAndLastValue {
 
 	public static void main(String[] args) {
 

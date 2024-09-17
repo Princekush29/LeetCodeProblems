@@ -8,5 +8,8 @@ public class Regex {
 		s = s.replaceAll("[a-zA-Z]", "");
 		System.out.println(s);
 
+		String str = "aabbccddee";
+		str = str.replaceAll("[aeiouAEIOU]", "");
+		System.out.println(str);
 	}
 }

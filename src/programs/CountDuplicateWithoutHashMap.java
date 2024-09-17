@@ -29,14 +29,13 @@ public class CountDuplicateWithoutHashMap {
 		for (int i = 0; i < arr.length; i++) {
 			s.add(arr[i]);
 		}
+		
+		//Print method 1
 		System.out.println(s);
 		System.out.println("++++");
 
-		// creates Iterator object.
+		//Print method 2
 		Iterator itr = s.iterator();
-
-		// check element is present or not. if not loop will
-		// break.
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}
