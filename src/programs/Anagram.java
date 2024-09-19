@@ -1,4 +1,5 @@
 package programs;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -7,10 +8,16 @@ import java.util.Set;
 public class Anagram {
 
 	public static void main(String[] args) {
-		String s1 = "lisateanaa";
+		String s1 = "abcdef";
 		String s2 = "sailaentaa";
+		/*
+		 * method1(s1, s2); method2(s1, s2); method3(s1, s2);
+		 */
+		method4(s1, s2);
+	}
 
-		// Method1
+	// Method1
+	public static void method1(String s1, String s2) {
 		char c1[] = s1.toCharArray();
 		char c2[] = s2.toCharArray();
 		Arrays.sort(c1);
@@ -20,7 +27,10 @@ public class Anagram {
 		System.out.println(Arrays.equals(c1, c2));
 		System.out.println("-------");
 
-		// Method 2
+	}
+
+	// Method 2
+	public static void method2(String s1, String s2) {
 		Map<Character, Integer> hm1 = new HashMap<Character, Integer>();
 		for (int i = 0; i < s1.length(); i++) {
 			if (hm1.containsKey(s1.charAt(i))) {
@@ -45,8 +55,10 @@ public class Anagram {
 			System.out.println("Not Anagram ");
 		}
 		System.out.println("-------");
+	}
 
-		// Method 3
+	// Method 3
+	public static void method3(String s1, String s2) {
 		Map<Character, Integer> hm3 = new HashMap<Character, Integer>();
 		for (int i = 0; i < s1.length(); i++) {
 			if (hm3.containsKey(s1.charAt(i))) {
@@ -68,5 +80,22 @@ public class Anagram {
 			if (hm3.get(key) != 0)
 				System.out.println("Not Anagram");
 		}
+	}
+
+	// Method 4 - Not sure why this is not working
+	public static void method4(String s1, String s2) {
+		// s1 =lisateanaa
+		System.out.println("Length is "+s1.length());
+		for (int i = 0; i < s1.length();) {
+			String c = s1.charAt(i) + "";
+			System.out.println(c);
+			s1 = s1.replaceFirst(c, "");
+			s2 = s2.replaceFirst(c, "");
+			i++;
+		}
+		if (s1.isBlank() && s2.isBlank())
+			System.out.println("Method 4 " + "Anagram");
+		else
+			System.out.println("Method 4 " + "Not Anagram");
 	}
 }
