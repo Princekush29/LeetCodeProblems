@@ -2,7 +2,7 @@ package programs;
 
 import java.util.Stack;
 
-public class Balance1 {
+public class Balance {
 
 	public static void main(String[] args) {
 		String balanceString = "[()]";
