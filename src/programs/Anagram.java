@@ -8,8 +8,8 @@ import java.util.Set;
 public class Anagram {
 
 	public static void main(String[] args) {
-		String s1 = "abcdef";
-		String s2 = "sailaentaa";
+		String s1 = "lpisateanaa";
+		String s2 = "siailaentaa";
 		/*
 		 * method1(s1, s2); method2(s1, s2); method3(s1, s2);
 		 */
@@ -82,7 +82,7 @@ public class Anagram {
 		}
 	}
 
-	// Method 4 - Not sure why this is not working
+	// Method 4
 	public static void method4(String s1, String s2) {
 		// s1 =lisateanaa
 		System.out.println("Length is "+s1.length());
@@ -91,7 +91,7 @@ public class Anagram {
 			System.out.println(c);
 			s1 = s1.replaceFirst(c, "");
 			s2 = s2.replaceFirst(c, "");
-			i++;
+			
 		}
 		if (s1.isBlank() && s2.isBlank())
 			System.out.println("Method 4 " + "Anagram");

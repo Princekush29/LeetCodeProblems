@@ -15,6 +15,5 @@ public class MaxProfit  {
 				profit = value;
 		}
 		System.out.println(profit);
-
 	}
 }

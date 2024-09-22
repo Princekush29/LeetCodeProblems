@@ -1,5 +1,8 @@
 package programs;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class ContainsDuplicate {
 
 	public static void main(String[] args) {
@@ -19,7 +22,19 @@ public class ContainsDuplicate {
 			System.out.println("Contains Duplicate");
 		else
 			System.out.println("Don't contain Duplicate");
-		
-		//Method 2 - Use map 
+
+		// Method 2 - Use map
+		HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
+		for (int i = 0; i < arr.length; i++) {
+			if (hm.containsKey(arr[i])) {
+				hm.put(arr[i], hm.get(arr[i]) + 1);
+			} else {
+				hm.put(arr[i], 1);
+			}
+		}
+		System.out.println(hm);
+		for (Map.Entry<Integer, Integer> hm1 : hm.entrySet()) {
+			System.out.println(hm1.getKey() + " " + hm1.getValue());
+		}
 	}
 }

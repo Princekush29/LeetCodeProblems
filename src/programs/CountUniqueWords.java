@@ -12,6 +12,7 @@ public class CountUniqueWords {
 		// Method1 - where length is less than 2
 		String s = "Java contains Java multiple libraries and python contains multiple packages";
 		int count = 0;
+		s= s.replaceAll(" +", " ");
 		String arr[] = s.split(" ");
 		System.out.println(arr.length);
 		

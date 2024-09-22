@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MaxMinInArray {
 
 	public static void main(String[] args) {
-		
+
 		int arr1[] = { 90, 8, 7, 6, 10, 1, 4, 5, 6, 3, 2 };
 		int arr[] = { 90, 8, 7, 6, 10, 1, 4, 5, 6, 3, 2 };
 		int arr2[] = { 90, 8, 7, 6, 10, 1, 4, 5, 6, 3, 2 };
@@ -41,7 +41,7 @@ public class MaxMinInArray {
 		System.out.println("Minimum Num is " + arr2[0]);
 		System.out.println(System.currentTimeMillis());
 
-		// Method 3 - Sorting using 1 for loop
+		// Method 3 - Sorting using one for loop
 		System.out.println(System.currentTimeMillis());
 		int temp;
 		for (int i = 0; i < arr.length - 1; i++) {
@@ -55,12 +55,10 @@ public class MaxMinInArray {
 		System.out.println("Maximum number is " + arr[arr.length - 1]);
 		System.out.println("Minimum number is " + arr[0]);
 		System.out.println(System.currentTimeMillis());
-		
+
 		// Method 4
-		System.out.println(System.currentTimeMillis());
 		Arrays.sort(arr3);
 		System.out.println("Maximum is " + arr[arr.length - 1]);
 		System.out.println("Minimum is " + arr[0]);
-		System.out.println(System.currentTimeMillis());
 	}
 }
