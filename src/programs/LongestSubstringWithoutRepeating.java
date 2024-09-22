@@ -6,8 +6,9 @@ import java.util.Set;
 class LongestSubstringWithoutRepeating {
 
 	public static void main(String[] args) {
-		String s = "pwwkew";
+		String s = "pwwakew";
 		System.out.println(lengthOfLongestSubstring(s));
+		// System.out.println(lengthOfLongestSubString(s));
 	}
 
 	public static int lengthOfLongestSubstring(String s) {
@@ -16,7 +17,7 @@ class LongestSubstringWithoutRepeating {
 		int maxlength = 0;
 
 		Set<Character> charSet = new LinkedHashSet<Character>();
-		
+
 		int left = 0;
 
 		for (int right = 0; right < length; right++) {
@@ -33,6 +34,5 @@ class LongestSubstringWithoutRepeating {
 		}
 		System.out.println(charSet);
 		return maxlength;
-		
 	}
 }
