@@ -1,6 +1,6 @@
 My LeetCode Profile - https://leetcode.com/PrinceKushwaha1992/
 
-Solved more than 142 problems
+Solved more than 152 problems
 
 Easy - 141
 
