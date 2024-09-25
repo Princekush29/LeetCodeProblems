@@ -10,13 +10,12 @@ public class UpperCaseToLowerCase {
 		// Method1
 		for (int i = 0; i < s.length(); i++) {
 			if (Character.isUpperCase(s.charAt(i))) {
-				char ch = (char) (s.charAt(i) + 32);//65+32=97
+				char ch =   (char) (s.charAt(i) + 32);//65+32=97
 				System.out.print(ch);
 			} else if (Character.isLowerCase(s.charAt(i))) {
 				char ch = (char) (s.charAt(i) - 32);
 				System.out.print(ch);
 			}
-
 		}
 		System.out.println("----");
 		// Method2

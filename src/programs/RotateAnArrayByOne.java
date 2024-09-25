@@ -17,7 +17,7 @@ public class RotateAnArrayByOne {
 		int len = arr6.length - 1;
 		int temp6 = 0;
 		int token = 1;
-		for (int i = 0, b = 0; b < arr6.length - 1 && p < m; b++) {
+		for (int i=0, b = 0; b < arr6.length - 1 && p < m; b++) {
 			if (token == 1) {
 				temp6 = arr6[i];
 				token = 2;

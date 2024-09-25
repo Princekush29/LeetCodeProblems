@@ -51,7 +51,7 @@ public class SortAlphabetInString {
 		System.out.println();
 		System.out.println("Method 3 end");
 		
-		// Method4		
+		// Method4 - Not ideal method
 		System.out.println("Method 4 start");
 		String s11 = "zxcvbnm";
 		int arr1[] = new int[s11.length()];

@@ -26,6 +26,7 @@ public class RemoveDuplicateFromString {
 		}
 		System.out.println("+");
 		System.out.println("String "+ str);
+		
 		// Method2
 		System.out.println("Method 2");
 		for (int i = 0; i < str.length(); i++) {

@@ -37,9 +37,9 @@ public class SwapArray {
 		int a11[] = { 11, 22, 13, 5, 64 };
 		int t = 0, k = a11.length - 1;
 		for (int p = 0; p < a11.length / 2; p++) {
-			temp1 = a11[p];
+			t = a11[p];
 			a11[p] = a11[k];
-			a11[k] = temp1;
+			a11[k] = t;
 			k--;
 		}
 		System.out.println(Arrays.toString(a11));

@@ -32,7 +32,6 @@ public class RemoveTrailingZerosFromString2710 {
 				break;
 			}
 		}
-
 	}
 
 	public static String removeTrailingZeros(String num) {

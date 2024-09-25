@@ -7,6 +7,7 @@ public class SortZeroAndOnes {
 		int arr [] ={0,1,1,0,1,0,1,0,1,1,1};
 		int arr1 [] ={0,1,1,0,1,0,1,0,1,1,1};
 		int temp;
+		//Method 1 - sort the array
 		for(int i=0;i<arr.length;i++){
 			for (int j=i+1;j<arr.length;j++){
 				if(arr[i]<arr[j]){
@@ -18,6 +19,7 @@ public class SortZeroAndOnes {
 		}
 		System.out.println(Arrays.toString(arr));
 		System.out.println("++++");
+		//Method 2
 		for(int i=0;i<arr1.length;i++){
 			if(arr1[i]==1){
 				for(int j=i+1;j<arr1.length;j++){
