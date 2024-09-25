@@ -3,21 +3,22 @@ package programs;
 public class SecondLargestInArray {
 
 	public static void main(String[] args) {
-		int arr[] = { 1,2,3,4,5};
+		int arr[] = { 5, 3, 4, 4 };
 		int n = arr.length;
-		int firstLargest = 0;
+		int largest = 0;
 		int secondLargest = 0;
 
 		// Method1
 		for (int i = 0; i < n; i++) {
-			if (arr[i] > firstLargest) {
-				secondLargest = firstLargest;
-				firstLargest = arr[i];
+			if (arr[i] > largest) {
+				secondLargest = largest;
+				largest = arr[i];
 			} else if (arr[i] > secondLargest) {
 				secondLargest = arr[i];
 			}
 		}
 		System.out.println("++");
+		System.out.println(largest);
 		System.out.println(secondLargest);
 
 		// Method2

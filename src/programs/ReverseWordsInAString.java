@@ -12,9 +12,9 @@ public class ReverseWordsInAString {
 		System.out.println(arr.length - 1);
 		for (int i = arr.length - 1; i >= 0; i--) {
 			if (i == 0)
-				newStr = newStr + arr[i];
+				System.out.print(arr[i]);
 			else {
-				newStr = newStr + arr[i] + " ";
+				System.out.print(arr[i]+" ");
 			}
 		}
 		System.out.println(newStr);

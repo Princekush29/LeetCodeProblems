@@ -10,13 +10,13 @@ class This {
 
 class Student {
 	int instanceVariable;
-	String name1;
+	String name;
 	float fee1;
 
 	Student(int parameter, String name, float fee) {
 		System.out.println("I am parameterized constructor");
 		this.instanceVariable = parameter;
-		name1 = name;
+		this.name = name;
 		fee1 = fee;
 	}
 
@@ -25,6 +25,6 @@ class Student {
 	}
 
 	void display() {
-		System.out.println(instanceVariable + " " + name1 + " " + fee1);
+		System.out.println(instanceVariable + " " + name + " " + fee1);
 	}
 }
