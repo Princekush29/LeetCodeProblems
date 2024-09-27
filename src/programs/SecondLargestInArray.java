@@ -5,15 +5,16 @@ public class SecondLargestInArray {
 	public static void main(String[] args) {
 		int arr[] = { 5, 3, 4, 4 };
 		int n = arr.length;
-		int largest = 0;
-		int secondLargest = 0;
+		int largest = Integer.MIN_VALUE;
+		int secondLargest = Integer.MIN_VALUE;
 
 		// Method1
 		for (int i = 0; i < n; i++) {
 			if (arr[i] > largest) {
 				secondLargest = largest;
 				largest = arr[i];
-			} else if (arr[i] > secondLargest) {
+			}
+			if (arr[i] < secondLargest) {
 				secondLargest = arr[i];
 			}
 		}

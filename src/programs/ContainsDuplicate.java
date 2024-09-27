@@ -1,13 +1,15 @@
 package programs;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 public class ContainsDuplicate {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 1, 2, 2, 3, 4, 5 };
+		int arr[] = { 1, 2, 3, 3, 4, 5 };
 		int count = 0;
 
 		// Method 1
@@ -36,5 +38,16 @@ public class ContainsDuplicate {
 		for (Map.Entry<Integer, Integer> hm1 : hm.entrySet()) {
 			System.out.println(hm1.getKey() + " " + hm1.getValue());
 		}
+		// Method 3 - using Set
+		Set<Integer> s = new HashSet<Integer>();
+		for (int i = 0; i < arr.length; i++) {
+			if (!s.contains(arr[i])) {
+				s.add(arr[i]);
+			} else {
+				System.out.println("Duplicate number is " + arr[i]);
+				break;
+			}
+		}
+
 	}
 }

@@ -10,13 +10,13 @@ public class Anagram {
 	public static void main(String[] args) {
 		String s1 = "lpisateanaa";
 		String s2 = "siailaentaa";
-		/*
-		 * method1(s1, s2); method2(s1, s2); method3(s1, s2);
-		 */
+		method1(s1, s2);
+		method2(s1, s2);
+		method3(s1, s2);
 		method4(s1, s2);
 	}
 
-	// Method1
+	// Method 1
 	public static void method1(String s1, String s2) {
 		char c1[] = s1.toCharArray();
 		char c2[] = s2.toCharArray();
@@ -26,7 +26,6 @@ public class Anagram {
 		System.out.println(c2);
 		System.out.println(Arrays.equals(c1, c2));
 		System.out.println("-------");
-
 	}
 
 	// Method 2
@@ -84,14 +83,14 @@ public class Anagram {
 
 	// Method 4
 	public static void method4(String s1, String s2) {
-		// s1 =lisateanaa
-		System.out.println("Length is "+s1.length());
+		// s1 = lisateanaa
+		System.out.println("Length is " + s1.length());
 		for (int i = 0; i < s1.length();) {
 			String c = s1.charAt(i) + "";
 			System.out.println(c);
 			s1 = s1.replaceFirst(c, "");
 			s2 = s2.replaceFirst(c, "");
-			
+
 		}
 		if (s1.isBlank() && s2.isBlank())
 			System.out.println("Method 4 " + "Anagram");

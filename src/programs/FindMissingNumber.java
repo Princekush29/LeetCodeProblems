@@ -19,7 +19,6 @@ public class FindMissingNumber {
 			sum -= arr[i];
 		}
 		return sum;
-
 	}
 
 	// Method 2
