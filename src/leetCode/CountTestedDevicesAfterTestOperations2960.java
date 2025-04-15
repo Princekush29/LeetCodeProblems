@@ -3,7 +3,7 @@ package leetCode;
 public class CountTestedDevicesAfterTestOperations2960 {
 
 	public static void main(String[] args) {
-		int batteryPercentages[] = { 2,2,2 };
+		int batteryPercentages[] = { 2, 2, 2 };
 		System.out.println(countTestedDevices(batteryPercentages));
 	}
 
@@ -19,7 +19,6 @@ public class CountTestedDevicesAfterTestOperations2960 {
 				}
 			}
 		}
-
 		return count;
 	}
 }

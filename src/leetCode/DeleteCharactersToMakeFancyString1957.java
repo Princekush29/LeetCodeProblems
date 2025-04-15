@@ -4,7 +4,7 @@ public class DeleteCharactersToMakeFancyString1957 {
 
 	public static void main(String[] args) {
 
-		String s = "leeetcode";
+		String s = "leeetcodeee";
 		System.out.println(makeFancyString(s));
 	}
 
@@ -14,7 +14,7 @@ public class DeleteCharactersToMakeFancyString1957 {
 		for (int i = 0; i < s.length() - 1; i++) {
 			if (s.charAt(i) == s.charAt(i + 1)) {
 				count++;
-				if (count <= 2) {
+				if (count <= 1) {
 					newStr = newStr + s.charAt(i);
 				}
 			} else {
@@ -23,6 +23,6 @@ public class DeleteCharactersToMakeFancyString1957 {
 				
 			}
 		}
-		return newStr;
+		return newStr+ s.charAt(s.length() - 1);
 	}
 }

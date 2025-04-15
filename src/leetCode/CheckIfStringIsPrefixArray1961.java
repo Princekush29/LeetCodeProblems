@@ -16,8 +16,6 @@ public class CheckIfStringIsPrefixArray1961 {
 			if (newStr.equals(s))
 				return true;
 		}
-
 		return false;
-
 	}
 }

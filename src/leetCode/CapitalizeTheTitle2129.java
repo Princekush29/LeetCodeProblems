@@ -3,7 +3,7 @@ package leetCode;
 public class CapitalizeTheTitle2129 {
 
 	public static void main(String[] args) {
-		String title = "capiTalIze tHe titLe";
+		String title = "capiTalIze tHe titLe hello hi byee";
 		System.out.println(capitalizeTitle(title));
 	}
 
@@ -14,15 +14,13 @@ public class CapitalizeTheTitle2129 {
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i].length() > 2) {
 				char c = arr[i].charAt(0);
-				c = (char) (c - 32);
+				c =  (char) (c - 32);
 				newStr = newStr + c;
 				newStr = newStr + arr[i].substring(1) + " ";
 			} else {
 				newStr = newStr + arr[i] + " ";
 			}
 		}
-
 		return newStr.trim();
-
 	}
 }

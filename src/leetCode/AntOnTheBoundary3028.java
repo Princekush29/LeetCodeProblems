@@ -4,6 +4,7 @@ public class AntOnTheBoundary3028 {
 
 	public static void main(String[] args) {
 		int nums[] = { 2, 3, -5 };
+		System.out.println(returnToBoundaryCount(nums));
 	}
 
 	public static int returnToBoundaryCount(int[] nums) {
