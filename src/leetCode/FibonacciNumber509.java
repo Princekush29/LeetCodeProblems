@@ -5,6 +5,7 @@ public class FibonacciNumber509 {
 	public static void main(String[] args) {
 		int n = 3;
 		System.out.println(fib(n));
+		System.out.println(fib2(n));
 	}
 
 	public static int fib(int n) {
@@ -22,5 +23,11 @@ public class FibonacciNumber509 {
 			b = c;
 		}
 		return c;
+	}
+
+	public static int fib2(int n) {
+		if (n <= 1)
+			return n;
+		return fib2(n - 1) + fib2(n - 2);
 	}
 }

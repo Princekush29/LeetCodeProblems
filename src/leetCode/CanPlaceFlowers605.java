@@ -16,7 +16,6 @@ public class CanPlaceFlowers605 {
 		if(flowerbed.length==1 && n==1)
             return false;
         
-        
 		if (flowerbed[0] == 0 && flowerbed[1] == 0) {
 			flowerbed[0] = 1;
 			n--;
@@ -24,7 +23,6 @@ public class CanPlaceFlowers605 {
 		if (flowerbed[flowerbed.length - 2] == 0 && flowerbed[flowerbed.length - 1] == 0) {
 			flowerbed[flowerbed.length - 1] = 1;
 			n--;
-
 		}
 		 
 		for (int i = 1; i < flowerbed.length - 1; i++) {
@@ -37,6 +35,5 @@ public class CanPlaceFlowers605 {
 			return false;
 
 		return true;
-
 	}
 }

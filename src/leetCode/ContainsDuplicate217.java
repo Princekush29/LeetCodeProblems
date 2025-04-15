@@ -15,29 +15,35 @@ public class ContainsDuplicate217 {
 
 	public static boolean containsDuplicate(int[] nums) {
 		// Method 1 - use two for loop
+
 		// Method 2
 
-		/*
-		 * Arrays.sort(nums); for (int i = 0; i < nums.length - 1; i++) { int j = i + 1;
-		 * if (nums[i] == nums[j]) return true; } return false;
-		 */
+		Arrays.sort(nums);
+		for (int i = 0; i < nums.length - 1; i++) {
+			
+			if (nums[i] == nums[i+1])
+				return true;
+		}
+		return false;
 
 		// Method 3- HashSet
 
-		/*
-		 * Set<Integer> s = new HashSet<Integer>(); for (int i = 0; i < nums.length;
-		 * i++) { if (s.contains(nums[i])) return true; s.add(nums[i]); } return false;
-		 */
+		/*Set<Integer> s = new HashSet<Integer>();
+		for (int i = 0; i < nums.length; i++) {
+			if (s.contains(nums[i]))
+				return true;
+			s.add(nums[i]);
+		}
+		return false;*/
 
 		// Method 4
-		Map<Integer, Integer> hm = new HashMap<Integer, Integer>();
+		/* Map<Integer, Integer> hm = new HashMap<Integer, Integer>();
 		for (int i = 0; i < nums.length; i++) {
 			if (hm.containsKey(nums[i]))
 				return true;
 			else
 				hm.put(nums[i], 1);
 		}
-		return false;
-
+		return false; */
 	}
 }

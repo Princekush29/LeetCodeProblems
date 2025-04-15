@@ -17,6 +17,5 @@ public class CheckIfNItsDoubleExist1346 {
 			}
 		}
 		return false;
-
 	}
 }

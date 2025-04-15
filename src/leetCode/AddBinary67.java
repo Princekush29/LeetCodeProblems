@@ -44,7 +44,7 @@ public class AddBinary67 {
 		return newNumber;
 	}
 
-	// Method 2
+	// Method 2 - this will not work if the length of both the string is different
 	public static String addBinary1(String a, String b) {
 
 		int carry = 0;

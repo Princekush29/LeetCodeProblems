@@ -8,7 +8,8 @@ public class DetectCapital520 {
 	}
 
 	public static boolean detectCapitalUse(String word) {
-		int j = 0, k = 0;
+		/* Method 1
+		 int j = 0, k = 0;
 		for (int i = 0; i < word.length(); i++) {
 			char c = word.charAt(i);
 			if (c >= 65 && c <= 90) {
@@ -23,7 +24,15 @@ public class DetectCapital520 {
 		if (j == word.length() || k == word.length())
 			return true;
 		else
-			return false;
+			return false;*/
 
+		//Method 2
+		String a = word.substring(0,1);
+		String aa = word.substring(1);
+		if(word.equals(word.toUpperCase()) || (word.equals(word.toLowerCase())))
+				return true;
+		else if(a.equals(a.toUpperCase()) && (aa.equals(aa.toLowerCase())))
+			return true;
+		return false;
 	}
 }

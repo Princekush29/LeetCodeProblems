@@ -5,9 +5,11 @@ public class AddStrings415 {
 	public static void main(String[] args) {
 		String num1 = "4", num2 = "11";
 		System.out.println("Output is " + addStrings(num1, num2));
+		System.out.println("Output is " + addStrings1(num1, num2));
 
 	}
 
+	// Method 1 - without using any inbuilt functions
 	public static String addStrings(String num1, String num2) {
 		int borrow = 0, c, reminder;
 		if (num1.length() > num2.length())
@@ -50,5 +52,18 @@ public class AddStrings415 {
 			num2 = "0" + num2;
 		}
 		return num2;
+	}
+
+	// Method 2 - using inbuilt functions
+	public static String addStrings1(String a, String b) {
+		int num1 = Integer.parseInt(a);
+		int num2 = Integer.parseInt(b);
+		System.out.println("Number 1 " + num1);
+		System.out.println("Number 2 " + num2);
+		int num3 = num1 + num2;
+		String number = Integer.toString(num3);
+		System.out.println("S is " + number);
+		return number;
+
 	}
 }
