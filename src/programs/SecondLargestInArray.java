@@ -3,7 +3,7 @@ package programs;
 public class SecondLargestInArray {
 
 	public static void main(String[] args) {
-		int arr[] = { 1,2,4,6,7,4,3 };
+		int arr[] = { 5, 3, 4, 4 };
 		int n = arr.length;
 		int largest = Integer.MIN_VALUE;
 		int secondLargest = Integer.MIN_VALUE;

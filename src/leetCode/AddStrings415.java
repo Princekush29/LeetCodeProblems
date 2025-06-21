@@ -11,21 +11,47 @@ public class AddStrings415 {
 
 	// Method 1 - without using any inbuilt functions
 	public static String addStrings(String num1, String num2) {
-		int len1 = num1.length() - 1;
-		int len2 = num2.length() - 1;
-		StringBuilder sb = new StringBuilder();
-		int carry = 0;
-		while (len1 >= 0 || len2 >= 0 || carry != 0) {
-			if (len1 >= 0)
-				carry = carry + num1.charAt(len1--) - '0';
-			if (len2 >= 0)
-				carry = carry + num2.charAt(len2--) - '0';
-			sb.append(carry % 10);
-			carry = carry / 10;
-		}
-		// System.out.println(sb);
-		return sb.reverse().toString();
+		int borrow = 0, c, reminder;
+		if (num1.length() > num2.length())
+			num2 = modifyString(num1, num2);
+		else
+			num1 = modifyString(num2, num1);
 
+		System.out.println(num1);
+		System.out.println(num2);
+		StringBuffer sb = new StringBuffer();
+
+		for (int i = num1.length() - 1, j = num2.length() - 1; i >= 0 || j >= 0; i--, j--) {
+
+			String s1 = num1.charAt(i) + "";
+			String s2 = num2.charAt(j) + "";
+			c = Integer.parseInt(s1) + Integer.parseInt(s2) + borrow;
+			if (c >= 10) {
+				reminder = c % 10;
+				borrow = c / 10;
+			} else {
+				reminder = c;
+				borrow = 0;
+			}
+
+			if (i == 0 && j == 0 && borrow > 0) {
+				sb.append(reminder);
+				sb.append(borrow);
+			} else {
+				sb.append(reminder);
+			}
+		}
+		String s = new String(sb.reverse());
+		return s;
+	}
+
+	public static String modifyString(String num1, String num2) {
+		int len = num1.length() - num2.length();
+		System.out.println("Len is " + len);
+		for (int i = 0; i < len; i++) {
+			num2 = "0" + num2;
+		}
+		return num2;
 	}
 
 	// Method 2 - using inbuilt functions

@@ -6,18 +6,15 @@ public class FindMissingNumber {
 		int A[] = { 1, 2, 3, 6 };
 		int B[] = { 1, 2, 4, 5, 6 };
 		int arr[] = { 1, 2, 4, 6, 3, 7, 8 };
-
+		System.out.println(solution(A));
+		System.out.println(solution(B));
 		System.out.println(smallestPostiveIntegerMissing(arr));
-		//System.out.println(solution(A));
-		//System.out.println(solution(B));
-
 	}
 
 	// Method 1
 	public static int smallestPostiveIntegerMissing(int arr[]) {
 		int n = arr.length;
 		int sum = ((n + 1) * (n + 2)) / 2;
-
 		for (int i = 0; i < arr.length; i++) {
 			sum -= arr[i];
 		}

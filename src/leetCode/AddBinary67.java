@@ -11,15 +11,13 @@ public class AddBinary67 {
 	public static String addBinary(String a, String b) {
 
 		Long aa = Long.parseLong(a);
-		System.out.println("AA is " + aa);
+		System.out.println("AA is" + aa);
 		Long bb = Long.parseLong(b);
-		System.out.println("BB is " + bb);
+		System.out.println("BB is" + bb);
 		if (aa == 0 && bb == 0)
 			return "0";
 		int number1 = binarytoInteger(aa);
 		int number2 = binarytoInteger(bb);
-		System.out.println("Number 1 is " + number1);
-		System.out.println("Number 2 is " + number2);
 		int finalNumber = number1 + number2;
 		System.out.println("Final " + finalNumber);
 		int remi;

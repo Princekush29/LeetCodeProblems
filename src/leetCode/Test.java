@@ -1,33 +1,35 @@
 package leetCode;
 
+import java.util.HashMap;
+
 public class Test {
 
 	public static void main(String[] args) {
-		int A[] = { 4, 1, 2, 3 };
-		int A2[] = { 1000000000, 1, 2, 2, 1000000000, 1, 1000000000 };
-		int N = A.length;
-		int N2 = A2.length;
-		int A3[] = { 1, 2, 3, 3, 2, 1, 5 };
-		int N3 = A3.length;
-		// https://www.assignmenthelp.net/qa/answer/you-are-given-a-record-of-the-historical-prices-of-an-investmen/66f396d7dde7042c5504e2b6
-		System.out.println(solution(A, N)); // 6
-		System.out.println(solution(A2, N2));// 999999998
-		System.out.println(solution(A3, N3));// 7
+
+		String s = "aaabaaaa";
+		System.out.println(makeFancyString(s));
 	}
 
-	public static int solution(int A[], int N) {
+	public static String makeFancyString(String s) {
 
-		long result = 0;
-		int B[] = new int[A.length + 1];
-		B[0] = 0;
-
-		for (int i = 1; i < B.length; i++) {
-			B[i] = A[i - 1];
+		// Method 1
+		/*
+		 * int count = 0; String newStr = ""; for (int i = 0; i < s.length() - 1; i++) {
+		 * if (s.charAt(i) == s.charAt(i + 1)) { count++; if (count <= 1) { newStr =
+		 * newStr + s.charAt(i); } } else { newStr = newStr + s.charAt(i); count = 0; }
+		 * 
+		 * } return newStr + s.charAt(s.length() - 1);
+		 */
+		String newStr = "";
+		HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
+		for (int i = 0; i < s.length() - 1; i++) {
+			if (hm.containsKey(s.charAt(i))) {
+				hm.put(s.charAt(i), hm.get(s.charAt(i)) + 1);
+			} else {
+				hm.put(s.charAt(i), 1);
+			}
 		}
-		for (int i = 1; i < B.length; i++) {
-			result = result + Math.max(B[i] - B[i - 1], 0);
-		}
-		return (int) result % 1000000000;
-
+		System.out.println(hm);
+		return newStr;
 	}
 }

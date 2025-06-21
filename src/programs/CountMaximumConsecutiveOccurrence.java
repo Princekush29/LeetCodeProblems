@@ -11,8 +11,12 @@ public class CountMaximumConsecutiveOccurrence {
 			} else {
 				count = 0;
 			}
-			newCount = Math.max(newCount, count);
-			
+			// we can use either below if condition or Math.max
+			if (count > newCount) {
+				newCount = count;
+			}
+
+			newCount = Math.max(count, newCount);
 		}
 		System.out.println(newCount);
 	}
