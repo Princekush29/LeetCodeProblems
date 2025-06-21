@@ -8,11 +8,11 @@ import java.util.Set;
 public class Anagram {
 
 	public static void main(String[] args) {
-		String s1 = "listen";
-		String s2 = "silent";
-		//method1(s1, s2);
-		//method2(s1, s2);
-	//	method3(s1, s2);
+		String s1 = "pplisten";
+		String s2 = "silentpp";
+		// method1(s1, s2);
+		// method2(s1, s2);
+		// method3(s1, s2);
 		method4(s1, s2);
 	}
 

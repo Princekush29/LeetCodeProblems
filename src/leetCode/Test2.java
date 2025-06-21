@@ -1,6 +1,6 @@
 package leetCode;
 
-public class Test {
+public class Test2 {
 
 	public static void main(String[] args) {
 		int A[] = { 4, 1, 2, 3 };
@@ -16,18 +16,19 @@ public class Test {
 	}
 
 	public static int solution(int A[], int N) {
-
+		long maxProfit = 0;
+		
+		int newArray[] = new int[A.length + 1];
 		long result = 0;
-		int B[] = new int[A.length + 1];
-		B[0] = 0;
-
-		for (int i = 1; i < B.length; i++) {
-			B[i] = A[i - 1];
+		newArray[0] = 0;
+		for (int i = 1; i < newArray.length; i++) {
+			newArray[i] = A[i - 1];
 		}
-		for (int i = 1; i < B.length; i++) {
-			result = result + Math.max(B[i] - B[i - 1], 0);
-		}
-		return (int) result % 1000000000;
+	//	System.out.println(Arrays.toString(newArray));
 
+		for (int i = 1; i < newArray.length; i++) {
+			result = result + Math.max(newArray[i] - newArray[i - 1], 0);
+		}
+		return (int) (result % 1000000000);
 	}
 }

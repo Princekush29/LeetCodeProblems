@@ -1,7 +1,5 @@
 package leetCode;
 
-import java.util.Arrays;
-
 public class GetMaximumInGeneratedArray1646 {
 
 	public static void main(String[] args) {

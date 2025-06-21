@@ -20,7 +20,7 @@ public class FirstAndLastValue {
 		System.out.println(first);
 		System.out.println(last);
 
-		// Method2
+		// Method2 - will not work always
 		int arr2[] = { 1, 3, 4, 4, 4, 4, 67, 123, 125 };
 		int x2 = 4;
 		// o/p - 2, 5

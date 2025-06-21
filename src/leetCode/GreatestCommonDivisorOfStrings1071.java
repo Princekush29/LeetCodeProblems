@@ -5,22 +5,27 @@ public class GreatestCommonDivisorOfStrings1071 {
 	public static void main(String[] args) {
 		String str1 = "ABCABC", str2 = "ABC";
 
-		gcdOfStrings(str1, str2);
+		System.out.println("Output is " + gcdOfStrings(str1, str2));
 	}
 
 	public static String gcdOfStrings(String str1, String str2) {
 
-		String common = "";
-		for (int i = 1; i < str1.length(); i++) {
-			if (!(str1.charAt(0) == str1.charAt(i))) {
-				common = common + str1.charAt(i);
-			} else {
-				break;
-			}
-			common = str1.charAt(0) + common;
+		if (!(str1 + str2).equals(str2 + str1)) {
+			return "";
 		}
-		
-		return "a";
+		int lenGCD = gcd(str1.length(), str2.length());
+		return str1.substring(0, lenGCD);
+
+	}
+
+	public static int gcd(int len1, int len2) {
+		while (len2 != 0) {
+			int temp = len1 % len2;
+			len1 = len2;
+			len2 = temp;
+		}
+		System.out.println("Len 1 is " + len1);
+		return len1;
 
 	}
 }
