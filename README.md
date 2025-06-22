@@ -1,9 +1,9 @@
 My LeetCode Profile - https://leetcode.com/PrinceKushwaha1992/
 
-Solved more than 152 problems
+Solved more than 160+ problems
 
-Easy - 141 (Beats 95 %)
+Easy - 150 (Beats 95 %)
 
-Medium - 9
+Medium - 10
 
 Hard - 2
