@@ -6,7 +6,6 @@ public class AddStrings415 {
 		String num1 = "4", num2 = "11";
 		System.out.println("Output is " + addStrings(num1, num2));
 		System.out.println("Output is " + addStrings1(num1, num2));
-
 	}
 
 	// Method 1 - without using any inbuilt functions
