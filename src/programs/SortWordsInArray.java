@@ -2,11 +2,18 @@ package programs;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class SortWordsInArray {
 	public static void main(String[] args) {
 		String names[] = { "Rahul", "Ajay", "Gourav", "Riya" };
 		String temp;
+
+		// Method 0 - using java streams
+		List<String> al = Arrays.asList(names);
+		al.stream().sorted().forEach(System.out::println);
+		
+		System.out.println("++++");
 		// Method1
 		System.out.println(Arrays.toString(names));
 		for (int i = 0; i < names.length; i++) {
@@ -31,15 +38,5 @@ public class SortWordsInArray {
 		// Sorts arr[] in descending order
 		Arrays.sort(names, Collections.reverseOrder());
 		System.out.println("Descending order" + Arrays.toString(names));
-		
 	}
 }
-
-
-
-
-
-
-
-
-

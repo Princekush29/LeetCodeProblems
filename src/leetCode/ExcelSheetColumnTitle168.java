@@ -3,7 +3,7 @@ package leetCode;
 public class ExcelSheetColumnTitle168 {
 
 	public static void main(String[] args) {
-		int columnNumber = 28;
+		int columnNumber = 52;
 		System.out.println(convertToTitle(columnNumber));
 	}
 

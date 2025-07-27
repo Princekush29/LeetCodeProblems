@@ -4,8 +4,9 @@ import java.util.Arrays;
 public class SortAlphabetInString {
 
 	public static void main(String[] args) {
-		String s = "zzzabcdefgh";
-
+		String s = "zzzabcdefgh";	
+		
+		
 		// Method1
 		System.out.println("Method 1 start");
 		char charArray[] = s.toCharArray();

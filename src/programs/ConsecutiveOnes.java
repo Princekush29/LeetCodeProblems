@@ -9,13 +9,14 @@ public class ConsecutiveOnes {
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] == 1) {
 				count++;
+				continue;
 			} else {
+				if (newCount < count) {
+					newCount = count;
+				}
 				count = 0;
-			}
-			if (newCount < count) {
-				newCount = count;
 			}
 		}
 		System.out.println(newCount);
 	}
-}
+} 
