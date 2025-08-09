@@ -28,3 +28,9 @@ class Student {
 		System.out.println(instanceVariable + " " + name + " " + fee1);
 	}
 }
+
+
+
+
+
+

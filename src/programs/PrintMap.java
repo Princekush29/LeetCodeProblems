@@ -2,14 +2,16 @@ package programs;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
 class PrintMap {
-
 	public static void main(String[] args) {
-
-		TreeMap<Character, Integer> tm = new TreeMap<Character, Integer>();
+		//Map<Character, Integer> tm = new LinkedHashMap<Character, Integer>();
+		//Map<Character, Integer> tm = new HashMap<Character, Integer>();
+		Map<Character, Integer> tm = new TreeMap<Character, Integer>();
 		tm.put('a', 1);
 		tm.put('b', 1);
 		tm.put('c', 1);

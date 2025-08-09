@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class ThirdMaximumNumber {
+public class ThirdMaximumNumberInSortedArray {
 
 	public static void main(String[] args) {
 		/*
@@ -49,5 +49,46 @@ public class ThirdMaximumNumber {
 			}
 		}
 		System.out.println("The Array is " + Arrays.toString(arr));
+		System.out.println("---");
+		
+		//Method 3 
+		int arr11[] = { 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7 };
+		// o/p - 3
+		int firstMax = Integer.MIN_VALUE;
+		for (int i = 0; i < arr11.length; i++) {
+			if (arr11[i] > firstMax)
+				firstMax = arr11[i];
+		}
+		int secondMax = Integer.MIN_VALUE;
+		for (int i = 0; i < arr11.length; i++) {
+			if (arr11[i] < firstMax && arr11[i] > secondMax)
+				secondMax = arr11[i];
+		}
+		int thirdMax = Integer.MIN_VALUE;
+		for (int i = 0; i < arr11.length; i++) {
+			if (arr11[i] < secondMax && arr11[i] > thirdMax)
+				thirdMax = arr11[i];
+		}
+		System.out.println(thirdMax);
+		System.out.println("---");
+		
+		//Method 4
+		int arr111[] = { 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7 };
+		int first = Integer.MIN_VALUE, second = Integer.MIN_VALUE, third = Integer.MIN_VALUE;
+		for (int i = 0; i < arr111.length; i++) {
+			if (arr111[i] > first) {
+				third = second;
+				second = first;
+				first = arr111[i];
+			} else if (arr111[i] > second && arr111[i]<first) {
+				third = second;
+				second = arr111[i];
+			} else if (arr111[i] > third && arr111[i]<second) {
+				third = arr111[i];
+			}
+		}
+		System.out.println("First is " + first);
+		System.out.println("Second is " + second);
+		System.out.println("Third is " + third);
 	}
 }
