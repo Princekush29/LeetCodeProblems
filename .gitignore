@@ -9,7 +9,6 @@ replay_pid*
 .settings/
 bin/
 tmp/
-programs/
 .metadata
 .classpath
 .project
