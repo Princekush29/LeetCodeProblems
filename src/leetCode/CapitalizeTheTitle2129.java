@@ -8,17 +8,25 @@ public class CapitalizeTheTitle2129 {
 	}
 
 	public static String capitalizeTitle(String title) {
-		String newStr = "";
+		/*
+		 * String newStr = ""; title = title.toLowerCase(); String[] arr =
+		 * title.split(" "); for (int i = 0; i < arr.length; i++) { if (arr[i].length()
+		 * > 2) { char c = arr[i].charAt(0); c = (char) (c - 32); newStr = newStr + c;
+		 * newStr = newStr + arr[i].substring(1) + " "; } else { newStr = newStr +
+		 * arr[i] + " "; } } return newStr.trim();
+		 */
+		
 		title = title.toLowerCase();
-		String[] arr = title.split(" ");
-		for (int i = 0; i < arr.length; i++) {
-			if (arr[i].length() > 2) {
+		String arr[]= title.split(" ");
+		String newStr="";
+		for(int i=0;i<arr.length;i++){
+			if(arr[i].length()>2){
+				System.out.println(arr[i].length());
 				char c = arr[i].charAt(0);
-				c =  (char) (c - 32);
-				newStr = newStr + c;
-				newStr = newStr + arr[i].substring(1) + " ";
-			} else {
-				newStr = newStr + arr[i] + " ";
+				String s = (c+"").toUpperCase();
+				newStr= newStr+s+arr[i].substring(1) +" ";
+			}else {
+				newStr = newStr+ arr[i]+" ";
 			}
 		}
 		return newStr.trim();

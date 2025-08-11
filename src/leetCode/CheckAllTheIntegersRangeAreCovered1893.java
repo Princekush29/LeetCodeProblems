@@ -1,42 +1,36 @@
 package leetCode;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 public class CheckAllTheIntegersRangeAreCovered1893 {
 
 	public static void main(String[] args) {
 
-		 int ranges[][] = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
-		//int ranges[][] = { { 1, 50 } };
-		int left = 2, right = 5;
+		//int ranges[][] = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+		int ranges[][] = { { 1, 50 } };
+		int left = 1, right = 50;
 		System.out.println(isCovered(ranges, left, right));
 	}
 
 	public static boolean isCovered(int[][] ranges, int left, int right) {
-		System.out.println("Ranges row length" + ranges.length);
-		System.out.println("Ranges column length" + ranges[0].length);
-		int arr[] = new int[(ranges.length) * (ranges[0].length)];
-		System.out.println("Length is " + arr.length);
-		int k = 0;
+		ArrayList<Integer> al = new ArrayList<Integer>();
+
 		for (int i = 0; i < ranges.length; i++) {
-			for (int j = 0; j < ranges[i].length; j++) {
-				arr[k] = ranges[i][j];
-				k++;
+			for (int j = 0; j < 1; j++) {
+				int a = ranges[i][j];
+				int b = ranges[i][j+1];
+			
+				for(int k=a;k<=b;k++) {
+					System.out.println(k);
+					al.add(k);
+				}
 			}
 		}
 
-		System.out.println(Arrays.toString(arr));
-
-		if (left >= arr[0] && right <= arr[arr.length - 1])
-			return true;
-		return false;
-
-		/*
-		 * int starting = ranges[0][0]; System.out.println("Starting " + starting); int
-		 * ending = ranges[ranges.length - 1][ranges[0].length - 1];
-		 * System.out.println("Ending " + ending);
-		 * 
-		 * if (left > starting && right < ending) return true; return false;
-		 */
+		for (int i = left; i <= right; i++) {
+			if (!al.contains(i))
+				return false;
+		}
+		return true;
 	}
 }
