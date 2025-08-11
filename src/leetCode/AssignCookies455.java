@@ -1,5 +1,7 @@
 package leetCode;
 
+import java.util.Arrays;
+
 public class AssignCookies455 {
 
 	public static void main(String[] args) {
@@ -12,27 +14,15 @@ public class AssignCookies455 {
 	public static int findContentChildren(int[] g, int[] s) {
 
 		int len, count = 0;
-		if (g.length <= s.length) {
-			for (int i = 0; i < s.length; i++) {
-				for (int j = 0; j < g.length; j++) {
-					if (s[i] >= g[j]) {
-						count++;
-						g[j] = Integer.MAX_VALUE;
-						break;
-					}
-				}
+		Arrays.sort(g);
+		Arrays.sort(s);
+		int child = 0, cookie = 0;
+		while (child < g.length && cookie < s.length) {
+			if (s[cookie] >= g[child]) {
+				child++;
 			}
-		} else {
-			for (int i = 0; i < s.length; i++) {
-				for (int j = 0; j < g.length; j++) {
-					if (s[i] >= g[j]) {
-						count++;
-						g[j] = Integer.MAX_VALUE;
-						break;
-					}
-				}
-			}
+			cookie++;
 		}
-		return count;
+		return child;
 	}
 }
