@@ -10,7 +10,6 @@ programs/
 .settings/
 bin/
 tmp/
-programs/
 .metadata
 .classpath
 .project
