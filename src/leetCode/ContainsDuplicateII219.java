@@ -12,18 +12,13 @@ public class ContainsDuplicateII219 {
 	}
 
 	// Method1
-	/*public boolean containsNearbyDuplicate(int[] nums, int k) {
-        for (int i = 0; i < nums.length; i++) {
-			for (int j = i + 1; j < nums.length; j++) {
-				if (nums[i] == nums[j]) {
-					if (Math.abs(i-j)<=k) 
-						return true;
-				}
-			}
-		}
-		return false; */
-	
-	//Method2
+	/*
+	 * public boolean containsNearbyDuplicate(int[] nums, int k) { for (int i = 0; i
+	 * < nums.length; i++) { for (int j = i + 1; j < nums.length; j++) { if (nums[i]
+	 * == nums[j]) { if (Math.abs(i-j)<=k) return true; } } } return false;
+	 */
+
+	// Method2
 	public static boolean containsNearbyDuplicate(int[] nums, int k) {
 		Set<Integer> s = new HashSet<Integer>();
 		for (int i = 0; i < nums.length; i++) {

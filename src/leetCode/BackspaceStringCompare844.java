@@ -6,7 +6,7 @@ public class BackspaceStringCompare844 {
 
 	public static void main(String[] args) {
 
-		String s ="xywrrmp", t = "xywrrmu#p";
+		String s = "xywrrmp", t = "xywrrmu#p";
 		System.out.println(backspaceCompare(s, t));
 	}
 

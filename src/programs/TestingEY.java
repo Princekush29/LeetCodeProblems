@@ -3,7 +3,7 @@ package programs;
 public class TestingEY {
 	public static void main(String[] args) {
 		// List - 10,35,15,12 --> 72 -->9
-		int arr[] = { 10,35,15,12 };
+		int arr[] = { 10, 35, 15, 12 };
 		int sum = 0;
 		for (int i = 0; i < arr.length; i++) {
 			sum = sum + arr[i];

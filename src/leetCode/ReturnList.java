@@ -12,7 +12,7 @@ public class ReturnList {
 	}
 
 	public static List<List<Integer>> threeSum(int[] nums) {
-		
+
 		List<Integer> l = new ArrayList<Integer>();
 		List<List<Integer>> list = new ArrayList<>();
 		l.add(1);

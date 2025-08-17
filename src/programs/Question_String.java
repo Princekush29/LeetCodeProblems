@@ -45,7 +45,7 @@ public class Question_String {
 		System.out.println("Using set");
 		String str1 = "apple";
 		Set<Character> s = new HashSet<Character>();
-		for(int i=0;i<str1.length();i++) {
+		for (int i = 0; i < str1.length(); i++) {
 			s.add(str1.charAt(i));
 		}
 		System.out.println(s);

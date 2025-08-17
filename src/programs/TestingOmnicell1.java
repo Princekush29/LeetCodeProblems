@@ -14,11 +14,11 @@ public class TestingOmnicell1 {
 		while (start < end) {
 			if (num < len / 2) {
 				end = len / 2;
-				len = len/2;
+				len = len / 2;
 			} else {
 				start = len / 2;
-				//end = len;
-				len = len/2;
+				// end = len;
+				len = len / 2;
 			}
 		}
 		return 0;

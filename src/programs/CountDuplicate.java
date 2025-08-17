@@ -28,13 +28,13 @@ public class CountDuplicate {
 		}
 		System.out.println("Method 1");
 		System.out.println(hm);
-		
-		//Method 7
+
+		// Method 7
 		System.out.println(Arrays.asList(hm));
-		
-		//Method 8
+
+		// Method 8
 		System.out.println(Collections.singleton(hm));
-		
+
 		System.out.println("Method 2");
 		for (Map.Entry<Integer, Integer> hm1 : hm.entrySet()) {
 			if (hm1.getValue() > 1)
@@ -69,16 +69,16 @@ public class CountDuplicate {
 		for (Integer a : s) {
 			System.out.println(a);
 		}
-			
+
 		ArrayList<Integer> al = new ArrayList<Integer>();
 		al.add(10);
 		System.out.println("Method 6 for ArrayList");
-		for(Integer al1:al) {
+		for (Integer al1 : al) {
 			System.out.println(al1);
 		}
-		//Method 7
+		// Method 7
 		System.out.println("Method 7 with for loop");
-		for(int i=0;i<al.size();i++) {
+		for (int i = 0; i < al.size(); i++) {
 			System.out.println(al.get(i));
 		}
 	}

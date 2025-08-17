@@ -19,6 +19,6 @@ public class FirstMissingNumber {
 			if (j == A.length)
 				return i;
 		}
-		return A.length+1;
+		return A.length + 1;
 	}
 }

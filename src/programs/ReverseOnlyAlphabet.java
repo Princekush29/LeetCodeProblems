@@ -9,7 +9,7 @@ public class ReverseOnlyAlphabet {
 		// output -{r,k,t,$,s,#,0}
 		char arr[] = { 's', 't', 'k', '$', 'r', '#', '0' };
 		char temp;
-		for (int i = 0, j = arr.length - 1; i <j;) {
+		for (int i = 0, j = arr.length - 1; i < j;) {
 			if (!(arr[i] >= 96 && arr[i] < 122)) {
 				i++;
 			} else if (!(arr[j] >= 96 && arr[j] < 122)) {
@@ -18,7 +18,8 @@ public class ReverseOnlyAlphabet {
 				temp = arr[i];
 				arr[i] = arr[j];
 				arr[j] = temp;
-				i++;j--;
+				i++;
+				j--;
 			}
 		}
 		System.out.println(Arrays.toString(arr));

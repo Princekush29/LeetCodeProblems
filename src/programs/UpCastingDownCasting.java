@@ -43,18 +43,15 @@ public class UpCastingDownCasting {
 		System.out.println(p.name);
 		// parent class method is overridden method hence this will be executed
 		p.method();
-		
-		
+
 		// Trying to Downcasting Implicitly
 		// Child c = new Parent(); - > compile time error
 
 		// Downcasting Explicitly
-		/*Parent p = new Child();
-		Child c = (Child) p;
-
-		c.id = 1;
-		System.out.println(c.name);
-		System.out.println(c.id);
-		c.method(); */
+		/*
+		 * Parent p = new Child(); Child c = (Child) p;
+		 * 
+		 * c.id = 1; System.out.println(c.name); System.out.println(c.id); c.method();
+		 */
 	}
 }

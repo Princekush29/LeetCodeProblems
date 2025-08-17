@@ -50,8 +50,8 @@ public class ThirdMaximumNumberInSortedArray {
 		}
 		System.out.println("The Array is " + Arrays.toString(arr));
 		System.out.println("---");
-		
-		//Method 3 
+
+		// Method 3
 		int arr11[] = { 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7 };
 		// o/p - 3
 		int firstMax = Integer.MIN_VALUE;
@@ -71,8 +71,8 @@ public class ThirdMaximumNumberInSortedArray {
 		}
 		System.out.println(thirdMax);
 		System.out.println("---");
-		
-		//Method 4
+
+		// Method 4
 		int arr111[] = { 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7 };
 		int first = Integer.MIN_VALUE, second = Integer.MIN_VALUE, third = Integer.MIN_VALUE;
 		for (int i = 0; i < arr111.length; i++) {
@@ -80,10 +80,10 @@ public class ThirdMaximumNumberInSortedArray {
 				third = second;
 				second = first;
 				first = arr111[i];
-			} else if (arr111[i] > second && arr111[i]<first) {
+			} else if (arr111[i] > second && arr111[i] < first) {
 				third = second;
 				second = arr111[i];
-			} else if (arr111[i] > third && arr111[i]<second) {
+			} else if (arr111[i] > third && arr111[i] < second) {
 				third = arr111[i];
 			}
 		}

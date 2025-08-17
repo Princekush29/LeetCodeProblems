@@ -46,4 +46,3 @@ public class DefuseTheBomb1652 {
 		return nums;
 	}
 }
-

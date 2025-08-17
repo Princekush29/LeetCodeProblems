@@ -14,12 +14,12 @@ public class ConsecutiveCharacters1446 {
 			char d = s.charAt(i + 1);
 			if (s.charAt(i) == s.charAt(i + 1)) {
 				count++;
-			}else {
-				count=1;
+			} else {
+				count = 1;
 			}
 			if (newCount < count) {
 				newCount = count;
-				
+
 			}
 		}
 		return newCount;

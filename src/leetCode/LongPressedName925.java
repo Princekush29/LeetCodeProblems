@@ -11,7 +11,7 @@ public class LongPressedName925 {
 
 	public static boolean isLongPressedName(String name, String typed) {
 		int i, j;
-		if(name.length()>typed.length())
+		if (name.length() > typed.length())
 			return false;
 		for (i = 0, j = 0; i < name.length() && j < typed.length();) {
 			if (name.charAt(i) == typed.charAt(j)) {
@@ -33,7 +33,7 @@ public class LongPressedName925 {
 			if (typed.charAt(p) != typed.charAt(j))
 				return false;
 		}
-		if (i == name.length() )
+		if (i == name.length())
 			return true;
 		return false;
 	}

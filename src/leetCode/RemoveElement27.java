@@ -13,7 +13,7 @@ public class RemoveElement27 {
 	 */
 	public static void main(String[] args) {
 //		int nums[] = { 0, 1, 2, 2, 3, 0, 4, 2 };
-		int nums[] = {0,0,1,2,4,1,0,4,4,0,1,3};
+		int nums[] = { 0, 0, 1, 2, 4, 1, 0, 4, 4, 0, 1, 3 };
 		int val = 1;
 		removeElement(nums, val);
 	}
@@ -22,8 +22,8 @@ public class RemoveElement27 {
 		int k = 0;
 		Arrays.sort(nums);
 		int temp;
-		for (int i = 0, j = nums.length - 1; i < nums.length-1; i++) {
-			if (nums[i] == val && nums[j] != val &&j>i) {
+		for (int i = 0, j = nums.length - 1; i < nums.length - 1; i++) {
+			if (nums[i] == val && nums[j] != val && j > i) {
 				temp = nums[i];
 				nums[i] = nums[j];
 				nums[j] = temp;
@@ -49,7 +49,3 @@ public class RemoveElement27 {
 
 	}
 }
-
-
-
-

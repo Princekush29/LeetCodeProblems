@@ -9,7 +9,7 @@ public class RotateAnArrayByOne {
 		 * Input: arr[] = {1, 2, 3, 4, 5} Output: arr[] = {5, 1, 2, 3, 4}
 		 */
 
-		//method 1 - using one for loop
+		// method 1 - using one for loop
 		System.out.println("Method 1");
 		int arr6[] = { 1, 2, 3, 4, 5 };
 		int m = 2;
@@ -17,23 +17,23 @@ public class RotateAnArrayByOne {
 		int len = arr6.length - 1;
 		int temp6 = 0;
 		int token = 1;
-		for (int i=0, b = 0; b < arr6.length - 1 && p < m; b++) {
+		for (int i = 0, b = 0; b < arr6.length - 1 && p < m; b++) {
 			if (token == 1) {
 				temp6 = arr6[i];
 				token = 2;
 			}
 			arr6[b] = arr6[b + 1];
-			if (b == arr6.length-2) {
+			if (b == arr6.length - 2) {
 				arr6[len] = temp6;
 				p++;
 				token = 1;
-				b=-1;
+				b = -1;
 			}
 		}
 
 		System.out.println("Output is " + Arrays.toString(arr6));
 
-		//Method 2 - rotate once
+		// Method 2 - rotate once
 		System.out.println("Method2");
 		int arr[] = { 1, 2, 3, 4, 5 };
 		int temp;
@@ -46,7 +46,7 @@ public class RotateAnArrayByOne {
 		for (int i1 = 0; i1 < arr.length; i1++) {
 			System.out.println(arr[i1]);
 		}
-		//Method 2.1 
+		// Method 2.1
 		// Rotate by k times
 		System.out.println("Method 2.1");
 		int arr2[] = { 1, 2, 3, 4, 5 };

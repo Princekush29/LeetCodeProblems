@@ -8,7 +8,6 @@ Your task
 //o/p - Indices of element greater than their neighboring element - 1 & 3
 package programs;
 
-
 public class PeakIndexMountainArray852 {
 
 	public static void main(String[] args) {
@@ -18,10 +17,10 @@ public class PeakIndexMountainArray852 {
 	}
 
 	public static int peakIndexInMountainArray(int[] arr) {
-		int i=0;
-		for ( i = 1; i < arr.length - 1; i++) {
+		int i = 0;
+		for (i = 1; i < arr.length - 1; i++) {
 			if (arr[i] > arr[i + 1] && arr[i] > arr[i - 1]) {
-				return i;	
+				return i;
 			}
 		}
 		return -1;

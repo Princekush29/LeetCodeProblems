@@ -6,7 +6,7 @@ public class LengthOfTheLastWord58 {
 
 		String s = "   fly me   to   the moon  ";
 		s = s.trim();
-		String arr[]=s.split(" ");
-		System.out.println(arr[arr.length-1].length());
+		String arr[] = s.split(" ");
+		System.out.println(arr[arr.length - 1].length());
 	}
 }

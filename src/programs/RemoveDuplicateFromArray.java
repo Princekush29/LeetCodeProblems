@@ -1,31 +1,32 @@
 package programs;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class RemoveDuplicateFromArray {
 
 	public static void main(String[] args) {
-		
-		int arr[] = {10, 20, 30, 35, 12, 18,19,10,19};
+
+		int arr[] = { 10, 20, 30, 35, 12, 18, 19, 10, 19 };
 		// Example output: {30,65,30,19}
-		//Method1
+		// Method1
 		Map<Integer, Integer> hm = new HashMap<Integer, Integer>();
-		
-		for(int i=0;i<arr.length;i++) {
-			if(hm.containsKey(arr[i])) {
-				hm.put(arr[i], hm.get(arr[i])+1);
-			}else {
+
+		for (int i = 0; i < arr.length; i++) {
+			if (hm.containsKey(arr[i])) {
+				hm.put(arr[i], hm.get(arr[i]) + 1);
+			} else {
 				hm.put(arr[i], 1);
 			}
 		}
 		System.out.println(hm);
 		int k;
-		for(Map.Entry<Integer, Integer> hm1:hm.entrySet()) {
-			if(hm1.getValue()==1) {
+		for (Map.Entry<Integer, Integer> hm1 : hm.entrySet()) {
+			if (hm1.getValue() == 1) {
 				System.out.println(hm1.getKey());
 			}
 		}
-		//Method2
+		// Method2
 		int a[] = { 5, 2, 6, 8, 6, 7, 5, 2, 8 };
 		int n = a.length;
 

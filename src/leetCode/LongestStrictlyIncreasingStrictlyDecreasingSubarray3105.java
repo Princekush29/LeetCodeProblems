@@ -3,7 +3,7 @@ package leetCode;
 public class LongestStrictlyIncreasingStrictlyDecreasingSubarray3105 {
 
 	public static void main(String[] args) {
-		int nums[] = { 1,2 };
+		int nums[] = { 1, 2 };
 		System.out.println(longestMonotonicSubarray(nums));
 	}
 

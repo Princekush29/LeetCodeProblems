@@ -3,7 +3,7 @@ package programs;
 public class RemoveTrailingZerosFromString2710 {
 
 	public static void main(String[] args) {
-		System.out.println("hello "+ removeTrailingZeros("512301000"));
+		System.out.println("hello " + removeTrailingZeros("512301000"));
 		/*
 		 * Problem : Given a positive integer num represented as a string, return the
 		 * integer num without trailing zeros as a string. i/p - 51230100 o/p1 - 512301
@@ -35,7 +35,7 @@ public class RemoveTrailingZerosFromString2710 {
 	}
 
 	public static String removeTrailingZeros(String num) {
-		int i ;
+		int i;
 		for (i = num.length() - 1; i >= 0; i--) {
 			if (!(num.charAt(i) == '0'))
 				break;

@@ -31,15 +31,6 @@ public class SortWordsInArray {
 		// Sorts arr[] in descending order
 		Arrays.sort(names, Collections.reverseOrder());
 		System.out.println("Descending order" + Arrays.toString(names));
-		
+
 	}
 }
-
-
-
-
-
-
-
-
-

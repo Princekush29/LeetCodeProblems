@@ -23,7 +23,7 @@ public class ReplaceAllDigitsWithCharacters1844 {
 				sb.append(s.charAt(i));
 			}
 		}
-		//return newStr;
+		// return newStr;
 		return sb.toString();
 	}
 }

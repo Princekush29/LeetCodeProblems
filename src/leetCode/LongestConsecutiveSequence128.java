@@ -11,7 +11,7 @@ public class LongestConsecutiveSequence128 {
 	public static int longestConsecutive(int[] nums) {
 
 		for (int i = 0; i < nums.length; i++) {
-			
+
 		}
 		return 0;
 	}

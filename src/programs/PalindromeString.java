@@ -4,12 +4,12 @@ public class PalindromeString {
 
 	public static void main(String[] args) {
 
-		//Method 1
+		// Method 1
 		String actualString = "bob", reverseString = "";
 
 		for (int i = actualString.length() - 1; i >= 0; i--) {
 			reverseString = reverseString + actualString.charAt(i);
-				
+
 		}
 		System.out.println(reverseString);
 		if (actualString.equals(reverseString)) {
@@ -17,8 +17,8 @@ public class PalindromeString {
 		} else {
 			System.out.println("NOT");
 		}
-		
-		//Method 2
+
+		// Method 2
 		String s = "abcdcba";
 		int i, j;
 		for (i = 0, j = s.length() - 1; i < s.length() / 2;) {

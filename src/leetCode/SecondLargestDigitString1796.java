@@ -20,11 +20,11 @@ public class SecondLargestDigitString1796 {
 				number = number + s.charAt(i);
 		}
 		for (int i = 0; i < number.length(); i++) {
-			int m= number.charAt(i);
-			System.out.println(" m is "+m);
-			//set.add(number.charAt(i));
+			int m = number.charAt(i);
+			System.out.println(" m is " + m);
+			// set.add(number.charAt(i));
 		}
-		System.out.println("Set is "+set);
+		System.out.println("Set is " + set);
 		int arr[] = new int[set.size()];
 		System.out.println("Set is " + set);
 		Iterator<Integer> itr = set.iterator();

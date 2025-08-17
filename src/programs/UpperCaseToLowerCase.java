@@ -1,16 +1,17 @@
 package programs;
+
 public class UpperCaseToLowerCase {
 
 	public static void main(String[] args) {
 
-		//65 -A
-		//97- a
+		// 65 -A
+		// 97- a
 		String s = "ABCDabcd";
 		String s1 = "AABBaabb";
 		// Method1
 		for (int i = 0; i < s.length(); i++) {
 			if (Character.isUpperCase(s.charAt(i))) {
-				char ch =   (char) (s.charAt(i) + 32);//65+32=97
+				char ch = (char) (s.charAt(i) + 32);// 65+32=97
 				System.out.print(ch);
 			} else if (Character.isLowerCase(s.charAt(i))) {
 				char ch = (char) (s.charAt(i) - 32);

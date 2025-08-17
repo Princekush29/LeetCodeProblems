@@ -14,24 +14,24 @@ class PrintMap {
 		tm.put('b', 1);
 		tm.put('c', 1);
 		tm.size();
-		//Method1
+		// Method1
 		System.out.println(tm);
-		//Method2
+		// Method2
 		System.out.println(tm.toString());
-		//Method3
+		// Method3
 		for (Map.Entry<Character, Integer> tm1 : tm.entrySet()) {
 			System.out.println(tm1.getKey() + " " + tm1.getValue());
 		}
-		//Method4
+		// Method4
 		for (Character tm2 : tm.keySet()) {
 			String key = tm2.toString();
 			String value = tm.get(tm2).toString();
 			System.out.println("Key " + key);
 			System.out.println("Value " + value);
 		}
-		//Method5
+		// Method5
 		System.out.println(Arrays.asList(tm)); // method 1
-		//Method6
+		// Method6
 		System.out.println(Collections.singletonList(tm)); // method 2
 	}
 }

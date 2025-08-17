@@ -15,9 +15,9 @@ public class DetermineStringHalvesAreAlike1704 {
 		for (int i = 0; i < vowels.length(); i++) {
 			al.add(vowels.charAt(i));
 		}
-		System.out.println("Length is "+s.length());
+		System.out.println("Length is " + s.length());
 		int count1 = 0, count2 = 0;
-		for (int i = 0, j = s.length()-1; i < s.length() / 2 && i<j; i++, j--) {
+		for (int i = 0, j = s.length() - 1; i < s.length() / 2 && i < j; i++, j--) {
 			if (al.contains(s.charAt(i)))
 				count1++;
 			if (al.contains(s.charAt(j)))

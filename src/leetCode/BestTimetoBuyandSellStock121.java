@@ -11,12 +11,12 @@ class BestTimetoBuyandSellStock121 {
 		int a = Integer.MAX_VALUE;
 		int value = 0, profit = 0;
 		for (int i = 0; i < prices.length; i++) {
-			if(prices[i]<a) {
-				a= prices[i];
+			if (prices[i] < a) {
+				a = prices[i];
 			}
-			value = prices[i]-a;
-			if(profit<value) {
-				profit=value;
+			value = prices[i] - a;
+			if (profit < value) {
+				profit = value;
 			}
 		}
 		return profit;

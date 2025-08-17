@@ -11,7 +11,7 @@ public class CountVowels {
 
 		// Method1 - Count vowels
 		String s = str.replaceAll("[aeiouAEIOU]", "");
-		
+
 		System.out.println("Vowel Count " + (str.length() - s.length()));
 		System.out.println(s);
 

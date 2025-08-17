@@ -1,4 +1,5 @@
 package programs;
+
 public class MergeArray {
 
 	public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class MergeArray {
 		for (int i = 0; i < arr2.length; i++, len++) {
 			arr3[len] = arr1[i];
 		}
-		
+
 		int temp;
 		for (int i = 0; i < arr3.length; i++) {
 			for (int j = i + 1; j < arr3.length; j++) {

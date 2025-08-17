@@ -1,4 +1,5 @@
 package programs;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -12,10 +13,10 @@ public class CountUniqueWords {
 		// Method1 - where length is less than 2
 		String s = "Java contains Java multiple libraries and python contains multiple packages";
 		int count = 0;
-		s= s.replaceAll(" +", " ");
+		s = s.replaceAll(" +", " ");
 		String arr[] = s.split(" ");
 		System.out.println(arr.length);
-		
+
 		Map<String, Integer> hm = new HashMap<String, Integer>();
 		for (int i = 0; i < arr.length; i++) {
 			if (hm.containsKey(arr[i])) {
@@ -26,12 +27,12 @@ public class CountUniqueWords {
 		}
 		for (Map.Entry<String, Integer> hm1 : hm.entrySet()) {
 			if (hm1.getValue() == 1) {
-				System.out.println(hm1.getKey()); 
+				System.out.println(hm1.getKey());
 				count++;
 			}
 		}
 		System.out.println(count);
-		
+
 		// Method 2 using set - all words
 		System.out.println("-----");
 		System.out.println("Method 2 using set");

@@ -17,8 +17,8 @@ public class ReverseString344 {
 			s[j] = temp;
 		}
 		System.out.println(Arrays.toString(s));
-		
-		//with while loop
+
+		// with while loop
 		/*
 		 * char temp; int i = 0, j = s.length - 1; while (i < j) { temp = s[i]; s[i] =
 		 * s[j]; s[j] = temp; i++; j--; } System.out.println(Arrays.toString(s));

@@ -3,6 +3,7 @@ package programs;
 public class Static2 {
 
 	static int a = 10;
+
 	public static void main(String[] args) {
 		Static2 s2 = new Static2();
 
@@ -15,8 +16,6 @@ public class Static2 {
 	public Static2() {
 		System.out.println("I am default constructor");
 	}
-
-	
 
 	public void subtract() {
 

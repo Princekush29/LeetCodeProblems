@@ -20,9 +20,9 @@ public class DeleteCharactersToMakeFancyString1957 {
 			} else {
 				newStr = newStr + s.charAt(i);
 				count = 0;
-				
+
 			}
 		}
-		return newStr+ s.charAt(s.length() - 1);
+		return newStr + s.charAt(s.length() - 1);
 	}
 }

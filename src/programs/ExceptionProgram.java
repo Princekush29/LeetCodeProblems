@@ -14,8 +14,7 @@ public class ExceptionProgram {
 			int c = a / b;
 		} catch (Exception e) {
 			System.out.println(e);
-		}
-		finally {
+		} finally {
 			System.out.println("Finally");
 		}
 

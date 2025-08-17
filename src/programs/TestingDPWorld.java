@@ -1,4 +1,5 @@
 package programs;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Random;
@@ -21,11 +22,11 @@ public class TestingDPWorld {
 
 		System.out.println("Random Integers: " + rand_int1);
 		System.out.println("Random Integers: " + rand_int2);
-		
-			temp = arr[rand_int1];
-			arr[rand_int1] = arr[rand_int2];
-			arr[rand_int2] = temp;
-		
+
+		temp = arr[rand_int1];
+		arr[rand_int1] = arr[rand_int2];
+		arr[rand_int2] = temp;
+
 		System.out.println(Arrays.toString(arr));
 		System.out.println("---");
 	}

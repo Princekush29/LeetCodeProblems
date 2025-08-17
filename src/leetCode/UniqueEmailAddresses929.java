@@ -28,6 +28,7 @@ public class UniqueEmailAddresses929 {
 			ss = s + str.substring(posOfAtTheRate);
 			hs.add(ss);
 		}
+		System.out.println(hs);
 		return hs.size();
 	}
 }

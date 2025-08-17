@@ -36,7 +36,7 @@ public class NumberDifferentIntegersString1805 {
 				number = 0;
 			}
 		}
-		if (number > 0 ||(number==0 && word.charAt(word.length()-1)=='0'))
+		if (number > 0 || (number == 0 && word.charAt(word.length() - 1) == '0'))
 			set.add(number);
 		System.out.println(set);
 		return set.size();

@@ -6,11 +6,10 @@ public class Sorting {
 
 		/*
 		 * if(i == 0) ... //if i = 0 this will work and skip the following else-if
-		 * statements 
-		 * else if(i == 1) ...//if i not equal to 0 and if i = 1 this will
-		 * work and skip the following else-if statement 
-		 * else if(i == 2) ...// if i not equal to 0 or 1 and if i = 2 the statement will execute
-		
+		 * statements else if(i == 1) ...//if i not equal to 0 and if i = 1 this will
+		 * work and skip the following else-if statement else if(i == 2) ...// if i not
+		 * equal to 0 or 1 and if i = 2 the statement will execute
+		 * 
 		 * if(i == 0) ...//if i = 0 this will work and check the following conditions
 		 * also if(i == 1) ...//regardless of the i == 0 check, this if condition is
 		 * checked if(i == 2) ...//regardless of the i == 0 and i == 1 check, this if
@@ -34,7 +33,7 @@ public class Sorting {
 				largest = arr[i];
 			}
 			// we cannot remove the arr[i]<largest condition in below
-			//	else if because the array contain duplicate numbers
+			// else if because the array contain duplicate numbers
 			else if (arr[i] < largest && arr[i] > secondLargest) {
 				secondLargest = arr[i];
 			}
@@ -47,14 +46,12 @@ public class Sorting {
 			if (arr[i] < smallest) {
 				secondSmallest = smallest;
 				smallest = arr[i];
-			}
-			else if (arr[i] > smallest && arr[i] < secondSmallest) {
+			} else if (arr[i] > smallest && arr[i] < secondSmallest) {
 				secondSmallest = arr[i];
 			}
 		}
 		System.out.println("Smallest is " + smallest);
 		System.out.println("Second Smallest is " + secondSmallest);
-		
-		
+
 	}
 }

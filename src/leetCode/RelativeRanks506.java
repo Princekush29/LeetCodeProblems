@@ -41,7 +41,7 @@ public class RelativeRanks506 {
 					str[k] = "Bronze Medal";
 					count++;
 					break;
-				} else if (i > 2&&arr[i]==score[k]) {
+				} else if (i > 2 && arr[i] == score[k]) {
 					str[k] = Integer.toString(rank);
 					rank++;
 					break;

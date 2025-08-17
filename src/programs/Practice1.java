@@ -3,7 +3,7 @@ package programs;
 public class Practice1 {
 
 	public static void main(String[] args) {
-		int arr[] = {  };
+		int arr[] = {};
 		findMaximum(arr);
 	}
 

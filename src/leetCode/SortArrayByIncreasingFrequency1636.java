@@ -22,10 +22,8 @@ public class SortArrayByIncreasingFrequency1636 {
 				hm.put(nums[i], 1);
 			}
 		}
-		return Arrays.stream(nums).boxed()
-				.sorted((a,b) -> hm.get(a) != hm.get(b) ? hm.get(a) - hm.get(b) : b - a)
-				.mapToInt(n -> n)
-				.toArray();
+		return Arrays.stream(nums).boxed().sorted((a, b) -> hm.get(a) != hm.get(b) ? hm.get(a) - hm.get(b) : b - a)
+				.mapToInt(n -> n).toArray();
 
 	}
 }

@@ -1,4 +1,5 @@
 package programs;
+
 import java.util.Arrays;
 
 public class SortAlphabetInString {
@@ -30,7 +31,7 @@ public class SortAlphabetInString {
 		}
 		System.out.println(charArray1);
 		System.out.println("Method 2 end");
-		
+
 		// Method3
 		System.out.println("Method 3 start");
 		String s1 = "ACB";
@@ -50,7 +51,7 @@ public class SortAlphabetInString {
 		}
 		System.out.println();
 		System.out.println("Method 3 end");
-		
+
 		// Method4 - Not ideal method
 		System.out.println("Method 4 start");
 		String s11 = "zxcvbnm";

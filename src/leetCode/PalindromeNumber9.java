@@ -10,11 +10,11 @@ public class PalindromeNumber9 {
 	public static boolean isPalindrome(int x) {
 		int newNumber = 0, n = x;
 		int r;
-		if(x<0)
+		if (x < 0)
 			return false;
 		while (x != 0) {
 			r = x % 10;
-			newNumber = newNumber*10 + r;
+			newNumber = newNumber * 10 + r;
 			x = x / 10;
 		}
 		if (newNumber == n)

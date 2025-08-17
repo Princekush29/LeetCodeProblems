@@ -14,14 +14,14 @@ public class RotateImage48 {
 		System.out.println("Length is " + matrix.length);
 		int k = 0, p = 0;
 		for (int i = 0; i < matrix.length; i++) {
-			p=0;
+			p = 0;
 			for (int j = matrix[i].length - 1; j >= 0; j--) {
 				rotateMatrix[k][p] = matrix[j][i];
 				p++;
 			}
-			k++;	
+			k++;
 		}
-		System.out.println("Hello"+Arrays.toString(rotateMatrix));
-		
+		System.out.println("Hello" + Arrays.toString(rotateMatrix));
+
 	}
 }

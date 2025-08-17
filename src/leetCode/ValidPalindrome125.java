@@ -7,7 +7,7 @@ public class ValidPalindrome125 {
 	}
 
 	public static boolean isPalindrome(String s) {
-		//use regular expression 
+		// use regular expression
 		String small = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
 
 		for (int i = 0, j = small.length() - 1; i < j; i++, j--) {

@@ -30,10 +30,10 @@ public class TestingOmnicell {
 				token = 1;
 				j = i;
 			}
-			
+
 		}
-		if(newSum<nums[nums.length-1])
-			newSum =nums[nums.length-1];
+		if (newSum < nums[nums.length - 1])
+			newSum = nums[nums.length - 1];
 		System.out.println(newSum);
 		return newSum;
 	}

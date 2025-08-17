@@ -9,7 +9,7 @@ public class AddBinary67 {
 	}
 
 	public static String addBinary(String a, String b) {
-		
+
 		Long aa = Long.parseLong(a);
 		System.out.println("AA is" + aa);
 		Long bb = Long.parseLong(b);

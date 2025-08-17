@@ -10,13 +10,13 @@ public class GetMaximumInGeneratedArray1646 {
 	}
 
 	public static int getMaximumGenerated(int n) {
-		if(n==0)
+		if (n == 0)
 			return 0;
-		if(n==1)
+		if (n == 1)
 			return 0;
-		
+
 		int nums[] = new int[n + 1];
-		int max=0;
+		int max = 0;
 		nums[0] = 0;
 		nums[1] = 1;
 		for (int i = 2; i <= n; i++) {
@@ -27,7 +27,7 @@ public class GetMaximumInGeneratedArray1646 {
 			}
 			max = Math.max(nums[i], max);
 		}
-		
+
 		/*
 		 * System.out.println(Arrays.toString(nums)); Arrays.sort(nums);
 		 */

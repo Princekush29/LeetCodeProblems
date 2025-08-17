@@ -19,12 +19,12 @@ public class RemoveAllAdjacentDuplicatesInString1047 {
 				stack.pop();
 			}
 		}
-		
+
 		StringBuilder builder = new StringBuilder();
-		for (char c : stack) 
+		for (char c : stack)
 			builder.append(c);
-			builder.reverse();
-		
+		builder.reverse();
+
 		return builder.toString();
 
 	}

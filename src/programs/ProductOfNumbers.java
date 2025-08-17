@@ -13,14 +13,14 @@ public class ProductOfNumbers {
 		int count = 0;
 		for (int i = 0; i < arr.length; i++) {
 			if (i != count) {
-				
-			}else {
+
+			} else {
 				product = product * arr[i];
 			}
 			arr1[count] = product;
 			count++;
 			product = 1;
-			i=0;
+			i = 0;
 		}
 		System.out.println(Arrays.toString(arr1));
 		// Method 2

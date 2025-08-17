@@ -14,9 +14,9 @@ public class LargestOddNumberInString1903 {
 			String odd = "13579";
 			for (int i = num.length() - 1; i >= 0; i--) {
 				// if (odd.indexOf(num.charAt(i)) >= 0
-				String c = num.charAt(i)+"";
-				int a =Integer.parseInt(c); 
-				if ( a% 2 != 0)
+				String c = num.charAt(i) + "";
+				int a = Integer.parseInt(c);
+				if (a % 2 != 0)
 					return num.substring(0, i + 1);
 			}
 		}

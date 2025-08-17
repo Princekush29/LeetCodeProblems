@@ -25,13 +25,13 @@ public class RemoveDuplicateFromString {
 			System.out.print(itr.next());
 		}
 		System.out.println("+");
-		System.out.println("String "+ str);
-		
+		System.out.println("String " + str);
+
 		// Method2
 		System.out.println("Method 2");
 		for (int i = 0; i < str.length(); i++) {
 			char newchar = str.charAt(i);
-			for (int j = i+1; j < str.length(); j++) {
+			for (int j = i + 1; j < str.length(); j++) {
 				if (str.charAt(i) == str.charAt(j)) {
 					String newchar1 = newchar + "";
 					str = str.replaceFirst(newchar1, "");
@@ -42,6 +42,6 @@ public class RemoveDuplicateFromString {
 				}
 			}
 		}
-		System.out.println("Output is "+str);
+		System.out.println("Output is " + str);
 	}
 }

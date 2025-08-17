@@ -11,7 +11,7 @@ public class PFCalculation {
 		System.out.println("Hello");
 		double monthlyPF = 3000;
 		double totalPF = 0;
-		for (int i = 1, j = 1; i <= 20 ;j++) {
+		for (int i = 1, j = 1; i <= 20; j++) {
 			totalPF = (totalPF + monthlyPF) * 1.08;
 
 			if (j == 12) {

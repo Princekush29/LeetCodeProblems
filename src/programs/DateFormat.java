@@ -16,7 +16,7 @@ public class DateFormat {
 		System.out.println(sdf.format(d));
 		System.out.println(sd.format(d));
 		System.out.println("+++");
-		Calendar c =  Calendar.getInstance();
+		Calendar c = Calendar.getInstance();
 		System.out.println(c);
 		SimpleDateFormat sdf3 = new SimpleDateFormat("MM/dd/yyyy");
 		System.out.println(sdf3.format(c.getTime()));

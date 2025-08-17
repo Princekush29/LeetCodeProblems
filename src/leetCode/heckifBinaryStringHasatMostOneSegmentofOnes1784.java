@@ -10,7 +10,7 @@ public class heckifBinaryStringHasatMostOneSegmentofOnes1784 {
 	public static boolean checkOnesSegment(String s) {
 
 		int flag = 0;
-		for (int i = 1; i< s.length(); i++) {
+		for (int i = 1; i < s.length(); i++) {
 			if (s.charAt(i) == '0') {
 				flag = i;
 				break;
