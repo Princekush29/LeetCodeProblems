@@ -32,7 +32,6 @@ public class WordPattern290 {
 			if (!charToWord.get(c).equals(word) || !wordToChar.get(word).equals(c)) {
 				return false;
 			}
-
 		}
 		return true;
 	}
