@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class Test1 {
+public class SortHashMap {
 
 	public static void main(String[] args) {
 		Map<String, Integer> hm = new HashMap<String, Integer>();
