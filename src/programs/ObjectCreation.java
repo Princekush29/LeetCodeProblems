@@ -1,6 +1,6 @@
 package programs;
 
-public abstract class TestIf {
+public abstract class ObjectCreation {
 
 	public static void main(String[] args) {
 		A1 a = new B();

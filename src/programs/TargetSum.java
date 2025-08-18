@@ -1,28 +1,28 @@
 package programs;
 
-import java.util.Arrays;
+import java.util.HashMap;
 
 public class TargetSum {
 
 	public static void main(String[] args) {
 
-		int nums[] = { 1, 8, 2, 7, 11, 15 };
+		int nums[] = { 1, 4, 3, 4, 8, 2, 7, 11, 15 };
 		int target = 9;
 		System.out.println(twoSum(nums, target));
+		int[] a = twoSum(nums, target);
+		System.out.println(a[0]);
+		System.out.println(a[1]);
 	}
 
 	public static int[] twoSum(int[] nums, int target) {
-		int arr[] = new int[2];
-
+		HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
 		for (int i = 0; i < nums.length; i++) {
-			for (int j = i + 1; j < nums.length; j++) {
-				if (nums[i] + nums[j] == target) {
-					arr[0] = i;
-					arr[1] = j;
-				}
+			int diff = target - nums[i];
+			if (hm.containsKey(diff)) {
+				return new int[] { hm.get(diff), i };
 			}
+			hm.put(nums[i], i);
 		}
-		System.out.println(Arrays.toString(arr));
-		return arr;
+		return new int[2];
 	}
 }

@@ -5,7 +5,6 @@ public class This1 {
 	int a = 2;
 
 	public This1(int a) {
-
 		System.out.println("Parameterized constructor");
 	}
 
@@ -22,6 +21,6 @@ public class This1 {
 
 	public static void main(String[] args) {
 		This1 t1 = new This1();
-		// t1.test();
+		t1.test();
 	}
 }

@@ -1,14 +1,9 @@
 package programs;
 
-//Java program to demonstrate
-//Up casting Vs Down casting
-
 //Parent class
 class Parent {
 	String name;
 
-	// A method which prints the
-	// signature of the parent class
 	void method() {
 		System.out.println("Method from Parent");
 	}
@@ -17,10 +12,6 @@ class Parent {
 //Child class
 class Child extends Parent {
 	int id;
-	// String name = "abc";
-	// Overriding the parent method
-	// to print the signature of the
-	// child class
 
 	@Override
 	void method() {
@@ -29,8 +20,6 @@ class Child extends Parent {
 
 }
 
-//Demo class to see the difference
-//between up casting and down casting
 public class UpCastingDownCasting {
 
 	// Driver code
@@ -41,17 +30,23 @@ public class UpCastingDownCasting {
 
 		// Printing the parentclass name
 		System.out.println(p.name);
-		// parent class method is overridden method hence this will be executed
+		// this will print 'method from child',
+		// however if in child class the Method is commented (), then it will print
+		// 'Method from parent'
 		p.method();
 
 		// Trying to Downcasting Implicitly
 		// Child c = new Parent(); - > compile time error
 
 		// Downcasting Explicitly
-		/*
-		 * Parent p = new Child(); Child c = (Child) p;
-		 * 
-		 * c.id = 1; System.out.println(c.name); System.out.println(c.id); c.method();
-		 */
+
+		Parent p1 = new Child();
+		Child c = (Child) p1;
+
+		c.id = 1;
+		System.out.println(c.name);
+		System.out.println(c.id);
+		c.method();
+
 	}
 }

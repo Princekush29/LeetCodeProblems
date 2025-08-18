@@ -2,8 +2,10 @@ package programs;
 
 class This {
 	public static void main(String args[]) {
+		Student s3 = new Student();
+		s3.display();
 		Student s1 = new Student(111, "ankit", 5000f);
-		s1.display();
+	
 		Student s2 = new Student();
 	}
 }
