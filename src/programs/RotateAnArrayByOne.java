@@ -61,7 +61,7 @@ public class RotateAnArrayByOne {
 		for (int i3 = k, j = 0; i3 < arr2.length; i3++, j++) {
 			arr3[i3] = arr2[j];
 		}
-		System.out.println(Arrays.toString(arr3));
+		System.out.println("Ktimes "+Arrays.toString(arr3));
 
 		// Method 3
 		System.out.println("Method3");

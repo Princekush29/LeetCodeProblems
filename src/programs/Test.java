@@ -1,19 +1,19 @@
 package programs;
 
-import java.util.Arrays;
-import java.util.Random;
-
 public class Test {
 	public static void main(String[] args) {
-		Random random = new Random();
-		int arr[] = { 1, 2, 3, 4, 5 };
-		int random1 = random.nextInt(arr.length);
-		int random2 = random.nextInt(arr.length);
-		System.out.println(random1 + " " + random2);
-		int temp = arr[random1];
-		arr[random1] = arr[random2];
-		arr[random2] = temp;
-
-		System.out.println(Arrays.toString(arr));
+		int arr[] = { 1, 22, 44, 66, 12, 32, 43, 3 };
+		int first = Integer.MAX_VALUE;
+		int second = Integer.MAX_VALUE;
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] < first) {
+				second = first;
+				first = arr[i];
+			} else if (arr[i] < second && arr[i] > first) {
+				second = arr[i];
+			}
+		}
+		System.out.println("First max is " + first);
+		System.out.println("Second max is " + second);
 	}
 }
