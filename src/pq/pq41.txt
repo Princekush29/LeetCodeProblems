@@ -1,0 +1,24 @@
+Programming Question 41 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+  public static void main(String arg[]) {
+    int i;
+    for (i = 1; i <= 12; i += 2) {
+      if (i == 8) {
+        System.out.print(i);
+        break;
+      }
+    }
+  }
+}
+
+
+Share your view in Comment section 😍
+
+Output is?
+1
+No output
+8
+1357911

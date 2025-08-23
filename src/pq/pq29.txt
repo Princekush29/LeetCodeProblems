@@ -1,0 +1,22 @@
+Programming Question 29 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+
+	public static void main(String[] args) {
+		for (int i = 0; i < 5; i++) {
+            if (i == 2)
+                continue;
+            System.out.print(i + " ");
+        }
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+0 1 2 3 4 
+0 1 3 4 
+2 
+0 1 3 4 5

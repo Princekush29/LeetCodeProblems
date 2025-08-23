@@ -1,0 +1,17 @@
+Programming Question 4  What will be the output of the following Java program?
+
+public class Solution{
+       public static void main(String[] args){
+                     short x = 10;
+                     x =  x * 5;
+                     System.out.print(x);
+       }
+}
+	
+Share your view in Comment section 😍
+
+Output is ?
+50
+10
+Compile error
+Exception

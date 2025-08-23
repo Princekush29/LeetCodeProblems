@@ -10,7 +10,7 @@ public class CountUniqueWords {
 
 	public static void main(String[] args) {
 		// can be solved using set also
-		// Method1 - where length is less than 2
+		// Method1 - only words which are present once
 		String s = "Java contains Java multiple libraries and python contains multiple packages";
 		int count = 0;
 		s = s.replaceAll(" +", " ");

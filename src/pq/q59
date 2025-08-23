@@ -1,0 +1,17 @@
+Question 59 Why Xpath is better than CSS selector?
+
+#interviewquestions #interviewtips
+
+👉 XPath allows bidirectional flow.
+
+👉 Using an XPath, we can traverse both ways, i.e., from parent to child and child to parent, which is not possible in CSS.
+
+👉 XPath is a more versatile and powerful choice for data extraction in sites with complex layouts or non-HTML data.
+
+👉 Instead, CSS selectors are simpler and more intuitive, which makes them better suited for straightforward element selection tasks in HTML documents.
+
+Share your view in the Comment section 😍
+
+Which one you use the most?
+xpath
+css

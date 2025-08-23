@@ -13,10 +13,25 @@ public class Anagram {
 		// method1(s1, s2);
 		// method2(s1, s2);
 		// method3(s1, s2);
-		method4(s1, s2);
+		// method4(s1, s2);
+		System.out.println(method5(s1, s2));
 	}
 
-	// Method 1
+	// method 5
+	public static boolean method5(String s1, String s2) {
+		int[] alphabet = new int[26];
+		for (int i = 0; i < s1.length(); i++)
+			alphabet[s1.charAt(i) - 'a']++;
+		for (int i = 0; i < s2.length(); i++)
+			alphabet[s2.charAt(i) - 'a']--;
+		for (int a : alphabet) {
+			if (a != 0)
+				return false;
+		}
+		return true;
+	}
+
+	// Method 1 - using toCharArray
 	public static void method1(String s1, String s2) {
 		char c1[] = s1.toCharArray();
 		char c2[] = s2.toCharArray();
@@ -28,7 +43,7 @@ public class Anagram {
 		System.out.println("-------");
 	}
 
-	// Method 2
+	// Method 2 - using HashMap
 	public static void method2(String s1, String s2) {
 		Map<Character, Integer> hm1 = new HashMap<Character, Integer>();
 		for (int i = 0; i < s1.length(); i++) {
@@ -93,8 +108,8 @@ public class Anagram {
 
 		}
 		if (s1.isBlank() && s2.isBlank())
-			System.out.println("Method 4 " + "Anagram");
+			System.out.println("Method 4 Anagram");
 		else
-			System.out.println("Method 4 " + "Not Anagram");
+			System.out.println("Method 4 Not Anagram");
 	}
 }

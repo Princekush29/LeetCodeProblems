@@ -1,0 +1,22 @@
+Programming Question 66 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+
+	public static void main(String args[]) {
+		double a, b, c;
+		a = 3.0 / 0;
+
+		System.out.println(a);
+		
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+ArithmeticException
+Infinity
+Compile Time Error
+0

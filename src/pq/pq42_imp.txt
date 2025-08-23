@@ -1,0 +1,30 @@
+Programming Question 42 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class ThisKeyword {
+  private int a = 4;
+  private int b = 1;
+
+  void getSum(int a, int b) {
+    this.a = a;
+    this.b = b;
+    System.out.println(this.a + this.b);
+  }
+}
+
+public class Testing {
+  public static void main(String args[]) {
+    ThisKeyword T = new ThisKeyword();
+    T.getSum(3, 5);
+  }
+}
+
+
+Share your view in Comment section 😍
+
+Output is?
+5
+9
+8
+4

@@ -1,0 +1,21 @@
+Programming Question 84 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+	public static void main(String args[]) {
+		int a = 20;
+		Integer i = Integer.valueOf(a);
+		Integer j = a;
+
+		System.out.println(a + " " + i + " " + j);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+20 20 20
+20 0 0
+0 0 20
+0 0 0

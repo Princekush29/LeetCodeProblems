@@ -1,0 +1,19 @@
+Programming Question 87 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+	public static void main(String args[]) {
+		char c = '1';
+		int a = Integer.parseInt(String.valueOf(c));
+		System.out.println(a);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+Compile Time error
+1
+47
+97

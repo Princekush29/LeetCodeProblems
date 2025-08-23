@@ -1,0 +1,25 @@
+Question 21 Difference between Checked and Unchecked Exceptions in Java?
+
+#interviewquestions #interviewtips
+
+👉 Checked Exception
+🚀 The classes that directly inherit the Throwable class except RuntimeException and Error are known as checked exceptions e.g. IOException, SQLException etc. 
+🚀 Checked exceptions are checked at compile-time.
+🚀 In checked exceptions, there are two types: fully checked and partially checked exceptions. 
+🚀 A fully checked exception is a checked exception where all its child classes are also checked, like IOException, and InterruptedException. 
+🚀 A partially checked exception is a checked exception where some of its child classes are unchecked, like an Exception.
+
+👉 Unchecked Exception
+🚀 The classes which inherit RuntimeException are known as unchecked exceptions e.g. ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc. 
+🚀 Unchecked exceptions are not checked at compile-time, but they are checked at runtime.
+🚀 In short unchecked exceptions are runtime exceptions that are not required to be caught or declared in a throws clause. 
+🚀 These exceptions are usually caused by programming errors, such as attempting to access an index out of bounds in an array or attempting to divide by zero.
+🚀 Unchecked exceptions include all subclasses of the RuntimeException class, as well as the Error class and its subclasses.
+
+Share your view in Comment section 😍
+
+Selenium Exceptions are?
+Checked Exception
+Unchecked Exception
+Both - Checked and Unchecked
+None of the above

@@ -4,6 +4,7 @@ public class ExceptionQuestion {
 
 	public static void main(String args[]) {
 		try {
+			System.out.println("Hi");
 			System.out.print("Hello" + " " + 1 / 0);
 		}
 

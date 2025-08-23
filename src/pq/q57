@@ -1,0 +1,37 @@
+Question 57 Different XPath Axes Used In Selenium Testing
+
+#interviewquestions #interviewtips
+
+👉 ancestor: These axes indicate all the ancestors relative to the context node, also reaching up to the root node.
+
+👉 ancestor-or-self: This one indicates the context node and all the ancestors relative to the context node, and includes the root node.
+
+👉 attribute: This indicates the attributes of the context node. It can be represented with the “@” symbol.
+
+👉 child: This indicates the children of the context node.
+
+👉 descendent: This indicates the children, grandchildren, and their children (if any) of the context node. This does NOT indicate the Attribute and Namespace.
+
+👉 descendent-or-self: This indicates the context node and the children, and grandchildren and their children (if any) of the context node. This does NOT indicate the attribute and namespace.
+
+👉 following: This indicates all the nodes that appear after the context node in the HTML DOM structure. This does NOT indicate descendent, attribute, and namespace.
+
+👉 following-sibling: This one indicates all the sibling nodes (same parent as the context node) that appear after the context node in the HTML DOM structure. This does NOT indicate descendent, attribute, and namespace.
+
+👉 namespace: This indicates all the namespace nodes of the context node.
+
+👉 parent: This indicates the parent of the context node.
+
+👉 preceding: This indicates all the nodes that appear before the context node in the HTML DOM structure. This does NOT indicate descendent, attribute, and namespace.
+
+👉 preceding-sibling: This one indicates all the sibling nodes (same parent as context node) that appear before the context node in the HTML DOM structure. This does NOT indicate descendent, attribute, and namespace.
+
+👉 self: This one indicates the context node.
+
+Share your view in the Comment section 😍
+
+Which one you use the most?
+following-sibling
+preceding-sibling
+ancestor
+Other, Please comment

@@ -1,0 +1,20 @@
+Programming Question 74 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class Testing {
+	public static void main(String args[]) {
+		String c = "Hello, How are you ?";
+		boolean var;
+		var = c.startsWith("hello");
+		System.out.println(var);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+0
+true
+1
+false

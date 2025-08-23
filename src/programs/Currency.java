@@ -4,7 +4,7 @@ public class Currency {
 
 	public static void main(String[] args) {
 
-		int number = 90000000;
+		int number = 90000000; //o/p - 90,000,000
 		String numString = Integer.toString(number);
 		System.out.println(numString.length());
 		StringBuilder sb = new StringBuilder();

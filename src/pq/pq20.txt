@@ -1,0 +1,22 @@
+Programming Question 20 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+
+	public static void main(String[] args) {
+		String str1 = "Java";
+        String str2 = "Java";
+        String str3 = new String("Java");
+
+        System.out.println(str1.equals(str2) && str1.equals(str3));
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+true
+false
+Compile error
+Runtime error

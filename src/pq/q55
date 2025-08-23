@@ -1,0 +1,43 @@
+Question 55 How to upload a file in Selenium WebDriver?
+
+#interviewquestions #interviewtips
+
+There are multiple ways to handle file upload in Selenium:
+
+👉 Using sendKeys method
+👉 Using AutoIT tool
+👉 With the help of Robot Class
+
+👨💻 Method 1
+WebElement upload_file = driver.findElement(By.xpath("//input[@id='file_up']"));
+upload_file.sendKeys("C:/Users /Desktop/upload.png");
+
+👨💻 Method 2
+Runtime.getRuntime().exec(“C:\\Users\\Chait\\Desktop\\autoit\\fileupload.exe”);
+Runtime: It allows the script to interface with the environment in which the script is running.
+getRuntime(): It is used to get the current runtime associated with the process.
+exec(): It executes the AutoIT script (here, which is fileupload.exe).
+
+👨💻 Method 3
+// creating object of Robot class
+     Robot rb = new Robot()
+
+// press Contol+V for pasting
+     rb.keyPress(KeyEvent.VK_CONTROL);
+     rb.keyPress(KeyEvent.VK_V);
+ 
+// release Contol+V for pasting
+    rb.keyRelease(KeyEvent.VK_CONTROL);
+    rb.keyRelease(KeyEvent.VK_V);
+ 
+// for pressing and releasing Enter
+    rb.keyPress(KeyEvent.VK_ENTER);
+    rb.keyRelease(KeyEvent.VK_ENTER);
+
+Share your view in the Comment section 😍
+
+Which method do you use in your framework for File Upload
+Method 1
+Method 2
+Method 3
+All of them

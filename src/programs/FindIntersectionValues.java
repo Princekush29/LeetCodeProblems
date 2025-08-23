@@ -43,5 +43,4 @@ class FindIntersectionValues {
 		// System.out.println("Sum is " + sum);
 		return sumArray;
 	}
-
 }

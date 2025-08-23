@@ -1,0 +1,18 @@
+Question 45 Define the Stack in java?
+
+#interviewquestions #interviewtips
+
+👨💻 Stack
+
+👉 The stack is a linear data structure that is used to store the collection of objects. 
+👉 It is based on Last-In-First-Out (LIFO).
+👉 The stack is the subclass of Vector. 
+👉 It also implements interfaces List, Collection, Iterable, Cloneable, Serializable.
+Before using the Stack class, we must import the java.util package.
+👉 The stack contains all of the methods of Vector class and also provides its methods like boolean push(), boolean peek(), boolean push(object o), which defines its properties.
+
+Share your view in the Comment section 😍
+
+Stack is ?
+FIFO
+LIFO

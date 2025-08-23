@@ -1,0 +1,26 @@
+Question 19: Difference between throw and throws in Java?
+
+#interviewquestions #interviewtips
+
+👉 Throw
+✔ Java throw keyword is used to explicitly throw an exception.
+✔ Checked exception cannot be propagated using throw only.
+✔ Throw is followed by an instance.
+✔ Throw is used within the method.
+✔ You cannot throw multiple exceptions.
+
+👉 Throws
+✔ Java throws keyword is used to declare an exception.
+✔ Checked exception can be propagated with throws.
+✔ Throws is followed by class.
+✔ Throws is used with the method signature.
+✔ You can declare multiple exceptions e.g.
+✔ Example: public void method()throws IOException,SQLException.
+
+Share your view in Comment section 😍
+
+Which type of exception do you prefer?
+throw
+throws
+try/catch
+Others, Please comment

@@ -26,6 +26,5 @@ public class TwoSum1 {
 		}
 		System.out.println(Arrays.toString(arr));
 		return arr;
-
 	}
 }

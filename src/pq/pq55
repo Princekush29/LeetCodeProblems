@@ -1,0 +1,38 @@
+Question 55 Explain Inheritance in java?
+
+#interviewquestions #interviewtips
+
+👉 Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs (Object Oriented programming system).
+
+👉 The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. 
+
+👉 When you inherit from an existing class, you can reuse methods and fields of the parent class. Moreover, you can add new methods and fields in your current class also.
+
+👉 Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+
+👨💻 Why use Java interface?
+👉 It is used to achieve abstraction.
+👉 By interface, we can support the functionality of multiple inheritances.
+👉 It can be used to achieve loose coupling.
+
+👨💻 The syntax of Java Inheritance
+class Subclass-name extends Superclass-name  
+{  
+   //methods and fields  
+}  
+
+👉 The extends keyword indicates that you are making a new class that derives from an existing class. The meaning of "extends" is to increase the functionality.
+
+👉 In the terminology of Java, a class which is inherited is called a parent or superclass, and the new class is called child or subclass.
+
+👨💻 Types of inheritance in java
+👉 On the basis of class, there can be five types of inheritance in java: single, multilevel, multiple, hybrid and hierarchical.
+👉 In java programming, multiple and hybrid inheritance is supported through interface only. 
+
+Share your view in Comment section 😍
+
+Which of this keyword must be used to inherit a class?
+super
+this
+extent
+extends

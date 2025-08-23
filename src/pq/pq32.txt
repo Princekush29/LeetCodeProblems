@@ -1,0 +1,30 @@
+Programming Question 32 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class One{
+
+	public One(int x){
+		System.out.print("int constructor");
+	}
+
+	public One(long l){
+		System.out.print("long constructor");
+	}
+}
+
+public class Testing{
+
+	public static void main(String[] args){
+		long l = 20L;
+		One one = new One(l);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+int constructor
+long constructor
+Runtime error
+Compile-time error

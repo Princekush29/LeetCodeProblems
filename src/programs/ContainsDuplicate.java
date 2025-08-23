@@ -38,6 +38,7 @@ public class ContainsDuplicate {
 		for (Map.Entry<Integer, Integer> hm1 : hm.entrySet()) {
 			System.out.println(hm1.getKey() + " " + hm1.getValue());
 		}
+		
 		// Method 3 - using Set
 		Set<Integer> s = new HashSet<Integer>();
 		for (int i = 0; i < arr.length; i++) {

@@ -1,0 +1,30 @@
+Programming Question 35 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class One{
+	public void print(){
+		System.out.println("1");
+	}
+}
+
+class Two extends One{
+	public void print(){
+		System.out.println("2");
+	}
+}
+
+public class Test{
+	public static void main(String args[]){
+		One one = new Two();
+		one.print();
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+2
+1
+Runtime error
+Compile-time error

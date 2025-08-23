@@ -1,0 +1,24 @@
+Programming Question 39 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Main{
+
+	static String name = "Ramesh";
+
+	public Main(){
+		name = "Prabhas";
+	}
+
+	public static void main(String[] args){
+		System.out.println("The name is " + name);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+Prabhas
+The name is Ramesh
+No Output
+Runtime error

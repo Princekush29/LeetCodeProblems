@@ -2,7 +2,7 @@ package programs;
 
 public class Constructor {
 
-	public void Constructor() {
+	public Constructor() {
 		System.out.println("I am Constructor");
 	}
 

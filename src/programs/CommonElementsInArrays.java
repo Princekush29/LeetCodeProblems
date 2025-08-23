@@ -45,7 +45,7 @@ public class CommonElementsInArrays {
 				System.out.println(hm1.getKey());
 		}
 	}
-
+	
 	// this will work when array is sorted
 	public static List<Integer> commonElement1(Integer[] a1, Integer[] a2, Integer[] a3) {
 

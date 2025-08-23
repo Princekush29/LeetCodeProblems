@@ -1,0 +1,23 @@
+Programming Question 55 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+
+	public static void main(String[] args) {
+
+		int Integer = 24;
+		char String = 'I';
+		System.out.print(Integer);
+		System.out.print(String);
+
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+24
+I
+24I
+The code does not compile

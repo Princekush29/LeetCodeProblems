@@ -10,5 +10,10 @@ public class DateAndTime {
 		LocalDateTime now = LocalDateTime.now();
 		System.out.println(dtf.format(now));
 		System.out.println(System.currentTimeMillis());
+
+		DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+		LocalDateTime now1 = LocalDateTime.now();
+		System.out.println(dtf1.format(now1));
+		System.out.println(System.currentTimeMillis());
 	}
 }

@@ -1,0 +1,31 @@
+Programming Question 6  What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing3 {
+
+	public static void main(String[] args) {
+		String s1 = "hello";
+		String s2 = new String("hello");
+		String s3 = "hello";
+		
+		if (s1 == s2) {
+			System.out.println("Apple");
+		} else {
+			System.out.println("Ball");
+		}
+		if (s1 == s3) {
+			System.out.println("Cat");
+		} else {
+			System.out.println("Dog");
+		}
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+Apple Cat
+Apple Dog
+Ball Cat
+Ball Dog

@@ -1,0 +1,41 @@
+Question 10 - How to find the OOPS concept used in the automation framework?
+
+#interviewquestions #interviewtips 
+
+💯 1. ABSTRACTION
+
+Abstraction is the methodology of hiding the implementation of internal details and showing the functionality to the users.
+In the Page Object Model design pattern, we write locators (such as id, name, XPath, etc.,) and the methods in a Page Class. We utilize these locators in tests but we can’t see the implementation of the methods. We hide the implementations of the locators from the tests.
+In Java, abstraction is achieved by interfaces and abstract classes. Using interfaces, we can achieve 100% abstraction.
+
+💯 2. INHERITANCE
+The mechanism in Java by which one class acquires the properties (instance variables) and functionalities of another class is known as Inheritance.
+We create a Base Class in the Automation Framework to initialize the WebDriver interface, WebDriver waits, Property files, Excels, etc., in the Base Class.
+We extend the Base Class to other classes such as Tests and Utility Class.
+Here we extend one class (Base Class like WebDriver Interface) into another class (like Tests, Utility Class) is known as Inheritance.
+
+💯 3. POLYMORPHISM
+Polymorphism allows us to perform a task in multiple ways.
+A combination of overloading and overriding is known as Polymorphism. We will see both overloading and overriding below.
+
+💯 3.1 METHOD OVERLOADING
+We use Implicit Wait in Selenium. Implicit wait is an example of overloading. In Implicit wait, we use different time stamps such as SECONDS, MINUTES, HOURS, etc.
+Action class in TestNG is also an example of overloading.
+Assert class in TestNG is also an example of overloading.
+
+💯 3.2 METHOD OVERRIDING
+We use a method that was already implemented in another class by changing its parameters. To understand this you need to understand Overriding in Java.
+Declaring a method in a child class that is already present in the parent class is called Method Overriding. Examples are get and navigate methods of different drivers in Selenium.
+A class having multiple methods with the same name but different parameters is called a Method Overloading
+
+💯 4. ENCAPSULATION
+All the classes in a framework are an example of Encapsulation. In POM classes, we declare the data members using @FindBy and initialization of data members will be done using Constructor to utilize those in methods.
+Encapsulation is a mechanism of binding code and data (variables) together in a single unit.
+
+Share your view in Comment section
+
+Which of the following is not an OOPS concept?
+Encapsulation
+Polymorphism
+Exception
+Abstraction

@@ -5,6 +5,21 @@ import java.util.Arrays;
 public class AllZeroInStartingAndEndInArray {
 
 	public static void main(String[] args) {
+
+		// method 0 - this will maintain the order also
+		int newArray[] = { 1, 0, 3, 0, 4, 0, 5, 0, 0, 1, 2, 3 };
+		int insertPos = 0;
+		for (int i = 0; i < newArray.length; i++) {
+			if (newArray[i] != 0)
+				newArray[insertPos++] = newArray[i];
+		}
+		System.out.println(insertPos);
+		while(insertPos<newArray.length) {
+			newArray[insertPos++]=0;
+		}
+		System.out.println("Array is "+ Arrays.toString(newArray));
+		System.out.println("Method 0 ends here");
+		// none of the below method is maintaining the order
 		// Method1
 		int arr[] = { 1, 0, 3, 0, 4, 0, 5, 0, 0, 1, 2, 3 };
 		int temp = 0;
@@ -23,7 +38,7 @@ public class AllZeroInStartingAndEndInArray {
 		}
 		System.out.println(Arrays.toString(arr));
 		System.out.println("+++++++");
-		// Method2
+		// Method2 - this require creation of another array
 		int arr1[] = { 1, 2, 3, 0, 1, 0, 2, 4, 0, 9, 0 };
 		int count = 0;
 		int arr2[] = new int[arr1.length];
