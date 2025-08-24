@@ -5,8 +5,13 @@ import java.util.Arrays;
 public class AllZeroInStartingAndEndInArray {
 
 	public static void main(String[] args) {
+		maintainOrder();
+		maintainOrder1();
+		//orderNotMaintained();
+	}
 
-		// method 0 - this will maintain the order also
+	// method 1 - this will maintain the order also
+	public static void maintainOrder() {
 		int newArray[] = { 1, 0, 3, 0, 4, 0, 5, 0, 0, 1, 2, 3 };
 		int insertPos = 0;
 		for (int i = 0; i < newArray.length; i++) {
@@ -14,13 +19,31 @@ public class AllZeroInStartingAndEndInArray {
 				newArray[insertPos++] = newArray[i];
 		}
 		System.out.println(insertPos);
-		while(insertPos<newArray.length) {
-			newArray[insertPos++]=0;
+		while (insertPos < newArray.length) {
+			newArray[insertPos++] = 0;
 		}
-		System.out.println("Array is "+ Arrays.toString(newArray));
+		System.out.println("Array is " + Arrays.toString(newArray));
 		System.out.println("Method 0 ends here");
-		// none of the below method is maintaining the order
-		// Method1
+	}
+
+	// Method 2
+	public static void maintainOrder1() {
+		int[] arr = { 0, 1, 0, 3, 12 };
+		int j = 0;
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] != 0) {
+				int temp = arr[j];
+				arr[j] = arr[i];
+				arr[i] = temp;
+				j++;
+			}
+		}
+		System.out.println(Arrays.toString(arr));
+	}
+
+	// none of the below method is maintaining the order
+	// Method3
+	public static void orderNotMaintained() {
 		int arr[] = { 1, 0, 3, 0, 4, 0, 5, 0, 0, 1, 2, 3 };
 		int temp = 0;
 		for (int i = 0, j = arr.length - 1; i < j;) {
