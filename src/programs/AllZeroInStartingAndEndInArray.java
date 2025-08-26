@@ -61,6 +61,7 @@ public class AllZeroInStartingAndEndInArray {
 		}
 		System.out.println(Arrays.toString(arr));
 		System.out.println("+++++++");
+		
 		// Method2 - this require creation of another array
 		int arr1[] = { 1, 2, 3, 0, 1, 0, 2, 4, 0, 9, 0 };
 		int count = 0;

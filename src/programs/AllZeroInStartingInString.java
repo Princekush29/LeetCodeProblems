@@ -1,6 +1,6 @@
 package programs;
 
-public class AllZeroInStarting {
+public class AllZeroInStartingInString {
 	public static void main(String[] args) {
 		// Method 1
 		String str = "324002010";

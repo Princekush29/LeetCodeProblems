@@ -13,7 +13,6 @@ public class CaesarCipher {
 			// For Uppercase
 			if (Character.isUpperCase(input.charAt(i))) {
 				char ch = (char) ((input.charAt(i) + key - 65) % 26 + 65);
-
 				System.out.print(ch);
 			} else {
 				// ForLowerCase
