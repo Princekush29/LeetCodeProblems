@@ -3,7 +3,8 @@ package programs;
 public class ChildClass2 extends ChildClass {
 
 	static ChildClass2 cc = new ChildClass2();
-
+	//static int b=30;
+	//int a =40;
 	public static void main(String[] args) {
 		test();
 		System.out.println(b);

@@ -1,24 +1,20 @@
 package programs;
 
-import java.util.Arrays;
-
 public class Test {
 
 	public static void main(String[] args) {
-		int arr[] = { 1, 2, 3,1,1 };
-		System.out.println(findRepeat(arr));
-	}
-
-	public static boolean findRepeat(int arr[]) {
-
-		int numbers[] = new int[10];
-		for (int i = 0; i < arr.length; i++) {
-			char c= (char) arr[i];
-			char d = (char) 0;
-			numbers[c-d]++;
+		String input = "aAbB"; // output - dDeE
+		int key = 3;
+		// A= 65 & a = 97
+		for (int i = 0; i < input.length(); i++) {
+			char c = input.charAt(i);
+			if (c >= 65 && c <= 90) {
+				c = (char) ((c + key - 65) % 26 + 65);
+				System.out.print(c);
+			} else {
+				c = (char) ((c + key - 97) % 26 + 97);
+				System.out.print(c);
+			}
 		}
-		System.out.println(Arrays.toString(numbers));
-
-		return true;
 	}
 }
