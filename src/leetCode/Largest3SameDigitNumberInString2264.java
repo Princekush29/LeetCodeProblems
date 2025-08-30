@@ -1,4 +1,4 @@
-package programs;
+package leetCode;
 
 public class Largest3SameDigitNumberInString2264 {
 

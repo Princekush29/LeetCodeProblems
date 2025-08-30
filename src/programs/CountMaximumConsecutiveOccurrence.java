@@ -28,11 +28,11 @@ public class CountMaximumConsecutiveOccurrence {
 		int number[] = new int[10];
 
 		for (int i = 0; i < arr.length; i++) {
-
-			char digit = (char) (arr[i] + '0');
-			int ascii = (int) (digit);
-			System.out.println(ascii);
-			number[ascii - '0']++;
+			/*
+			 * char digit = (char) (arr[i] + '0'); int ascii = (int) (digit);
+			 * System.out.println(ascii); number[ascii - '0']++;
+			 */
+			number[arr[i] - 0]++;
 		}
 		int highest = number[0], value = 0;
 		System.out.println(Arrays.toString(number));

@@ -1,20 +1,20 @@
 package programs;
 
+import java.util.Arrays;
+
 public class Test {
 
 	public static void main(String[] args) {
-		String input = "aAbB"; // output - dDeE
-		int key = 3;
-		// A= 65 & a = 97
-		for (int i = 0; i < input.length(); i++) {
-			char c = input.charAt(i);
-			if (c >= 65 && c <= 90) {
-				c = (char) ((c + key - 65) % 26 + 65);
-				System.out.print(c);
-			} else {
-				c = (char) ((c + key - 97) % 26 + 97);
-				System.out.print(c);
-			}
+
+		int a1[] = { 1, 2, 5, 4, 6 }; // [6, 4, 5, 3, 2, 1]
+
+		for (int i = 0, j = a1.length - 1; i < a1.length / 2; i++, j--) {
+			int temp = a1[j];
+			a1[j] = a1[i];
+			a1[i] = temp;
+
 		}
+		System.out.println(Arrays.toString(a1));
+
 	}
 }

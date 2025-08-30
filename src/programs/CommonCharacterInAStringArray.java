@@ -18,7 +18,6 @@ public class CommonCharacterInAStringArray {
 		System.out.println(Arrays.toString(input));
 		int max = Math.max(input[0].length(), input[input.length - 1].length());
 		int i = 0;
-		String str = "";
 		System.out.println("Max is " + max);
 		while (max > i && input[0].charAt(i) == input[input.length - 1].charAt(i)) {
 			i++;

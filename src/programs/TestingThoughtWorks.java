@@ -5,20 +5,18 @@ import java.util.Arrays;
 public class TestingThoughtWorks {
 
 	public static void main(String[] args) {
-		int arr[] = { 1, 2, 3, 1, 1 };
+		int arr[] = { 1, 2, 3, 1, 1, 4, 4, 4, 4, 4 };
 		System.out.println(findRepeat(arr));
 	}
 
 	public static boolean findRepeat(int arr[]) {
 
-		int numbers[] = new int[10];
-		for (int i = 0; i < arr.length; i++) {
-			char c = (char) arr[i];
-			char d = (char) 0;
-			numbers[c - d]++;
-		}
-		System.out.println(Arrays.toString(numbers));
+		int newArr[] = new int[10];
 
-		return true;
+		for (int i = 0; i < arr.length; i++) {
+			newArr[arr[i] - 0]++;
+		}
+		System.out.println(Arrays.toString(newArr));
+    	return false;
 	}
 }

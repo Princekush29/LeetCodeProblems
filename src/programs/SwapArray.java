@@ -7,7 +7,7 @@ public class SwapArray {
 	public static void main(String[] args) {
 
 		// Method 1
-		int a1[] = { 1, 2, 3, 5, 4, 6 };
+		int a1[] = { 1, 2, 3, 5, 4, 6 }; // [6, 4, 5, 3, 2, 1]
 		int len = a1.length;
 		int temp;
 		for (int i = 0, j = len - 1; i < len / 2; i++, j--) {
@@ -28,9 +28,7 @@ public class SwapArray {
 			a[i] = a[j - i];
 			a[j - i] = temp1;
 		}
-		/*
-		 * for (int i = 0; i < a.length; i++) { System.out.println(a[i]); }
-		 */
+
 		System.out.println(Arrays.toString(a));
 		// Method 3
 		System.out.println("====");

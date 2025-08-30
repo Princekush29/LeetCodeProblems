@@ -6,7 +6,7 @@ import java.util.Map;
 public class FindMaximumOccurenceOfKNumbers {
 
 	public static void main(String[] args) {
-		int arr[] = { 1, 2, 2, 2, 2, 3, 1, 4, 4, 4, 4 };
+		int arr[] = { 1, 2, 2, 2, 2, 3, 1, 4 };
 		int k = 2; // o/p - 4 and 2
 		findOccurence(arr, k);
 	}
@@ -35,6 +35,5 @@ public class FindMaximumOccurenceOfKNumbers {
 			System.out.println("Number " + maxKey + " is present " + maxValue + " times");
 			hm.remove(maxKey);
 		}
-
 	}
 }

@@ -33,7 +33,7 @@ public class CountDuplicate {
 		System.out.println(Arrays.asList(hm));
 
 		// Method 8
-		System.out.println(Collections.singleton(hm));
+		System.out.println("Coll"+Collections.singleton(hm));
 
 		System.out.println("Method 2");
 		for (Map.Entry<Integer, Integer> hm1 : hm.entrySet()) {

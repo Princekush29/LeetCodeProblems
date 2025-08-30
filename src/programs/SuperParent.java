@@ -9,6 +9,6 @@ public class SuperParent {
 	}
 
 	public void getData() {
-		System.out.println("I am in ChildParent class");
+		System.out.println("I am in child parent class");
 	}
 }

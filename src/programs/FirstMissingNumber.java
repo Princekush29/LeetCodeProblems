@@ -9,7 +9,6 @@ public class FirstMissingNumber {
 	}
 
 	public static int solution(int[] A) {
-		// Implement your solution here
 		for (int i = 1; i < A.length; i++) {
 			int j;
 			for (j = 0; j < A.length; j++) {

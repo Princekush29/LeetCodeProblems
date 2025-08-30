@@ -4,7 +4,6 @@ public class ThisKeyword {
 	public static void main(String[] args) {
 		A a = new A(10);
 	}
-
 }
 
 class A {

@@ -3,8 +3,8 @@ package programs;
 public class SwapVariable {
 
 	public static void main(String[] args) {
-		int a = 20;
-		int b = 10;
+		int a = 0;
+		int b = 0;
 
 		a = a + b; // a=30
 		b = a - b; // b=10
@@ -12,5 +12,8 @@ public class SwapVariable {
 
 		System.out.println(a);
 		System.out.println(b);
+		a = a + b;
+		b = a - b;
+		a = a - b;
 	}
 }
