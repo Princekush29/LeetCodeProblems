@@ -8,7 +8,7 @@ public class ReverseTheNumberInTheString {
 	}
 
 	public static void method1() {
-		String str = "Java 2000 is 2025";
+		String str = "Java 2000 is 2025";//Java 0002 is 5202
 		String newStr = "";
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < str.length(); i++) {

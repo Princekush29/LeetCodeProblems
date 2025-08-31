@@ -3,7 +3,7 @@ package programs;
 public class ReverseStringWithSpace {
 
 	public static void main(String[] args) {
-		String s1 = "I Am Not String";
+		String s1 = "I Am Not String"; //g ni rtS toNmAI
 		char arr[] = new char[s1.length()];
 		int j = s1.length() - 1;
 
