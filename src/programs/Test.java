@@ -3,14 +3,15 @@ package programs;
 public class Test {
 
 	public static void main(String[] args) {
-		int number = 123; // o/p - 321
-		int rem = 0, newNum = 0;
-
-		while (number != 0) {
-			rem = number % 10;
-			newNum = newNum * 10 + rem;
-			number = number / 10;
-		}
-		System.out.println(newNum);
+		String s1 = "123Bangalore456";
+		String s2 = "123Bangalore456";
+		String s3 = "aabbccddee";
+		String s4 = "123Bangalore456";
+		s1 = s1.replaceAll("[a-zA-Z]", "");
+		System.out.println(s1);
+		s2 = s2.replaceAll("[^a-zA-Z]", "");
+		System.out.println(s2);
+		s3=s3.replaceAll("[^aeiouAEIOU]", "");
+		System.out.println(s3);
 	}
 }

@@ -11,24 +11,18 @@ public class ProductOfNumbers {
 		int product = 1;
 		// Method 1
 		int count = 0;
-		for (int i = 0; i < arr.length; i++) {
-			if (i != count) {
-
-			} else {
-				product = product * arr[i];
+		for (int i = 0, j = 0; i < arr.length; j++) {
+			if (i != j) {
+				product = product * arr[j];
 			}
-			arr1[count] = product;
-			count++;
-			product = 1;
-			i = 0;
+			if (j == arr.length - 1) {
+				arr1[count] = product;
+				count++;
+				product = 1;
+				j = -1;
+				i++;
+			}
 		}
 		System.out.println(Arrays.toString(arr1));
-		// Method 2
-
-		/*
-		 * for (int i = 0; i < arr.length; i++) { for (int j = 0; j < arr.length; j++) {
-		 * if (i != j) { product = product * arr[j]; } } arr1[i] = product; product = 1;
-		 * } System.out.println(Arrays.toString(arr1));
-		 */
 	}
 }
