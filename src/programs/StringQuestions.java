@@ -4,6 +4,9 @@ public class StringQuestions {
 	public static void main(String args[]) {
 		System.out.println(".equals will check the value");
 		System.out.println("== will check the address");
+		// below method is used to print
+		String z = "hello";
+		System.out.println(System.identityHashCode(z));
 
 		// Q1
 		String str = "ONE" + 1 + 2 + "TWO" + "THREE" + 3 + 4 + "FOUR" + "FIVE" + 5;
@@ -45,12 +48,13 @@ public class StringQuestions {
 		System.out.println("After s3 point to string constant pool");
 		// if i want s3 to point to String constant pool
 		s3 = new String("abc").intern();
-		System.out.println(s2 == s3);
+		System.out.println(s1 == s3); // true
+		System.out.println(s2 == s3); // true
 
 		System.out.println("---");
-		String a = "Apple";
-		String b = "Apple";
-		String c = new String("Apple");
+		String a = "Apple"; // SCP
+		String b = "Apple"; // SCP
+		String c = new String("Apple"); // Heap memory
 		System.out.println(a == b);
 		System.out.println(a.equals(b));
 
@@ -62,6 +66,5 @@ public class StringQuestions {
 		String str5 = null;
 		System.out.println(str5 + "hello");
 		System.out.println(str5.length());
-
 	}
 }

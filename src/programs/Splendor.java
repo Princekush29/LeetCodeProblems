@@ -13,7 +13,7 @@ class Splendor extends Bike {
 	}
 
 	public static void main(String args[]) {
-		Bike b = new Splendor();// upcasting
+		Bike b = new Splendor(); // upcasting
 		b.run();
 
 	}
