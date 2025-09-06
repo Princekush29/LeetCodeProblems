@@ -5,12 +5,15 @@ import java.util.Arrays;
 public class AllZeroInStartingAndEndInArray {
 
 	public static void main(String[] args) {
-		maintainOrder();
+		//maintainOrder();
+		//zeroFirst();
 		maintainOrder1();
-		//orderNotMaintained();
+		maintainOrder2();
+		// orderNotMaintained();
 	}
 
 	// method 1 - this will maintain the order also
+	// all zero at end
 	public static void maintainOrder() {
 		int newArray[] = { 1, 0, 3, 0, 4, 0, 5, 0, 0, 1, 2, 3 };
 		int insertPos = 0;
@@ -22,13 +25,29 @@ public class AllZeroInStartingAndEndInArray {
 		while (insertPos < newArray.length) {
 			newArray[insertPos++] = 0;
 		}
-		System.out.println("Array is " + Arrays.toString(newArray));
-		System.out.println("Method 0 ends here");
+		System.out.println("Array is (maintainOrder) " + Arrays.toString(newArray));
+
 	}
 
-	// Method 2
+	// method1.1 - maintain order - all zero at the start
+	public static void zeroFirst() {
+		int newArray[] = { 1, 0, 3, 0, 4, 0, 5, 0, 0, 1, 2, 3 };
+		int insertPos = newArray.length - 1;
+
+		for (int i = newArray.length - 1; i >= 0; i--) {
+			if (newArray[i] != 0) {
+				newArray[insertPos--] = newArray[i];
+			}
+		}
+		while (insertPos >= 0) {
+			newArray[insertPos--] = 0;
+		}
+		System.out.println("Array is (zeroFirst) " + Arrays.toString(newArray));
+	}
+
+	// Method 2 - all zero at end
 	public static void maintainOrder1() {
-		int[] arr = { 0, 1, 0, 3, 12 };
+		int[] arr = { 0, 1, 0, 20, 12 };
 		int j = 0;
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] != 0) {
@@ -38,7 +57,22 @@ public class AllZeroInStartingAndEndInArray {
 				j++;
 			}
 		}
-		System.out.println(Arrays.toString(arr));
+		System.out.println("maintainOrder1 "+Arrays.toString(arr));
+	}
+
+	// Method 2.1 - all zero at start
+	public static void maintainOrder2() {
+		int[] arr = { 0, 1, 0, 20, 12 };
+		int j = arr.length - 1;
+		for (int i = arr.length - 1; i >= 0; i--) {
+			if (arr[i] != 0) {
+				int temp = arr[j];
+				arr[j] = arr[i];
+				arr[i] = temp;
+				j--;
+			}
+		}
+		System.out.println("maintainOrder2 "+Arrays.toString(arr));
 	}
 
 	// none of the below method is maintaining the order
@@ -61,7 +95,7 @@ public class AllZeroInStartingAndEndInArray {
 		}
 		System.out.println(Arrays.toString(arr));
 		System.out.println("+++++++");
-		
+
 		// Method2 - this require creation of another array
 		int arr1[] = { 1, 2, 3, 0, 1, 0, 2, 4, 0, 9, 0 };
 		int count = 0;

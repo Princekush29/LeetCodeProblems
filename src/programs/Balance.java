@@ -9,7 +9,7 @@ public class Balance {
 		if (verifyBalanceString(balanceString)) {
 			System.out.println("Balance");
 		} else {
-			System.out.println("NOT BALANCE");
+			System.out.println("Not Balance");
 		}
 	}
 

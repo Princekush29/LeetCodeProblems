@@ -30,8 +30,9 @@ class PrintMap {
 			System.out.println("Value " + value);
 		}
 		// Method5
-		System.out.println(Arrays.asList(tm)); // method 1
+		System.out.println(Arrays.asList(tm));
+		
 		// Method6
-		System.out.println(Collections.singletonList(tm)); // method 2
+		System.out.println(Collections.singletonList(tm));
 	}
 }

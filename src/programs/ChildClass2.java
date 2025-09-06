@@ -11,6 +11,9 @@ public class ChildClass2 extends ChildClass {
 		test2();
 	}
 
+	/*public static void test() {
+		System.out.println("Inside Test : childclass2");
+	}*/
 	public static void test2() {
 		System.out.println("Inside Test2");
 		cc.test3();

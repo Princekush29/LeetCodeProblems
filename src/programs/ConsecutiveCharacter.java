@@ -8,7 +8,7 @@ public class ConsecutiveCharacter {
 	public static void main(String[] args) {
 
 		String str = "geekksforgggeeeeks";
-		// O/p = ee, kk, ggg,ee
+		// O/p = [ee, kk, ggg, eeee]
 		System.out.println(consecutiveChar(str));
 	}
 
