@@ -6,7 +6,7 @@ Your task
 	 */
 
 //o/p - Indices of element greater than their neighboring element - 1 & 3
-package programs;
+package leetCode;
 
 public class PeakIndexMountainArray852 {
 
