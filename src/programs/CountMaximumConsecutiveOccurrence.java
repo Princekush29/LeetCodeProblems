@@ -19,7 +19,7 @@ public class CountMaximumConsecutiveOccurrence {
 				newCount = count;
 			}
 
-			newCount = Math.max(count, newCount);
+			//newCount = Math.max(count, newCount);
 		}
 		System.out.println(newCount);
 

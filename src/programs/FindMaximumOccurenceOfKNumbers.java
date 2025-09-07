@@ -7,7 +7,10 @@ public class FindMaximumOccurenceOfKNumbers {
 
 	public static void main(String[] args) {
 		int arr[] = { 1, 2, 2, 2, 2, 3, 1, 4 };
-		int k = 2; // o/p - 4 and 2
+		int k = 2;
+		// Number 2 is present 4 times
+        // Number 1 is present 2 times
+
 		findOccurence(arr, k);
 	}
 

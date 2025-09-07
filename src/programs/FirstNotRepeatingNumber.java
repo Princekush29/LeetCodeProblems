@@ -7,7 +7,7 @@ class FirstNotRepeatingNumber {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 9, 4, 9, 6, 5, 7, 4 };
+		int arr[] = { 9, 4, 9, 6, 5, 7, 4 }; //o/p=6
 		int n = arr.length;
 
 		System.out.println(firstNonRepeating(arr, n));

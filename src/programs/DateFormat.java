@@ -22,5 +22,15 @@ public class DateFormat {
 		System.out.println(sdf3.format(c.getTime()));
 		int month = c.get(Calendar.DAY_OF_MONTH);
 		System.out.println(month);
+
+		Date d4 = new Date();
+		System.out.println(d4);
+		SimpleDateFormat sdf1 = new SimpleDateFormat("MM/dd/yyyy");
+		SimpleDateFormat sd1 = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss");
+		System.out.println(sdf1.format(d));
+		System.out.println(sd.format(d));
+		System.out.println("+++");
+		Calendar c2 = Calendar.getInstance();
+		System.out.println(c2);
 	}
 }

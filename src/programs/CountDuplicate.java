@@ -14,8 +14,7 @@ public class CountDuplicate {
 
 	public static void main(String[] args) {
 		int arr[] = { 10, 20, 25, 30, 25, 25, 35, 40, 40 };
-		int size;
-		size = arr.length;
+		int size=arr.length;
 		System.out.println(size);
 
 		Map<Integer, Integer> hm = new HashMap<Integer, Integer>();

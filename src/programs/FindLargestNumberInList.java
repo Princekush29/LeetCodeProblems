@@ -8,14 +8,12 @@ public class FindLargestNumberInList {
 	public static void main(String[] args) {
 		// Method 1
 		int arr[] = { 1, 2, 7, 6, 5, 4 };
-		int max = 0, newMax = 0;
+		int max = Integer.MIN_VALUE;
 		for (int i = 0; i < arr.length - 1; i++) {
-			if (arr[i] > arr[i + 1])
+			if (arr[i] > max)
 				max = arr[i];
-			if (max > newMax)
-				newMax = max;
 		}
-		System.out.println(newMax);
+		System.out.println(max);
 
 		// Method2
 		ArrayList<Integer> al = new ArrayList<Integer>();

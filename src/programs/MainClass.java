@@ -8,7 +8,7 @@ class First {
 
 public class MainClass {
 	public static void main(String[] args) {
-		First first = null;
+		
 		First.staticMethod();
 	}
 }

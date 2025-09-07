@@ -8,7 +8,6 @@ class LongestSubstringWithoutRepeating {
 	public static void main(String[] args) {
 		String s = "pwwakew";
 		System.out.println(lengthOfLongestSubstring(s));
-		// System.out.println(lengthOfLongestSubString(s));
 	}
 
 	public static int lengthOfLongestSubstring(String s) {
@@ -36,22 +35,3 @@ class LongestSubstringWithoutRepeating {
 		return maxlength;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
