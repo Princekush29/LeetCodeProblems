@@ -12,8 +12,8 @@ public class CommonElementsInArrays {
 
 	public static void main(String[] args) {
 
-		Integer[] a1 = { 1, 2, 3, 6, 2, 1 };
-		Integer[] a2 = { 1, 2, 6, 3 };
+		Integer[] a1 = { 1, 2, 3, 6,5, 2, 1 };
+		Integer[] a2 = { 1, 2, 6,5, 3 };
 		Integer[] a3 = { 1, 2, 3, 4, 6 };
 		commonElement(a1, a2, a3);
 		System.out.println(commonElement1(a1, a2, a3));
@@ -29,6 +29,7 @@ public class CommonElementsInArrays {
 				hm.put(a1[i], 1);
 			}
 		}
+		System.out.println(hm);
 		// s.removeAll(s);
 		for (int i = 0; i < a2.length; i++) {
 			if (hm.containsKey(a2[i])) {

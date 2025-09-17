@@ -17,6 +17,6 @@ public class TestingThoughtWorks {
 			newArr[arr[i] - 0]++;
 		}
 		System.out.println(Arrays.toString(newArr));
-    	return false;
+		return false;
 	}
 }

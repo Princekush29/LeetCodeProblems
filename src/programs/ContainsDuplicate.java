@@ -11,11 +11,10 @@ public class ContainsDuplicate {
 
 		int arr[] = { 1, 2, 3, 3, 4, 5 };
 		int count = 0;
-		// Method 0
+		// Method 0 - one for loop
 		int arr1[] = { 1, 2, 3, 4, 5 };
 		int count1 = 0;
 
-		// Method 0 - one for loop
 		for (int i = 0, j = 0; j < arr1.length; j++) {
 			if (i != j && arr1[i] == arr1[j]) {
 				count1 = 1;

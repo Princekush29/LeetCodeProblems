@@ -18,9 +18,12 @@ public class SortHashMap {
 		hm.put("Date", 20);
 
 		System.out.println(hm);
+		
+		//treemap will sort as per key
 		Map<String, Integer> tm = new TreeMap<String, Integer>(hm);
 		System.out.println(tm);
 
+		//sorting as per value
 		List<Map.Entry<String, Integer>> entry = new ArrayList(hm.entrySet());
 
 		Collections.sort(entry, new Comparator<Map.Entry<String, Integer>>() {

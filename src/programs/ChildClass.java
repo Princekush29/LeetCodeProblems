@@ -7,11 +7,9 @@ public class ChildClass {
 
 	public static void main(String[] args) {
 		int a;
-
 	}
 
 	public static void test() {
 		System.out.println("Inside test");
 	}
-
 }

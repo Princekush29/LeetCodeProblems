@@ -6,10 +6,15 @@ public class Regex {
 
 		String s = "123Bangalore456";
 		s = s.replaceAll("[a-zA-Z]", "");
-		System.out.println(s);
+		System.out.println("S is " + s);
 
-		s = s.replaceAll("[A-Za-z]", "");
-		System.out.println(s);
+		String s2 = "123Bangalore456";
+		s2 = s2.replaceAll("[A-Za-z]", "");
+		System.out.println("S2 is " + s2);
+
+		String s3 = "123Bangalore456";
+		s3 = s3.replaceAll("[0-9]", "");
+		System.out.println("s3 is " + s3);
 
 		String str = "aabbccddee";
 		str = str.replaceAll("[aeiouAEIOU]", "");

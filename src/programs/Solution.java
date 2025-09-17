@@ -1,7 +1,7 @@
 package programs;
 
 class Test12 {
-	int i;
+	int i=9;
 }
 
 public class Solution {

@@ -1,6 +1,6 @@
 package programs;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class RemoveDuplicateFromArray {
@@ -8,9 +8,9 @@ public class RemoveDuplicateFromArray {
 	public static void main(String[] args) {
 
 		int arr[] = { 10, 20, 30, 35, 12, 18, 19, 10, 19 };
-		// Example output: {30,65,30,19}
+		// Example output: {20, 30, 35, 12, 18}
 		// Method1
-		Map<Integer, Integer> hm = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> hm = new LinkedHashMap<Integer, Integer>();
 
 		for (int i = 0; i < arr.length; i++) {
 			if (hm.containsKey(arr[i])) {

@@ -2,7 +2,7 @@ package programs;
 
 public class PlusOne {
 	public static void main(String[] args) {
-		int arr[] = { 9, 9 };
+		int arr[] = { 1, 9, 9 }; //100
 		// System.out.println(plusOne(arr));
 		int[] storage = plusOne(arr);
 

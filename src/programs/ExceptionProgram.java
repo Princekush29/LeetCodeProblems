@@ -1,6 +1,6 @@
 package programs;
 
-public class ExceptionProgram {
+class ExceptionProgram {
 
 	public static void main(String[] args) {
 
