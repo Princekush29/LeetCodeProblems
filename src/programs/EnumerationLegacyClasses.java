@@ -15,5 +15,15 @@ public class EnumerationLegacyClasses {
 		while (members.hasMoreElements()) {
 			System.out.println(members.nextElement());
 		}
+
+		Vector<String> team1 = new Vector<>();
+		team.add("Hello");
+		team.add("Bye");
+		team.add("Hi");
+
+		Enumeration<String> members1 = team.elements();
+		while (members.hasMoreElements()) {
+			System.out.println(members.nextElement());
+		}
 	}
 }

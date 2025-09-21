@@ -48,7 +48,7 @@ public class StringQuestions {
 		System.out.println("After s3 point to string constant pool");
 		// if i want s3 to point to String constant pool
 		s3 = new String("abc").intern();
-		System.out.println(s1 == s3); 
+		System.out.println(s1 == s3);
 		System.out.println(s2 == s3);
 
 		System.out.println("---");
@@ -66,5 +66,34 @@ public class StringQuestions {
 		String str5 = null;
 		System.out.println(str5 + "hello");
 		System.out.println(str5.length());
+
+		// Q5
+		System.out.println("----Q5----");
+		String s11 = "abc";
+		StringBuffer s22 = new StringBuffer(s11);
+		System.out.println(s11.equals(s22));
+		System.out.println(s11.equals(s22.toString()));
+
+		/*
+		 * Why s1.equals(s2) returns false: - s1 is a String - s2 is a StringBuffer Even
+		 * though they contain the same characters ("abc"), they are different types,
+		 * and String.equals(Object) checks: - Type compatibility - Character sequence
+		 * equality. Since s2 is not a String, the equals method in String returns false
+		 * immediately without checking contents.
+		 */
+
+		String str11 = "Hello";
+		str11 += " World!";
+		System.out.println("String 11 is " + str11.length());
+
+		String str22 = "Java";
+		str22.concat(" Programming");
+		System.out.println("String 22 is " + str22);
+
+		String str111 = "Java";
+		String str222 = "Java";
+		String str333 = new String("Java");
+
+		System.out.println(str111.equals(str222) && str111.equals(str333));
 	}
 }
