@@ -1,0 +1,20 @@
+Programming Question 62 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+
+	public static void main(String[] args) {
+
+		int ++a = 100;
+		System.out.println(++a);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+101
+Compile time error
+100
+None

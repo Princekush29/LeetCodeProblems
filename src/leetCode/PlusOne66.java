@@ -3,7 +3,7 @@ package leetCode;
 public class PlusOne66 {
 
 	public static void main(String[] args) {
-		int digits[] = {9,9 };
+		int digits[] = { 9, 9 };
 		int[] storage = plusOne(digits);
 		for (int i = 0; i < storage.length; i++)
 			System.out.print(storage[i] + " ");

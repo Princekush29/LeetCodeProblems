@@ -21,7 +21,7 @@ public class CheckWordEqualsSummationTwoWords1880 {
 		int number = 0;
 		for (int i = 0; i < s.length(); i++) {
 			char c = s.charAt(i);
-			System.out.println(c-97);
+			System.out.println(c - 97);
 			number = (number * 10) + (c - 97);
 			System.out.println(number);
 		}

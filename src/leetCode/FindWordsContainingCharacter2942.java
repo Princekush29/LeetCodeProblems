@@ -1,4 +1,5 @@
 package leetCode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,11 +16,11 @@ public class FindWordsContainingCharacter2942 {
 
 		for (int i = 0; i < words.length; i++) {
 			String s = words[i];
-			String a= x+"";
+			String a = x + "";
 			if (s.contains(a)) {
 				list.add(i);
 			}
-			
+
 		}
 		System.out.println(list);
 		return list;

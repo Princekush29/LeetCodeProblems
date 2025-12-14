@@ -14,7 +14,7 @@ public class MultiplyStrings43 {
 		System.out.println(a);
 		int b = Integer.parseInt(num2);
 		System.out.println(b);
-		Double c = (double) (a*b);
+		Double c = (double) (a * b);
 		return Double.toString(c);
 	}
 }

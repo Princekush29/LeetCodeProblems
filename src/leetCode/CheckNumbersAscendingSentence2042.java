@@ -25,11 +25,11 @@ public class CheckNumbersAscendingSentence2042 {
 			if (newarr[i] != 0)
 				count++;
 		}
-		for (int i = 0; i < count-1; i++) {
+		for (int i = 0; i < count - 1; i++) {
 			if (newarr[i] < newarr[i + 1])
 				newcount++;
 		}
-		if (count-1 == newcount)
+		if (count - 1 == newcount)
 			return true;
 		return false;
 	}

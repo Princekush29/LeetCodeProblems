@@ -2,7 +2,6 @@ package leetCode;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 public class UncommonWordsFromTwoSentences884 {
@@ -29,6 +28,7 @@ public class UncommonWordsFromTwoSentences884 {
 			if (hm1.getValue() == 1)
 				al.add(hm1.getKey());
 		}
+		System.out.println(al);
 		String s[] = new String[al.size()];
 		for (int i = 0; i < al.size(); i++) {
 			s[i] = al.get(i);

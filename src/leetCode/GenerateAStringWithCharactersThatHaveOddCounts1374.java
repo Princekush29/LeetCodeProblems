@@ -13,9 +13,9 @@ public class GenerateAStringWithCharactersThatHaveOddCounts1374 {
 				str = str + "a";
 			}
 			str = str + "b";
-		}else {
-			while(n!=0) {
-				str=str+"a";
+		} else {
+			while (n != 0) {
+				str = str + "a";
 				n--;
 			}
 		}

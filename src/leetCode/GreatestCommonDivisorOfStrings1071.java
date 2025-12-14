@@ -19,7 +19,7 @@ public class GreatestCommonDivisorOfStrings1071 {
 			}
 			common = str1.charAt(0) + common;
 		}
-		
+
 		return "a";
 
 	}

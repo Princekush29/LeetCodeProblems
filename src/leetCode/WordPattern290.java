@@ -13,9 +13,9 @@ public class WordPattern290 {
 	public static boolean wordPattern(String pattern, String s) {
 
 		String words[] = s.split(" ");
-		if(pattern.length()!=words.length) 
-		return false;
-		
+		if (pattern.length() != words.length)
+			return false;
+
 		Map<Character, String> charToWord = new HashMap<Character, String>();
 		Map<String, Character> wordToChar = new HashMap<String, Character>();
 
@@ -32,7 +32,6 @@ public class WordPattern290 {
 			if (!charToWord.get(c).equals(word) || !wordToChar.get(word).equals(c)) {
 				return false;
 			}
-
 		}
 		return true;
 	}

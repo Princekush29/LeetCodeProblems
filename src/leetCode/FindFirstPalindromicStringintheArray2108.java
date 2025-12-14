@@ -16,8 +16,8 @@ public class FindFirstPalindromicStringintheArray2108 {
 					break;
 				}
 				if (k == len / 2)
-				return words[i];
-				
+					return words[i];
+
 			}
 		}
 		return "";

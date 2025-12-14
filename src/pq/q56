@@ -1,0 +1,27 @@
+Question 56 What is the Same Origin Policy?
+
+#interviewquestions #interviewtips
+
+👉 The Same Origin Policy is like a rule that web browsers follow to keep you safe while browsing the internet. 
+
+👉 It says that a website can only do certain things with other websites if they are from the same "neighborhood".
+
+👉 This neighborhood is determined by the domain (the main part of a website's address), the port (a number that helps identify the website), and the protocol (like "http://" or "https://").
+
+👉 So, let's say you're visiting a website called "google.com" that has some scripts running.
+
+👉 The Same Origin Policy makes sure that those scripts can only access and change things on "google.com" itself. They can't mess around with other websites or access their private information. This helps protect you from potentially harmful or malicious actions.
+
+👉 This policy is important because it keeps the different parts of the internet separate and secure.
+
+👉 It makes sure that a website you visit can't tamper with other websites or steal your sensitive data from them.
+
+👉 So, next time you browse the web, remember that the Same Origin Policy is working behind the scenes to keep you safe!
+
+Share your view in the Comment section 😍
+
+What is the abbreviation of SOP
+Single Origin Policy
+Same Object Policy
+Same Origin Process
+Same Origin Policy

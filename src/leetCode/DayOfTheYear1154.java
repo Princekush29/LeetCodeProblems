@@ -16,9 +16,9 @@ public class DayOfTheYear1154 {
 		int day = Integer.parseInt(date.substring(8, 10));
 
 		int count = 0;
-		for (int i = 0; i < month - 1; i++) 
+		for (int i = 0; i < month - 1; i++)
 			count = count + monthDays[i];
-		
+
 		if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
 			if (month > 2)
 				return count + day + 1;

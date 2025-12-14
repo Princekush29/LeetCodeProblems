@@ -16,7 +16,7 @@ public class ReverseWordsInAStringIII557 {
 			for (int j = ss.length() - 1; j >= 0; j--) {
 				newStr = newStr + ss.charAt(j);
 			}
-			sentence = sentence + newStr +" ";
+			sentence = sentence + newStr + " ";
 		}
 		return sentence.trim();
 	}

@@ -15,14 +15,14 @@ public class ThousandSeparator1556 {
 		System.out.println(s);
 		for (int i = s.length() - 1; i >= 0; i--) {
 			if (count % 3 == 0 && count != 0) {
-				sb.append("."+s.charAt(i));
+				sb.append("." + s.charAt(i));
 				count++;
 			} else {
 				sb.append(s.charAt(i));
 				count++;
 			}
 		}
-		//sb.reverse();
+		// sb.reverse();
 		return String.valueOf(sb.reverse());
 	}
 }

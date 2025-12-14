@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class FairCandySwap888 {
 
 	public static void main(String[] args) {
-		int aliceSizes[] = { 1,1 }, bobSizes[] = { 2,2 };
+		int aliceSizes[] = { 1, 1 }, bobSizes[] = { 2, 2 };
 		System.out.println(fairCandySwap(aliceSizes, bobSizes));
 	}
 
@@ -34,13 +34,13 @@ public class FairCandySwap888 {
 					n[1] = bobSizes[j];
 					System.out.println(Arrays.toString(n));
 					return n;
-					
+
 				}
 				alicesSum = alicesSum + temp - bobSizes[j];
 				bobSum = bobSum + bobSizes[j] - temp;
 			}
 		}
-		
+
 		return n;
 	}
 }

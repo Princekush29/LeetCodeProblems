@@ -1,0 +1,21 @@
+Programming Question 22 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+
+	public static void main(String[] args) {
+		String str1 = "Hello";
+		String str2 = new String("Hello");
+		System.out.println(str1 == str2);
+
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+true
+false
+Compile error
+Runtime error

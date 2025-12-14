@@ -1,0 +1,40 @@
+Programming Question 45 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+import java.util.Hashtable;
+
+public class Testing {
+	int hashcode;
+
+	Testing(int hashcode) {
+		this.hashcode = hashcode;
+	}
+
+	public int hashCode() {
+		return hashcode;
+	}
+
+	public String toString() {
+		return hashcode + " ";
+	}
+
+	public static void main(String[] args) {
+		Hashtable ht = new Hashtable();
+
+		ht.put(new Testing(10), "Java");
+		ht.put(new Testing(3), "C");
+		ht.put(new Testing(6), "null");
+
+		System.out.println(ht);
+	}
+}
+
+
+Share your view in Comment section 😍
+
+Output is?
+{10 =Java, 6 =null, 3 =C}
+{10 =Java, 3 =C, 6 =null}
+{6 =null, 3 =C, 10 =Java}
+None of these

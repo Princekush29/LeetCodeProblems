@@ -16,7 +16,7 @@ public class FindThePeaks2951 {
 			if (mountain[i] > mountain[i - 1] && mountain[i] > mountain[i + 1])
 				list.add(i);
 		}
-		
+
 		return list;
 
 	}

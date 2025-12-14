@@ -1,0 +1,19 @@
+Programming Question 96 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class Testing {
+	public static void main(String args[]) {
+
+		boolean isJavaFun = true;
+		System.out.println(!isJavaFun);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+true
+null
+error
+false

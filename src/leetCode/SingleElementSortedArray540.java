@@ -19,6 +19,6 @@ public class SingleElementSortedArray540 {
 			else
 				i++;
 		}
-		return nums[nums.length-1];
+		return nums[nums.length - 1];
 	}
 }

@@ -1,0 +1,18 @@
+Programming Question 91 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+	public static void main(String[] args) {
+		int a = 10;
+		float f = a;
+		System.out.println(a);
+		System.out.println(f);
+	}
+}
+
+Output is?
+10 10.0
+10.0 10
+Compile time error
+Runtime exception

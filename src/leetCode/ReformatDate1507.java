@@ -48,7 +48,7 @@ public class ReformatDate1507 {
 		case "Dec":
 			month = "12";
 			break;
-			
+
 		}
 		String newDate = "";
 

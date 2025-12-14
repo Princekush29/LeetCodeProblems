@@ -20,25 +20,11 @@ public class MaximumAverageSubarrayI643 {
 
 		return (double) maxSum / 4;
 		/*
-		 * if (nums.length == 1 && k == 1)
-			return nums[0];
-		int count = 0, newCount = 0;
-		double sum = 0;
-		double avg = 0, finalSum = -10001;
-		for (int i = 0; newCount < nums.length - k + 1; i++) {
-			if (count < k) {
-				sum = sum + nums[i];
-				count++;
-			} else {
-				avg = sum / k;
-				if (finalSum < avg)
-					finalSum = avg;
-				i = i - k;
-				newCount++;
-				sum = 0;
-				count = 0;
-			}
-		}
-		return finalSum;*/
+		 * if (nums.length == 1 && k == 1) return nums[0]; int count = 0, newCount = 0;
+		 * double sum = 0; double avg = 0, finalSum = -10001; for (int i = 0; newCount <
+		 * nums.length - k + 1; i++) { if (count < k) { sum = sum + nums[i]; count++; }
+		 * else { avg = sum / k; if (finalSum < avg) finalSum = avg; i = i - k;
+		 * newCount++; sum = 0; count = 0; } } return finalSum;
+		 */
 	}
 }

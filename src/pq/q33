@@ -1,0 +1,64 @@
+Question 33 How do scroll down a page to the bottom and top using JavaScript?
+
+#interviewquestions #interviewtips
+
+👉 How do I scroll down to the page’s bottom using Selenium?
+
+In Selenium, you can use the JavaScript Executor to scroll down to the bottom of a web page. You can use the “scrollTo” method to scroll to the bottom of the page. The following code snippet shows an example of how to scroll down to the bottom of a web page using Selenium in Java.
+
+✔ Syntax
+JavaScriptexecutor js = (JavascriptExecutor) driver;
+js.executeScript(“window.scrollTo(0, document.body.scrollHeight)”);
+
+In the above example, the JavaScript Executor is first cast to a JavascriptExecutor object and then the “executeScript” method is used to execute a JavaScript code. The JavaScript code passed to the “executeScript” method is “window.scrollTo(0, document.body.scrollHeight)”, which scrolls the page to the bottom.
+
+👉 How do you Scroll to the top of the page in Selenium?
+
+✔ Syntax
+JavaScriptexecutor js = (JavascriptExecutor) driver;
+js.executeScript(“window.scrollTo(document.body.scrollHeight,0)”);
+
+Share your view in the Comment section 😍
+
+Do you use scroll down in your automation framework?
+Yes
+No
+I am new to Selenium
+--------------
+How do I scroll based on the visibility of the Web element on the page in Selenium?
+
+Before you perform scroll operations in selenium, it is necessary that the corresponding web element is present under DOM.
+
+ScrollIntoView() method will help you to scroll to the desired element.
+
+The scrollIntoView() method is a JavaScript method that can be used to scroll an HTML element into the viewport. When called on an element, it will scroll the element’s parent container so that the element becomes visible in the viewport.
+
+JavascriptExecutor js = (JavascriptExecutor) driver;
+js.executeScript(“arguments[0].scrollIntoView();”, webElement);
+
+
+How does Selenium scroll a webpage both horizontally and vertically?
+
+In Selenium, you can use the JavaScript Executor to scroll a web page both horizontally and vertically. However, the JavaScript Executor does not have the method to scroll a web page both horizontally and vertically. It has the method “scrollBy” and “scrollTo” which can scroll the page horizontally or vertically.
+
+In order to scroll the page both horizontally and vertically, you need to use the “scrollBy” method twice in a row, once for horizontal scrolling and once for vertical scrolling. Here is an example of how to use the “scrollBy” method to scroll a web page both horizontally and vertically in Selenium: 
+
+JavaScriptexecutor js = (JavascriptExecutor) driver;
+js.executeScript(“window.scrollBy(3000,0)”); //Horizontal scroll</p>
+js.executeScript(“window.scrollBy(0,3000)”); //Vertical Scroll
+
+
+
+How do you scroll down a page by specified pixels in Selenium?
+With the help of JavaScriptExecutor, you can scroll to a particular point by specifying the exact pixel or coordinates of the object. This can be achieved by using the ‘ScrollBy’ function.in JavaScript. 
+
+js.executeScript(“window.scrollTo(0, 3000)”);
+
+How do I scroll down using sendKeys in selenium?
+In Selenium, you can use the sendKeys() method to simulate key presses, including the “Page Down” key. To scroll down using sendKeys(), you can use the following code:
+
+Actions action = new Actions(driver);
+action.sendKeys(Keys.PAGE_DOWN).build().perform();
+
+This will simulate a “Page Down” key press on the element, which will scroll the element down.
+

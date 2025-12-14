@@ -1,0 +1,22 @@
+Programming Question 28 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+
+	public static void main(String[] args) {
+		  int i = 0;
+	        do {
+	            System.out.print(i + " ");
+	            i++;
+	        } while (i < 5);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+0 1 2 3 4 
+0 1 2 3 4 5 
+1 2 3 4 5 
+Compile time error

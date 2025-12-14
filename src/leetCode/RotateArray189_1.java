@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class RotateArray189_1 {
 
 	public static void main(String[] args) {
-		int nums[] = { 1,2 };
+		int nums[] = { 1, 2 };
 		int k = 3;
 		// output - [5,6,7,1,2,3,4]
 		// output - [4, 5, 1, 2, 3]
@@ -19,7 +19,7 @@ public class RotateArray189_1 {
 		if (nums.length < k) {
 			k = k % nums.length;
 		}
-		System.out.println("K is "+k);
+		System.out.println("K is " + k);
 
 		// Find the ending suffix part
 		// This needs to be copied and pasted into the beginning later

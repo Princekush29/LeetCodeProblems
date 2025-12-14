@@ -1,0 +1,19 @@
+Question 58 What is the use of build() and perform() in Actions?
+
+#interviewquestions #interviewtips
+
+👨💻 build() method in Actions class is use to create chain of action or operation you want to perform.
+👨💻 build() is included in perform(), you can see it in the source code
+public void perform() {
+    build().perform();
+}
+
+👨💻 perform() this method in Actions Class is use to execute chain of action which are build using Action build method.
+
+Share your view in the Comment section 😍
+
+Which action you use from Actions class in your framework?
+contextClick()
+doubleClick()
+dragAndDrop()
+Other, Please comment

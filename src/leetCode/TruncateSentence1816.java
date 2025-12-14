@@ -10,6 +10,12 @@ public class TruncateSentence1816 {
 	}
 
 	public static String truncateSentence(String s, int k) {
+		// Method 0
+		/*
+		 * String arr[]=s.split(" "); String newStr1=""; for(int i=0;i<k;i++) {
+		 * newStr1=newStr1+arr[i] +" "; } return newStr1.trim();
+		 */
+
 		// Method1
 		int count = 0;
 		String newStr = "";
@@ -22,13 +28,12 @@ public class TruncateSentence1816 {
 
 		// Method2
 		StringBuilder sb = new StringBuilder();
-		String arr[] = s.split(" ");
+		String arr2[] = s.split(" ");
 		for (int i = 0; i < k; i++) {
-			sb = sb.append(arr[i]);
-			if (!(i == k - 1))
-				sb = sb.append(" ");
+			sb = sb.append(arr2[i]);
+			sb = sb.append(" ");
 		}
 
-		return sb.toString();
+		return sb.toString().trim();
 	}
 }

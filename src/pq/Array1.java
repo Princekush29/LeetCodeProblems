@@ -4,13 +4,13 @@ import java.util.Arrays;
 
 public class Array1 {
 	public static void main(String[] args) {
-		String[] nums = new String[] { "1", "9", "10","1000" };
+		String[] nums = new String[] { "1", "9", "10" };
 		Arrays.sort(nums);
 		System.out.println(Arrays.toString(nums));
 
 		/*
 		 * You're sorting a String[] array, which means the elements are sorted
-		 * lexicographically (dictionary order), not numerically. So "10" comes before "9" because "1" is
+		 * lexicographically, not numerically. So "10" comes before "9" because "1" is
 		 * less than "9" in character comparison.
 		 */
 

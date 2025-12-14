@@ -7,23 +7,15 @@ public class ValidPalindrome125 {
 	}
 
 	public static boolean isPalindrome(String s) {
-		String small = s.toLowerCase();
-		String newStr = "";
-		String newStr2 = "";
-		for (int i = 0; i < small.length(); i++) {
-			char c = small.charAt(i);
-			if (c > 96 && c < 123 || c > 47 && c < 58) {
-				newStr = newStr + c;
-			}
+		// use regular expression
+		String small = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
+
+		for (int i = 0, j = small.length() - 1; i < j; i++, j--) {
+			if (small.charAt(i) != small.charAt(j))
+				return false;
 
 		}
-		for (int i = newStr.length() - 1; i >= 0; i--) {
-			newStr2 = newStr2 + newStr.charAt(i);
-		}
-		if (newStr.equals(newStr2))
-			return true;
-		else
-			return false;
+		return true;
 	}
 
 }

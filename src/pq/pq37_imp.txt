@@ -1,0 +1,34 @@
+Programming Question 37 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class One{
+	public One(){
+		System.out.print("One,");
+	}
+}
+class Two extends One{
+	public Two(){
+		System.out.print("Two,");
+	}
+}
+class Three extends Two{
+	public Three(){
+		System.out.print("Three");
+	}
+}
+
+public class Testing{
+
+	public static void main(String[] args){
+		Three three = new Three();
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+Three
+One
+One,Two,Three
+Compile-time error

@@ -1,0 +1,18 @@
+Programming Question 89 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class Testing {
+	public static void main(String[] args) {
+		String s = null;
+		System.out.println(s.length());
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+1
+0
+Compile time error
+Null pointer exception

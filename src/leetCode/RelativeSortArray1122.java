@@ -10,6 +10,6 @@ public class RelativeSortArray1122 {
 
 	public static int[] relativeSortArray(int[] arr1, int[] arr2) {
 		return arr2;
-		
+
 	}
 }

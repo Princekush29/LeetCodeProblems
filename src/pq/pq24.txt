@@ -1,0 +1,25 @@
+Programming Question 24 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+	public static void main(String[] args) {
+		String regex = "\\d+";
+		String input = "1234";
+
+		Pattern pattern = Pattern.compile(regex);
+		Matcher matcher = pattern.matcher(input);
+
+		while (matcher.find()) {
+			System.out.print(matcher.group() + " ");
+		}
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+1 
+1234 
+123456789 
+Compile-time error

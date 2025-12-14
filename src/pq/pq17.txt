@@ -1,0 +1,21 @@
+Programming Question 17 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+
+	public static void main(String[] args) {
+		int x = 10;
+        int y = 5;
+        int z = (x > y) ? x : y;
+        System.out.println(z);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is ?
+10
+5
+15
+compilation error

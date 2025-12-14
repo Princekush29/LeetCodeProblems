@@ -12,7 +12,7 @@ public class GoatLatin824 {
 
 	public static String toGoatLatin(String sentence) {
 		// Method 1
-		//sentence.replaceAll("[aeiouAEIOU]", "");
+		// sentence.replaceAll("[aeiouAEIOU]", "");
 		String newStr = "";
 		String vowels = "aeiouAEIOU";
 		ArrayList<Character> al = new ArrayList<Character>();

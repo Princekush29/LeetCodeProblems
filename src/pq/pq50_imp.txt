@@ -1,0 +1,28 @@
+Programming Question 49 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class Math {
+    public final double secret = 2;
+}
+
+class ComplexMath extends Math {
+    public final double secret = 4;
+}
+
+public class InfiniteMath extends ComplexMath {
+    public final double secret = 8;
+
+    public static void main(String[] numbers) {
+        Math math = new InfiniteMath();
+        System.out.print(math.secret);
+    }
+}
+
+Share your view in Comment section 😍
+
+Output is?
+2.0
+4.0
+8.0
+The code does not compile

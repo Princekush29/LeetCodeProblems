@@ -21,15 +21,15 @@ public class LatestTimeReplacingHiddenDigits1736 {
 			newStr = newStr + "23";
 		if (time.charAt(0) == '?' && i1 <= 3 && i1 >= 0)
 			newStr = newStr + "2" + time.charAt(1);
-		
+
 		if (time.charAt(0) == '?' && i1 <= 9 && i1 >= 4)
 			newStr = newStr + "1" + time.charAt(1);
-		
+
 		if ((i0 == 1 || i0 == 0) && time.charAt(1) == '?')
 			newStr = newStr + time.charAt(0) + "9";
-		
+
 		newStr = newStr + ":";
-		
+
 		int i3 = Character.getNumericValue(time.charAt(3));
 		int i4 = Character.getNumericValue(time.charAt(4));
 

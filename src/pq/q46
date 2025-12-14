@@ -1,0 +1,22 @@
+Question 46 Define the Vector in java?
+
+#interviewquestions #interviewtips
+
+👨💻 Vector
+
+👉 Vector is like the dynamic array which can grow or shrink its size. 
+👉 Unlike array, we can store n-number of elements in it as there is no size limit.
+👉 It is a part of Java Collection framework since Java 1.2.
+👉 It is found in the java.util package and implements the List interface, so we can use all the methods of List interface here.
+👉 It is recommended to use the Vector class in the thread-safe implementation only. If you don't need to use the thread-safe implementation, you should use the ArrayList, the ArrayList will perform better in such case.
+👉 It is similar to ArrayList. 
+👉 However, it is synchronized and contains many methods that are not the part of Collection framework.
+👉 The Iterators returned by the Vector class are fail-fast. In case of concurrent modification, it fails and throws the ConcurrentModificationException.
+
+Share your view in the Comment section 😍
+
+Which statement is true about Vector?
+Synchronized
+Dynamic ArrayList
+Implement List Interface
+All of the above

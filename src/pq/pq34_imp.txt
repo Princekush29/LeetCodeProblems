@@ -1,0 +1,32 @@
+Programming Question 34 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class Demo{
+	//constructor
+	public Demo(int i){
+		System.out.println("int");
+	}
+
+	//method
+	public void Demo(short s){ 
+		System.out.println("short");
+	}
+}
+
+public class Testing{
+
+	public static void main(String[] args){
+		short s = 10;
+		Demo demo = new Demo(s);
+	}
+}
+
+
+Share your view in Comment section 😍
+
+Output is?
+int 
+short
+Runtime error
+Compile-time error

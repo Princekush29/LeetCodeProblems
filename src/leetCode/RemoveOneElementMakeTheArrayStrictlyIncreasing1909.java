@@ -16,7 +16,7 @@ public class RemoveOneElementMakeTheArrayStrictlyIncreasing1909 {
 				if (nums[i - 1] > nums[i + 1])
 					return false;
 			}
-			
+
 		}
 		System.out.println(count);
 		if (count == 1)

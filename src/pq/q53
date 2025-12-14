@@ -1,0 +1,19 @@
+Question 53 Explain the difference between single(/) and double slash (//) in X-path?
+
+#interviewquestions #interviewtips
+
+👨💻 Single slash:
+👉 Single slash ( / ) start selection from the document node.
+👉 It allows you to create ‘absolute’ path expressions.
+
+👨💻 Double Slash:
+👉 Double slash ( // ) start selection matching anywhere in the document.
+👉 It enables to create ‘relative’ path expressions.
+
+Share your view in the Comment section 😍
+
+Which locators you prefer to locate the element?
+id
+xpath
+css
+tagName

@@ -1,0 +1,22 @@
+Programming Question 56 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+
+	public static void main(String[] args) {
+
+		short x = 10;
+        x =  x * 5;
+        System.out.print(x);
+
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+50
+10
+Compile time error
+Runtime time error

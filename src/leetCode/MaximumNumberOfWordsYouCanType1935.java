@@ -12,7 +12,7 @@ public class MaximumNumberOfWordsYouCanType1935 {
 		String words[] = text.split(" ");
 		char[] c = brokenLetters.toCharArray();
 		System.out.println("C length is " + c.length);
-		if(brokenLetters.length()==0)
+		if (brokenLetters.length() == 0)
 			return words.length;
 		for (int i = 0; i < words.length; i++) {
 			String d = words[i];

@@ -1,0 +1,24 @@
+Programming Question 95 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class Testing {
+	public static void main(String args[]) {
+		try {
+			int number = 25 / 5;
+			System.out.println(number);
+		} catch (NullPointerException e) {
+			System.out.println(e);
+		} finally {
+			System.out.println("Finally");
+		}
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+NullPointerException
+5 Finally
+Finally 5
+Compile Time Exception

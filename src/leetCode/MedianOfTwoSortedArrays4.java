@@ -27,7 +27,7 @@ public class MedianOfTwoSortedArrays4 {
 		int len1 = nums3.length / 2;
 		int len2 = nums3.length / 2 - 1;
 		if (nums3.length % 2 == 0) {
-			float f = (float)(nums3[len1] + nums3[len2]) / 2;
+			float f = (float) (nums3[len1] + nums3[len2]) / 2;
 			return f;
 		}
 		int f1 = nums3[nums3.length / 2];

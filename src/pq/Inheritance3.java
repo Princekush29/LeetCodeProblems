@@ -7,7 +7,7 @@ class Parent {
 }
 
 class Child extends Parent {
-	public void className() {
+	void className() {
 		System.out.println("Child");
 	}
 }
