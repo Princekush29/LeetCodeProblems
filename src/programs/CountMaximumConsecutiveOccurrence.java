@@ -19,20 +19,16 @@ public class CountMaximumConsecutiveOccurrence {
 				newCount = count;
 			}
 
-			//newCount = Math.max(count, newCount);
+			// newCount = Math.max(count, newCount);
 		}
 		System.out.println(newCount);
-
+		System.out.println("+++");
 		// count maximum occurrence of any number present in the array
 		int arr[] = { 1, 1, 2, 3, 3, 4, 4, 5, 6, 5, 5, 5, 5, 5, 5 };
 		int number[] = new int[10];
 
 		for (int i = 0; i < arr.length; i++) {
-			/*
-			 * char digit = (char) (arr[i] + '0'); int ascii = (int) (digit);
-			 * System.out.println(ascii); number[ascii - '0']++;
-			 */
-			number[arr[i] - 0]++;
+			number[arr[i]]++;
 		}
 		int highest = number[0], value = 0;
 		System.out.println(Arrays.toString(number));

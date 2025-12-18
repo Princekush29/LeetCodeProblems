@@ -29,5 +29,4 @@ public class ThirdMaximumNumberInUnSortedArray {
 		System.out.println("Third max " + thirdMax);
 
 	}
-
 }

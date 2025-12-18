@@ -2,7 +2,7 @@ package programs;
 
 import java.util.Arrays;
 
-public class AllZeroInStartingAndEndInArray {
+public class AllZeroInStartOrEndInArray {
 
 	public static void main(String[] args) {
 		//maintainOrder();

@@ -21,7 +21,8 @@ public class AdditionOfNumberInAString {
 		for (int i = 0; i < s.length(); i++) {
 			char c = s.charAt(i);
 			if (c >= 48 && c <= 57) {
-				temp1 = temp1 + Character.getNumericValue(c);
+				temp1 = temp1 + c;
+				//temp1 = temp1 + Character.getNumericValue(c);
 			} else {
 				sum1 = sum1 + Integer.parseInt(temp1);
 				temp1 = "0";

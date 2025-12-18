@@ -13,6 +13,7 @@ public class Convert2DArray {
 		System.out.println("Row is " + row);
 		System.out.println("Column is " + column);
 		int arr1[][] = new int[column][row];
+		
 		for (int i = 0; i < row; i++) {
 			for (int j = 0; j < column; j++) {
 				arr1[j][i] = arr[i][j];

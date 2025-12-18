@@ -61,12 +61,6 @@ public class StringQuestions {
 		System.out.println(a == c);
 		System.out.println(a.equals(c));
 
-		// Q4
-		System.out.println("----Q4----");
-		String str5 = null;
-		System.out.println(str5 + "hello");
-		System.out.println(str5.length());
-
 		// Q5
 		System.out.println("----Q5----");
 		String s11 = "abc";
@@ -95,5 +89,10 @@ public class StringQuestions {
 		String str333 = new String("Java");
 
 		System.out.println(str111.equals(str222) && str111.equals(str333));
+
+		// Q4
+		System.out.println("----Q4----");
+		String str5 = null;
+		System.out.println(str5 + "hello");
 	}
 }

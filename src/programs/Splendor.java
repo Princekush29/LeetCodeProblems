@@ -1,7 +1,7 @@
 package programs;
 
 class Bike {
-	static int a = 10;
+	int a = 10;
 
 	void run() {
 		System.out.println("running");
@@ -9,7 +9,7 @@ class Bike {
 }
 
 class Splendor extends Bike {
-	static int a = 20;
+	int a = 20;
 
 	void run() {
 		System.out.println("running safely with 60km");
@@ -18,7 +18,7 @@ class Splendor extends Bike {
 
 	public static void main(String args[]) {
 		Bike b = new Splendor(); // upcasting
-		b.run();
-		System.out.println(b.a);
+		b.run(); //Dynamic Binding
+		System.out.println(b.a); //Static Binding
 	}
 }
