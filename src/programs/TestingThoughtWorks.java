@@ -14,7 +14,7 @@ public class TestingThoughtWorks {
 		int newArr[] = new int[10];
 
 		for (int i = 0; i < arr.length; i++) {
-			newArr[arr[i] - 0]++;
+			newArr[arr[i]]++;
 		}
 		System.out.println(Arrays.toString(newArr));
 		return false;

@@ -15,18 +15,5 @@ public class Wrapper {
 		System.out.println(d);
 
 		System.out.println("---");
-		test();
-	}
-
-	public static void test() {
-		int abc = 30;
-		Integer def = abc;
-		System.out.println(abc);
-		System.out.println(def);
-
-		Integer xyz = 40;
-		int pqrs = xyz;
-		System.out.println(xyz);
-		System.out.println(pqrs);
 	}
 }

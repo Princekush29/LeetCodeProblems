@@ -13,11 +13,11 @@ public class TestingOmnicell {
 			return nums[0];
 		int sum = 0;
 		int newSum = 0;
-		int token = 1, a = 0;
+		int token = 1;
 		for (int i = 0, j = i + 1; j < nums.length; j++) {
-			a = nums[i];
+
 			if (token == 1) {
-				sum = a + nums[j];
+				sum = nums[i] + nums[j];
 				token = 2;
 			} else {
 				sum = sum + nums[j];

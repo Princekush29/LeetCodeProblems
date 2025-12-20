@@ -30,6 +30,7 @@ public class SwapArray {
 		}
 
 		System.out.println(Arrays.toString(a));
+		
 		// Method 3
 		System.out.println("====");
 		int a11[] = { 11, 22, 13, 5, 64 };
