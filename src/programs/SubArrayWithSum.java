@@ -13,7 +13,7 @@ public class SubArrayWithSum {
 	 * 3 + 10 = 33
 	 */
 	public static void test() {
-		int arr[] = { 1, 4, 20, 3, 10, 5 };
+		int arr[] = { 1, 4, 20, 3, 10, 5 }; //sum==33
 		int sum = 33, newSum = 0, token = 1;
 		for (int i = 0, j = i + 1; j < arr.length; j++) {
 			int a = arr[i];

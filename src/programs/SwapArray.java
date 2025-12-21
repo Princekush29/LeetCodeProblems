@@ -16,31 +16,5 @@ public class SwapArray {
 			a1[j] = temp;
 		}
 		System.out.println(Arrays.toString(a1));
-
-		// Method2
-		int a[] = { 1, 2, 3, 5, 4 };
-
-		int temp1 = 0;
-		int j = a.length - 1;
-
-		for (int i = 0; i < a.length / 2; i++) {
-			temp1 = a[i];
-			a[i] = a[j - i];
-			a[j - i] = temp1;
-		}
-
-		System.out.println(Arrays.toString(a));
-		
-		// Method 3
-		System.out.println("====");
-		int a11[] = { 11, 22, 13, 5, 64 };
-		int t = 0, k = a11.length - 1;
-		for (int p = 0; p < a11.length / 2; p++) {
-			t = a11[p];
-			a11[p] = a11[k];
-			a11[k] = t;
-			k--;
-		}
-		System.out.println(Arrays.toString(a11));
 	}
 }

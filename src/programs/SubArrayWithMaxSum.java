@@ -1,6 +1,6 @@
 package programs;
 
-public class TestingOmnicell {
+public class SubArrayWithMaxSum {
 
 	public static void main(String[] args) {
 		int nums[] = { -2, 1, 3, 4, -9 };

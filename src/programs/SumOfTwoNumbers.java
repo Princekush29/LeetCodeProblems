@@ -3,7 +3,7 @@ package programs;
 public class SumOfTwoNumbers {
 
 	public static void main(String[] args) {
-		int arr[] = { 10, 20, 30, 40, 50 };
+		int arr[] = { 10, 20, 30, 40, 50 }; //30,70,50
 		int size = arr.length, newSize;
 		if (size % 2 == 0) {
 			newSize = size / 2;

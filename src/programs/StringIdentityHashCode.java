@@ -8,6 +8,7 @@ public class StringIdentityHashCode {
 		String c = new String("Apple");//Heap
 
 		System.out.println(a == b);
+		System.identityHashCode(c);
 		System.out.println(System.identityHashCode(a));
 		System.out.println(System.identityHashCode(b));
 		System.out.println(System.identityHashCode(c));

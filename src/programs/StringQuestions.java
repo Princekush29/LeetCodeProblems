@@ -26,6 +26,7 @@ public class StringQuestions {
 		System.out.println(str2 == str3);
 		System.out.println(str1.equals(str2));
 		System.out.println(str1.equals(str3));
+		System.out.println(str2.equals(str3));
 
 		// Q3
 		System.out.println("----Q3----");
@@ -51,30 +52,12 @@ public class StringQuestions {
 		System.out.println(s1 == s3);
 		System.out.println(s2 == s3);
 
-		System.out.println("---");
-		String a = "Apple"; // SCP
-		String b = "Apple"; // SCP
-		String c = new String("Apple"); // Heap memory
-		System.out.println(a == b);
-		System.out.println(a.equals(b));
-
-		System.out.println(a == c);
-		System.out.println(a.equals(c));
-
 		// Q5
 		System.out.println("----Q5----");
 		String s11 = "abc";
 		StringBuffer s22 = new StringBuffer(s11);
 		System.out.println(s11.equals(s22));
 		System.out.println(s11.equals(s22.toString()));
-
-		/*
-		 * Why s1.equals(s2) returns false: - s1 is a String - s2 is a StringBuffer Even
-		 * though they contain the same characters ("abc"), they are different types,
-		 * and String.equals(Object) checks: - Type compatibility - Character sequence
-		 * equality. Since s2 is not a String, the equals method in String returns false
-		 * immediately without checking contents.
-		 */
 
 		String str11 = "Hello";
 		str11 += " World!";
@@ -93,6 +76,8 @@ public class StringQuestions {
 		// Q4
 		System.out.println("----Q4----");
 		String str5 = null;
+		System.out.println(str5);
 		System.out.println(str5 + "hello");
+		
 	}
 }

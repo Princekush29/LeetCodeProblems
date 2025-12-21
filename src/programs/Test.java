@@ -1,20 +1,28 @@
 package programs;
 
-import java.util.Arrays;
-
 public class Test {
 
 	public static void main(String[] args) {
 
-		int a1[] = { 1, 2, 3, 4, 6 }; // [6, 4, 5, 3, 2, 1]
-		int temp;
-		int len = a1.length;
-		System.out.println(len);
-		for (int i = 0, j = a1.length - 1; i < a1.length / 2; i++, j--) {
-			temp = a1[i];
-			a1[i] = a1[j];
-			a1[j] = temp;
+		long currentTime = System.nanoTime();
+		StringBuffer sb = new StringBuffer();
+		for (int i = 0; i < 1000; i++) {
+			sb.append("test");
+			System.out.println(sb);
 		}
-		System.out.println(Arrays.toString(a1));
+		long endTime = System.nanoTime();
+		System.out.println("StringBuffer time is " + (endTime - currentTime));
+
+		long currentTime1 = System.nanoTime();
+
+		StringBuilder si = new StringBuilder();
+		for (int i = 0; i < 1000; i++) {
+			si.append("test");
+			System.out.println(si);
+		}
+		long endTime1 = System.nanoTime();
+		System.out.println("StringBuffer time is " + (endTime - currentTime));
+
+		System.out.println("StringBuilder time is " + (endTime1 - currentTime1));
 	}
 }
