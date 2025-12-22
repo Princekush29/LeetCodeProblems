@@ -52,32 +52,5 @@ public class SortAlphabetInString {
 		System.out.println();
 		System.out.println("Method 3 end");
 
-		// Method4 - Not ideal method
-		System.out.println("Method 4 start");
-		String s11 = "zxcvbnm";
-		int arr1[] = new int[s11.length()];
-		for (int i = 0; i < s11.length(); i++) {
-			char ch = s11.charAt(i);
-			int c = ch;
-			arr1[i] = c;
-		}
-		System.out.println(Arrays.toString(arr1));
-		int temp111;
-		for (int i = 0; i < arr1.length; i++) {
-			for (int j = i + 1; j < arr1.length; j++) {
-				if (arr1[i] > arr1[j]) {
-					temp111 = arr1[i];
-					arr1[i] = arr1[j];
-					arr1[j] = temp111;
-				}
-			}
-		}
-
-		for (int i = 0; i < arr1.length; i++) {
-			char c = (char) arr1[i];
-			System.out.print(c);
-		}
-		System.out.println();
-		System.out.println("Method 4 end");
 	}
 }

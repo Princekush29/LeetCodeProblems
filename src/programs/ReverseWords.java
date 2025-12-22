@@ -25,7 +25,7 @@ public class ReverseWords {
 		}
 		System.out.println("----------");
 
-		// Q3: olleH woh
+		// Q3: olleH woh era uoy 
 		String newStr1 = "";
 		for (int i = 0; i <= arr.length - 1; i++) {
 			for (int j = arr[i].length() - 1; j >= 0; j--) {

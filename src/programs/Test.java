@@ -1,28 +1,31 @@
 package programs;
 
+import java.util.Arrays;
+
 public class Test {
 
 	public static void main(String[] args) {
-
-		long currentTime = System.nanoTime();
-		StringBuffer sb = new StringBuffer();
-		for (int i = 0; i < 1000; i++) {
-			sb.append("test");
-			System.out.println(sb);
+		String s1 = "I Am Not String"; // g ni rtS toNmAI
+		// char arr[] = s1.toCharArray();
+		char arr[] = new char[s1.length()];
+		for (int i = 0; i < s1.length(); i++) {
+			if (s1.charAt(i) == ' ') {
+				arr[i] = ' ';
+			}
 		}
-		long endTime = System.nanoTime();
-		System.out.println("StringBuffer time is " + (endTime - currentTime));
+		System.out.println();
+		for (int i = 0, j = s1.length() - 1; j >= 0 && i < s1.length();) {
+			if (arr[i] == ' ') {
+				i++;
+			} else if (s1.charAt(j) == ' ') {
+				j--;
+			} else {
 
-		long currentTime1 = System.nanoTime();
-
-		StringBuilder si = new StringBuilder();
-		for (int i = 0; i < 1000; i++) {
-			si.append("test");
-			System.out.println(si);
+				arr[i] = s1.charAt(j);
+				i++;
+				j--;
+			}
 		}
-		long endTime1 = System.nanoTime();
-		System.out.println("StringBuffer time is " + (endTime - currentTime));
-
-		System.out.println("StringBuilder time is " + (endTime1 - currentTime1));
+		System.out.println(Arrays.toString(arr));
 	}
 }

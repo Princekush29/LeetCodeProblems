@@ -20,7 +20,7 @@ public class Sebr {
 		System.out.println(startTime);
 		System.out.println(currentTime);
 		while ((currentTime - startTime) < 10000) {
-			String status = getStatus();// SUCESS, FAILURE, NOTPROCESSED
+			String status = getStatus();// SUCCESS, FAILURE, NOTPROCESSED
 			//System.out.println("Status is " + status);
 
 			if (status.equals("SUCCESS")) {

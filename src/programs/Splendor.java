@@ -17,8 +17,11 @@ class Splendor extends Bike {
 	}
 
 	public static void main(String args[]) {
-		Bike b = new Splendor(); // upcasting
+		Bike b = new Splendor(); // upcasting 
+		//At compile time Java sees b as Bike
+		//At runtime Java knows object is Splendor)
+		
 		b.run(); //Dynamic Binding
-		System.out.println(b.a); //Static Binding
+		System.out.println(b.a); //Static Binding (Variables are NOT overridden)
 	}
 }
