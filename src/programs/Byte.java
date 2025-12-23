@@ -12,9 +12,13 @@ public class Byte {
 		int abc = 2147483647;
 		System.out.println(abc + 1);
 
-		byte b = (byte) 128;
-		b = (byte) ( b + 1);
-		System.out.println(b);
+		byte c = 127;
+		System.out.println(c + 2); // 129
+		/*
+		 * Integer Promotion In Java, whenever you perform an arithmetic operation (like
+		 * +) on a byte, short, or char, the operands are automatically promoted to int
+		 * (32-bit) before the calculation happens.
+		 */
 	}
 
 }
