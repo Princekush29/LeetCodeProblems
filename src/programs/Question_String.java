@@ -22,8 +22,8 @@ public class Question_String {
 	public static void removeDuplicates() {
 		String str = "elephant";
 		// method 3 - reverse str - tna..
-		// method 2 - should not have duplicate alphebets-->lphant - Using map
-		// method 2 - should not have duplicate alphebets-->lphant - Using set
+		// method 2 - alphebets which is present once --> lphant - Using map
+		// method 2 - should not have duplicate alphebets--> p, a, t, e, h, l, n - Using set
 
 		Map<Character, Integer> hm1 = new LinkedHashMap<>();
 		for (int i = 0; i < str.length(); i++) {
@@ -41,7 +41,7 @@ public class Question_String {
 		}
 		System.out.println();
 		System.out.println("Using set");
-		String str1 = "apple";
+		String str1 = "elephant";
 		Set<Character> s = new HashSet<Character>();
 		for (int i = 0; i < str1.length(); i++) {
 			s.add(str1.charAt(i));

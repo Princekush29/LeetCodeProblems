@@ -3,7 +3,8 @@ package programs;
 public class RemoveSpaceFromString {
 
 	public static void main(String[] args) {
-		String s = "Hello how are you?";
+		String s = "Hello how are you?";//Hellohowareyou?
+
 		String newStr = "";
 		char c;
 		for (int i = 0; i < s.length(); i++) {

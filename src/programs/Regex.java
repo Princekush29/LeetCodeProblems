@@ -29,7 +29,7 @@ public class Regex {
 		str3 = str3.replaceAll(" +", "");
 		System.out.println(str3);
 
-		// Remove all space from String
+		// Remove extra space from String
 		String str4 = "Hello   How are    you ?   ";
 		str4 = str4.replaceAll(" +", " ");
 		System.out.println(str4.trim());

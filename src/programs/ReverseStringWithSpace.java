@@ -48,7 +48,6 @@ public class ReverseStringWithSpace {
 			} else if (s1.charAt(j) == ' ') {
 				j--;
 			} else {
-
 				arr[i] = s1.charAt(j);
 				i++;
 				j--;

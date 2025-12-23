@@ -2,13 +2,13 @@ package programs;
 
 public class RemoveTrailingZerosFromString2710 {
 
+	/*
+	 * Problem : Given a positive integer num represented as a string, return the
+	 * integer num without trailing zeros as a string. i/p - 51230100 o/p1 - 512301
+	 * - remove traling zeros o/p2 - 51231 - remove all zeros
+	 */
 	public static void main(String[] args) {
 		System.out.println("hello " + removeTrailingZeros("512301000"));
-		/*
-		 * Problem : Given a positive integer num represented as a string, return the
-		 * integer num without trailing zeros as a string. i/p - 51230100 o/p1 - 512301
-		 * - remove traling zeros o/p2 - 51231 - remove all zeros
-		 */
 
 		// Method1 - remove all zeros
 		String str = "512301000";

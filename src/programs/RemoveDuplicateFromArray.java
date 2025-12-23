@@ -1,15 +1,26 @@
 package programs;
 
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class RemoveDuplicateFromArray {
 
 	public static void main(String[] args) {
 
 		int arr[] = { 10, 20, 30, 35, 12, 18, 19, 10, 19 };
-		// Example output: {20, 30, 35, 12, 18}
-		// Method1
+		// Example output: {20, 30, 35, 12, 18} - print element which are present once - Method 2
+		//[18, 35, 19, 20, 10, 12, 30] - print element atleast once - Method1
+
+		//Method 1
+		Set<Integer> set = new HashSet<Integer>();
+		for(int i=0;i<arr.length;i++) {
+			set.add(arr[i]);
+		}
+		System.out.println("Array after removing element"+set);
+		
+		// Method 2
 		Map<Integer, Integer> hm = new LinkedHashMap<Integer, Integer>();
 
 		for (int i = 0; i < arr.length; i++) {
@@ -26,7 +37,7 @@ public class RemoveDuplicateFromArray {
 				System.out.println(hm1.getKey());
 			}
 		}
-		// Method2
+		// Method 3
 		int a[] = { 5, 2, 6, 8, 6, 7, 5, 2, 8 };
 		int n = a.length;
 

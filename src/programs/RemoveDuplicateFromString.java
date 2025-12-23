@@ -14,12 +14,13 @@ public class RemoveDuplicateFromString {
 		for (int i = 0; i < str.length(); i++) {
 			s.add(str.charAt(i));
 		}
-		System.out.println(s);
-		System.out.println("-------");
+		System.out.println("String after removing duplicate"+s);
+		System.out.println("Print set - Method1");
 		for (Character str1 : s) {
 			System.out.print(str1);
 		}
-		System.out.println("----------");
+		System.out.println("+");
+		System.out.println("Print set - Method2");
 		Iterator<Character> itr = s.iterator();
 		while (itr.hasNext()) {
 			System.out.print(itr.next());
