@@ -6,6 +6,7 @@ public class Balance {
 
 	public static void main(String[] args) {
 		String balanceString = "[()]";
+		System.out.println(verifyBalanceString(balanceString));
 		if (verifyBalanceString(balanceString)) {
 			System.out.println("Balance");
 		} else {

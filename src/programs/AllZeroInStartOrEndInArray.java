@@ -96,7 +96,7 @@ public class AllZeroInStartOrEndInArray {
 		System.out.println(Arrays.toString(arr));
 		System.out.println("+++++++");
 
-		// Method2 - this require creation of another array
+		// Method4 - this require creation of another array
 		int arr1[] = { 1, 2, 3, 0, 1, 0, 2, 4, 0, 9, 0 };
 		int count = 0;
 		int arr2[] = new int[arr1.length];
@@ -119,8 +119,9 @@ public class AllZeroInStartOrEndInArray {
 			}
 		}
 		System.out.println(Arrays.toString(arr2));
-		System.out.println("Method 2 ends");
-		// Method 3 - Create a array of same length, and if the value is not equal to
+		System.out.println("Method 4 ends");
+		
+		// Method 5 - Create a array of same length, and if the value is not equal to
 		// zero
 		// add to the new array and leave other value as the default value will
 		// automatically be zero, So only one for loop is required, and not 2 for loop
@@ -137,7 +138,7 @@ public class AllZeroInStartOrEndInArray {
 				i++;
 			}
 		}
-		System.out.println("Array 3 is " + Arrays.toString(arr3));
+		System.out.println("Array 5 is " + Arrays.toString(arr3));
 
 	}
 }
