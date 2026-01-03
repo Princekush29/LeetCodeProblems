@@ -12,14 +12,32 @@ public class CommonElementsInArrays {
 
 	public static void main(String[] args) {
 
-		Integer[] a1 = { 1, 2, 3, 6,5, 2, 1 };
-		Integer[] a2 = { 1, 2, 6,5, 3 };
+		Integer[] a1 = { 1, 2, 3, 6, 5, 2, 1 };
+		Integer[] a2 = { 1, 2, 6, 5, 3 };
 		Integer[] a3 = { 1, 2, 3, 4, 6 };
-		commonElement(a1, a2, a3);
+		commonElementUsingMap(a1, a2, a3);
+		commonElementUsingHashMap(a1, a2, a3);
 		System.out.println(commonElement1(a1, a2, a3));
 	}
 
-	public static void commonElement(Integer[] a1, Integer[] a2, Integer[] a3) {
+	public static void commonElementUsingMap(Integer[] a1, Integer[] a2, Integer[] a3) {
+		Set<Integer> set1 = new HashSet<>(Arrays.asList(a1));
+        Set<Integer> set2 = new HashSet<>(Arrays.asList(a2));
+        Set<Integer> set3 = new HashSet<>(Arrays.asList(a3));
+
+        // Use the retainAll method to find the intersection
+        // This modifies set1 to keep only elements present in set2
+        set1.retainAll(set2);
+        
+        // This modifies the resulting set1 to keep only elements also present in set3
+        set1.retainAll(set3);
+
+        System.out.println("Common elements using HashSet: " + set1);
+        
+        
+	}
+
+	public static void commonElementUsingHashMap(Integer[] a1, Integer[] a2, Integer[] a3) {
 
 		HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
 		Set<Integer> s = new HashSet<Integer>();
@@ -46,7 +64,7 @@ public class CommonElementsInArrays {
 				System.out.println(hm1.getKey());
 		}
 	}
-	
+
 	// this will work when array is sorted
 	public static List<Integer> commonElement1(Integer[] a1, Integer[] a2, Integer[] a3) {
 
