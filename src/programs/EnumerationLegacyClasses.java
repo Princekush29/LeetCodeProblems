@@ -6,7 +6,7 @@ import java.util.Enumeration;
 public class EnumerationLegacyClasses {
 
 	public static void main(String[] args) {
-		Vector<String> team = new Vector<>();
+		Vector<String> team = new Vector<String>();
 		team.add("Prince");
 		team.add("Ravi");
 		team.add("Sumit");
@@ -16,14 +16,5 @@ public class EnumerationLegacyClasses {
 			System.out.println(members.nextElement());
 		}
 
-		Vector<String> team1 = new Vector<>();
-		team.add("Hello");
-		team.add("Bye");
-		team.add("Hi");
-
-		Enumeration<String> members1 = team.elements();
-		while (members.hasMoreElements()) {
-			System.out.println(members.nextElement());
-		}
 	}
 }

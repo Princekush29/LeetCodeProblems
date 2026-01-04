@@ -11,7 +11,8 @@ public class ContainsDuplicate {
 
 		int arr[] = { 1, 2, 3, 3, 4, 5 };
 		int count = 0;
-		// Method 0 - one for loop
+		
+		// Method 1 - one for loop
 		int arr1[] = { 1, 2, 3, 4, 5 };
 		int count1 = 0;
 
@@ -29,7 +30,7 @@ public class ContainsDuplicate {
 		else
 			System.out.println("Don't contain Duplicate");
 
-		// Method 1 - two for loop
+		// Method 2 - two for loop
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i] == arr[j]) {
@@ -42,7 +43,7 @@ public class ContainsDuplicate {
 		else
 			System.out.println("Don't contain Duplicate");
 
-		// Method 2 - Use map
+		// Method 3 - Use map
 		HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
 		for (int i = 0; i < arr.length; i++) {
 			if (hm.containsKey(arr[i])) {
@@ -56,7 +57,7 @@ public class ContainsDuplicate {
 			System.out.println(hm1.getKey() + " " + hm1.getValue());
 		}
 
-		// Method 3 - using Set
+		// Method 4 - using Set
 		Set<Integer> s = new HashSet<Integer>();
 		for (int i = 0; i < arr.length; i++) {
 			if (!s.contains(arr[i])) {

@@ -15,7 +15,7 @@ public class CountACharacter {
 		System.out.println("---");
 		System.out.println(str.length());
 		System.out.println(str.replace("a", "").length());
-		
+
 		System.out.println("+++");
 		int newCount = str.length() - str.replace("a", "").length();
 		System.out.println(newCount);

@@ -3,7 +3,8 @@ package programs;
 public class CountMaximumConsecutiveOfAnyNumber {
 
 	public static void main(String[] args) {
-		int[] input = { 1, 1, 2, 3, 1, 1, 1, 6, 1, 1, 1, 1, 1, 1 };
+		//int input[] = { 1, 1, 2, 3, 1, 1, 1, 6, 1, 1, 1, 1, 1, 1 };
+		int input[] = { 1, 1, 2, 3, 3, 4, 4, 5, 6, 5, 5, 5, 5, 5, 5 };
 
 		int maxCount = 1;
 		int currentCount = 1;

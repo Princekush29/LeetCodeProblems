@@ -1,7 +1,5 @@
 package programs;
 
-import java.util.Arrays;
-
 public class CountMaximumConsecutiveOccurrence {
 
 	public static void main(String[] args) {
@@ -23,23 +21,6 @@ public class CountMaximumConsecutiveOccurrence {
 		}
 		System.out.println(newCount);
 		System.out.println("+++");
-		// count maximum occurrence of any number present in the array
-		int arr[] = { 1, 1, 2, 3, 3, 4, 4, 5, 6, 5, 5, 5, 5, 5, 5 };
-		int number[] = new int[10];
-
-		for (int i = 0; i < arr.length; i++) {
-			number[arr[i]]++;
-		}
-		int highest = number[0], value = 0;
-		System.out.println(Arrays.toString(number));
-		for (int i = 0; i < number.length; i++) {
-
-			if (highest < number[i]) {
-				highest = number[i];
-				value = i;
-			}
-		}
-		System.out.println(value + " is present " + highest + " times");
 	}
 
 }
