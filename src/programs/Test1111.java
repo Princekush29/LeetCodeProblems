@@ -1,18 +1,24 @@
 package programs;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Test1111 {
 
 	public static void main(String[] args) {
-		System.out.println("Enter the number");
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-		System.out.println("The num is " + num);
-		long fact = 1;
-		for (int i = 1; i <= num; i++) {
-			fact = fact * i;
+		List<String> words = Arrays.asList("test", "automation", "QA", "Java", "code", "Selenium", "API");
+
+		Map<Integer, List<String>> hm = new HashMap<Integer, List<String>>();
+		for (String al : words) {
+			int len = al.length();
+			if (!hm.containsKey(len)) {
+				hm.put(len, new ArrayList<>());
+			}
+			hm.get(len).add(al);
 		}
-		System.out.println("The factorial is " + fact);
+		System.out.println(hm);
 	}
 }

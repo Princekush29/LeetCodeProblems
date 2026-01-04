@@ -3,12 +3,14 @@ package programs;
 public class FindMissingNumber {
 
 	public static void main(String[] args) {
+		int arr[] = { 1, 2, 4, 6, 3, 7, 8 };
 		int A[] = { 1, 2, 3, 6 };
 		int B[] = { 1, 2, 4, 5, 6 };
-		int arr[] = { 1, 2, 4, 6, 3, 7, 8 };
+
+		System.out.println(smallestPostiveIntegerMissing(arr));
 		System.out.println(solution(A));
 		System.out.println(solution(B));
-		System.out.println(smallestPostiveIntegerMissing(arr));
+
 	}
 
 	// Method 1
