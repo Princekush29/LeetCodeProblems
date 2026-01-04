@@ -15,10 +15,12 @@ public class ItreateCollection {
 		while (itr1.hasNext()) {
 			System.out.println(itr1.next());
 		}
+	
 		System.out.println("Method 2 : Traversing list through for each loop:");
 		for (String obj : list) {
 			System.out.println(obj);
 		}
+
 		System.out.println("Method 3 : Traversing list through List Iterator:");
 		ListIterator<String> list1 = list.listIterator(list.size());
 		while (list1.hasPrevious()) {
