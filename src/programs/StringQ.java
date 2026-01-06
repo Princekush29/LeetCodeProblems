@@ -7,7 +7,7 @@ public class StringQ {
 	public static void main(String[] args) {
 		String s1 = "!A@B#C$D";
 		// Output string = !D@C#B$A
-
+		
 		// Method1
 		String newStr = "", newSymbol = "", newString = "";
 		for (int i = 0; i < s1.length(); i++) {

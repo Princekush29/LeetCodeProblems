@@ -16,6 +16,7 @@ public class Lambda {
 		// Using lambda expression to print all elements of al
 		System.out.println("Elements of the ArrayList: ");
 		al.forEach(n -> System.out.println(n));
+		al.forEach(n -> System.out.println(n));
 
 		// Using lambda expression to print even elements
 		// of al

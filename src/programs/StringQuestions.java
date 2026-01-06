@@ -78,6 +78,7 @@ public class StringQuestions {
 		String str5 = null;
 		System.out.println(str5);
 		System.out.println(str5 + "hello");
+		System.out.println(str5.length());
 		
 	}
 }
