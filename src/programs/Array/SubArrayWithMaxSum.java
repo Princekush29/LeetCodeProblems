@@ -1,4 +1,4 @@
-package programs;
+package programs.Array;
 
 public class SubArrayWithMaxSum {
 

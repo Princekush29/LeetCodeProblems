@@ -1,4 +1,4 @@
-package programs;
+package programs.Basics;
 
 class Bike {
 	int a = 10;
