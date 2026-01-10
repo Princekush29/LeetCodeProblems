@@ -1,4 +1,4 @@
-package programs;
+package programs.Others;
 
 public class ThisKeyword {
 	public static void main(String[] args) {

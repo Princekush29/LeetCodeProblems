@@ -1,4 +1,4 @@
-package programs;
+package programs.Basics;
 
 class TestingLinkdeinQuestion {
 	public static void main(String args[]) {

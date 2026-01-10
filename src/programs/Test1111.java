@@ -3,7 +3,11 @@ package programs;
 public class Test1111 {
 
 	public static void main(String[] args) {
-		String a = null;
-		System.out.println(a.length());
+		int a = 10;
+		int b = 20;
+
+		a = a + b;
+		b = a - b;
+		a = a - b;
 	}
 }

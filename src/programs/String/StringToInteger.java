@@ -1,4 +1,4 @@
-package programs;
+package programs.String;
 
 public class StringToInteger {
 

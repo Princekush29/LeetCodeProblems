@@ -1,6 +1,40 @@
 package programs;
 
 public class Questions {
+/*
+	1. Anagram checker
+	2. Database Connection
+	3. Each String reverse separately
+	4. Factorial
+	5. Find power of 2
+	6. First non repeating char in String
+	7. Check if number is power of 2
+	8. Convert int to String
+	9. Palindrome integer
+	10. Permutation of string
+	11. Prime Numbers till 100
+	12. Second smallest and second largest
+	13. Shift characters by 1
+	14. String Palindrome
+	15. Swap two numbers without using third var
+	16. Find vowels in a String
+	17. find duplicate integer elements
+	18. find max number in Array without using sort()
+	19. No of elements greater than user number
+	20. Occurrence of each character
+	21. one Plus
+	22, Palindrome substring count
+	23. Reverse integer array using second array
+	24. Reverse int array not using second array
+	25. Second largest integer
+	26. Smallest number if array
+	27. String duplicate elements
+	28. String reverse with no spaces
+	29. String reverse while keeping spaces
+	30. Sum of all elements in Array
+	31. Sum of 2 arrays
+	32. Sum of 2 num equals to user number
+	33. Unique characters in String
 
 	/*
 	 * 1. Reverse a String: Write a Java program to reverse a given string.

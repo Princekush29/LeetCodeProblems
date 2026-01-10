@@ -1,8 +1,8 @@
-package programs;
+package programs.String;
 
 public class ThirdMinimumNumberInUnSortedArray {
 
-	// this works with both sorted and unsorted arrays
+	// works with both sorted and unsorted arrays
 	// works with positive and negative numbers
 	public static void main(String[] args) {
 		// int[] arr = { 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7, 7, 6 };

@@ -1,4 +1,4 @@
-package programs;
+package programs.Basics;
 
 public class Variable {
 
@@ -11,6 +11,7 @@ public class Variable {
 		int test = 10	; // Initialization is mandatory only for local variable
 		System.out.println(test);
 		System.out.println(apple);
+		System.out.println(t.color);
 		t.test();
 	}
 

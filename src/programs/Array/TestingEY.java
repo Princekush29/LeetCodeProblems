@@ -1,4 +1,4 @@
-package programs;
+package programs.Array;
 
 public class TestingEY {
 	public static void main(String[] args) {
