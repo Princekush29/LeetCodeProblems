@@ -3,7 +3,7 @@ package programs.String;
 public class RemoveSpaceFromString {
 
 	public static void main(String[] args) {
-		String s = "Hello how are you?";//Hellohowareyou?
+		String s = "Hello how are you?";// Hellohowareyou?
 
 		String newStr = "";
 		char c;

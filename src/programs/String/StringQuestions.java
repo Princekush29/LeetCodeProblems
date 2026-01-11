@@ -4,9 +4,11 @@ public class StringQuestions {
 	public static void main(String args[]) {
 		System.out.println(".equals will check the value");
 		System.out.println("== will check the address");
+		
 		// below method is used to print
 		String z = "hello";
 		System.out.println(System.identityHashCode(z));
+		System.out.println(System.identityHashCode(null)); //will print zero
 
 		// Q1
 		String str = "ONE" + 1 + 2 + "TWO" + "THREE" + 3 + 4 + "FOUR" + "FIVE" + 5;

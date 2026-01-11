@@ -28,7 +28,7 @@ public class ReverseStringWithSpace {
 		System.out.println(arr);
 
 		test();
-
+		test2();
 	}
 
 	// Method 2
@@ -55,5 +55,31 @@ public class ReverseStringWithSpace {
 		}
 		System.out.println("Output of Method 2 is ");
 		System.out.println(arr);
+	}
+
+	public static void test2() {
+		String s1 = "I Am Not String"; // g ni rtS toNmAI
+		char arr[] = new char[s1.length()];
+
+		for (int i = 0; i < s1.length(); i++) {
+			if (s1.charAt(i) == ' ') {
+				arr[i] = ' ';
+			}
+		}
+		int j = 0;
+		for (int i = arr.length - 1; i >= 0;) {
+			if (arr[i] != ' ') {
+				if (s1.charAt(j) != ' ') {
+					arr[i] = s1.charAt(j);
+					j++;
+					i--;
+				} else {
+					j++;
+				}
+			} else {
+				i--;
+			}
+		}
+		System.out.println(Arrays.toString(arr));
 	}
 }
