@@ -8,7 +8,20 @@ public class CaesarCipher {
 		int key = 3;
 		// A= 65 & a = 97
 
-		//Method1
+		// Method 0
+		for (int i = 0; i < input.length(); i++) {
+			char c = input.charAt(i);
+			if (c >= 65 && c <= 90) {
+				c = (char) ((c + key) % 65 + 65);
+				System.out.print(c);
+			} else {
+				c = (char) ((c + key) % 97 + 97);
+				System.out.print(c);
+			}
+		}
+
+		System.out.println("+++");
+		// Method1
 		for (int i = 0; i < input.length(); i++) {
 			// For Uppercase
 			if (Character.isUpperCase(input.charAt(i))) {
@@ -21,7 +34,7 @@ public class CaesarCipher {
 			}
 		}
 		System.out.println("+++");
-		//Method 2
+		// Method 2
 		String input1 = "AAbb"; // output - DDee
 		for (int i = 0; i < input1.length(); i++) {
 			char c = input1.charAt(i);

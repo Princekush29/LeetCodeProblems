@@ -1,4 +1,4 @@
-package programs.String;
+package programs.Basics;
 
 public class CountNoOfOccurence {
 
