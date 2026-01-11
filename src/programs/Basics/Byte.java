@@ -19,6 +19,13 @@ public class Byte {
 		 * +) on a byte, short, or char, the operands are automatically promoted to int
 		 * (32-bit) before the calculation happens.
 		 */
+		
+		byte b = 121;
+		System.out.println(b+1);
+		
+		byte d= 121;
+		d=(byte)(d+7);
+		System.out.println(d);
 	}
 
 }

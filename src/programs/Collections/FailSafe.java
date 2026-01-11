@@ -26,7 +26,9 @@ public class FailSafe {
 
 			// This will reflect in iterator.
 			// Hence, it has not created separate copy
-			map.put("SEVEN", 7);
+			
+            map.put("SEVEN", 7);
+            map.put("AA", 11); 
 		}
 	}
 }

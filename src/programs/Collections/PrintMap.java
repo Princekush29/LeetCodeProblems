@@ -31,7 +31,7 @@ class PrintMap {
 		}
 		// Method5
 		System.out.println(Arrays.asList(tm));
-		
+
 		// Method6
 		System.out.println(Collections.singletonList(tm));
 	}
