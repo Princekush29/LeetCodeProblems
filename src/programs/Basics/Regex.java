@@ -4,9 +4,9 @@ public class Regex {
 
 	public static void main(String[] args) {
 
-		String s = "123Bangalore456";
-		s = s.replaceAll("[a-zA-Z]", "");
-		System.out.println("S is " + s);
+		String s1 = "123Bangalore456";
+		s1 = s1.replaceAll("[a-zA-Z]", "");
+		System.out.println("S is " + s1);
 
 		String s2 = "123Bangalore456";
 		s2 = s2.replaceAll("[A-Za-z]", "");

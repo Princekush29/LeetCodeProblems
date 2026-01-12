@@ -18,7 +18,6 @@ public class Static2 {
 	}
 
 	public void subtract() {
-
 		System.out.println("SUBTRACT");
 	}
 }

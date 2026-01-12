@@ -23,4 +23,3 @@ class ChildClassException extends ExceptionParentChild {
 	 * System.out.println("Child method"); throw new IOException("Not allowed!"); }
 	 */
 }
-

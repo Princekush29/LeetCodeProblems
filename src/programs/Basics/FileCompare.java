@@ -22,7 +22,7 @@ public class FileCompare {
 			line2 = br2.readLine();
 
 			if (line1 == null && line2 == null) {
-				break; // both files ended
+				break; //both files ended
 			}
 
 			if (line1 == null || line2 == null || !line1.equals(line2)) {

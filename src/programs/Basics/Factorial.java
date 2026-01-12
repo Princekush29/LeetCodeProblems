@@ -12,17 +12,5 @@ public class Factorial {
 			fact = fact * i;
 		}
 		System.out.println(fact);
-		factorial();
-	}
-
-	public static void factorial() {
-		System.out.println("Factorail method started");
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int fact = 1;
-		for (int i = 1; i <= a; i++) {
-			fact = fact * i;
-		}
-		System.out.println(fact);
 	}
 }

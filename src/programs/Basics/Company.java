@@ -13,6 +13,12 @@ public class Company extends Employee {
 	}
 
 	public static void main(String[] args) {
+
+		Company b = new Company();
+		b.employeeID();
+		b.clientId();
+		b.employeeName();
+
 		Employee c = new Company();
 		c.employeeID();
 		//c.clientId();

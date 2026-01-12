@@ -19,8 +19,8 @@ class Product implements Comparable<Product> {
 		// Natural Order: Smallest ID to Largest ID
 		// return Integer.compare(this.id, other.id); //ascending order
 		// return Integer.compare(other.id, this.id); //descending order
-		// return this.name.compareTo(other.name);//ascending order for name
-		return other.name.compareTo(this.name);// descending order for name
+		// return this.name.compareTo(other.name); //ascending order for name
+		return other.name.compareTo(this.name); //descending order for name
 	}
 
 	@Override
@@ -29,7 +29,7 @@ class Product implements Comparable<Product> {
 	}
 }
 
-public class COMPARABLEMain1 {
+public class ComparableMain1 {
 	public static void main(String[] args) {
 		List<Product> list = new ArrayList<>();
 

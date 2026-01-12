@@ -10,6 +10,6 @@ public class ChildClass {
 	}
 
 	public static void test() {
-		System.out.println("Inside test");
+		System.out.println("Inside test from child class");
 	}
 }
