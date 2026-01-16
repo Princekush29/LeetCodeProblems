@@ -3,19 +3,14 @@ package programs.String;
 public class Test1111 {
 
 	public static void main(String[] args) {
-		System.out.println("Armstrong numbers from 1 to 1000:");
-		int n, r, sum = 0;
-		for (int i = 1; i <= 1000; i++) {
-			n = i;
-			while (n != 0) {
-				r = n % 10;
-				sum += (r * r * r);
-				n = n / 10;
-			}
-			if (sum == i) {
-				System.out.println("Armstrong number is " + i);
-			}
-			sum = 0;
+		int number = 123; // o/p - 321
+		int num = 0;
+
+		while (number != 0) {
+			int r = number % 10;
+			num = num * 10 + r;
+			number = number / 10;
 		}
+		System.out.println(num);
 	}
 }

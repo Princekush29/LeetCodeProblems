@@ -22,8 +22,6 @@ public class FindLargestNumberInList {
 		al.add(30);
 		al.add(40);
 		int maximum = al.get(0);
-		int arr2[] = new int[al.size()];
-		Iterator<Integer> itr = al.iterator();
 
 		for (int i = 0; i < al.size(); i++) {
 			if (maximum < al.get(i))

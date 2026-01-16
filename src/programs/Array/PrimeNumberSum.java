@@ -8,7 +8,7 @@ public class PrimeNumberSum {
 			if (isPrime(i) && isPrime(num - i)) {
 				System.out.println(i);
 				System.out.println(num - i);
-				
+
 			}
 		}
 	}

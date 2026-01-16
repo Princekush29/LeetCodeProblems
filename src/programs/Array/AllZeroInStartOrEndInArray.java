@@ -5,17 +5,18 @@ import java.util.Arrays;
 public class AllZeroInStartOrEndInArray {
 
 	public static void main(String[] args) {
-		//maintainOrder();
-		//zeroFirst();
+		maintainOrder();
+		zeroFirst();
 		maintainOrder1();
 		maintainOrder2();
-		// orderNotMaintained();
+		orderNotMaintained();
 	}
 
 	// method 1 - this will maintain the order also
 	// all zero at end
 	public static void maintainOrder() {
 		int newArray[] = { 1, 0, 3, 0, 4, 0, 5, 0, 0, 1, 2, 3 };
+		//Array is (maintainOrder) [1, 3, 4, 5, 1, 2, 3, 0, 0, 0, 0, 0]
 		int insertPos = 0;
 		for (int i = 0; i < newArray.length; i++) {
 			if (newArray[i] != 0)
@@ -25,13 +26,15 @@ public class AllZeroInStartOrEndInArray {
 		while (insertPos < newArray.length) {
 			newArray[insertPos++] = 0;
 		}
-		System.out.println("Array is (maintainOrder) " + Arrays.toString(newArray));
+		System.out.println("Array is (maintainOrder - zero at end) " + Arrays.toString(newArray));
 
 	}
 
 	// method1.1 - maintain order - all zero at the start
 	public static void zeroFirst() {
 		int newArray[] = { 1, 0, 3, 0, 4, 0, 5, 0, 0, 1, 2, 3 };
+		//Array is (zeroFirst) [0, 0, 0, 0, 0, 1, 3, 4, 5, 1, 2, 3]
+
 		int insertPos = newArray.length - 1;
 
 		for (int i = newArray.length - 1; i >= 0; i--) {
@@ -57,7 +60,7 @@ public class AllZeroInStartOrEndInArray {
 				j++;
 			}
 		}
-		System.out.println("maintainOrder1 "+Arrays.toString(arr));
+		System.out.println("maintainOrder1 " + Arrays.toString(arr));
 	}
 
 	// Method 2.1 - all zero at start
@@ -72,7 +75,7 @@ public class AllZeroInStartOrEndInArray {
 				j--;
 			}
 		}
-		System.out.println("maintainOrder2 "+Arrays.toString(arr));
+		System.out.println("maintainOrder2 " + Arrays.toString(arr));
 	}
 
 	// none of the below method is maintaining the order
@@ -120,7 +123,7 @@ public class AllZeroInStartOrEndInArray {
 		}
 		System.out.println(Arrays.toString(arr2));
 		System.out.println("Method 4 ends");
-		
+
 		// Method 5 - Create a array of same length, and if the value is not equal to
 		// zero
 		// add to the new array and leave other value as the default value will
