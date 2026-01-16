@@ -26,6 +26,5 @@ public class TestingDPWorld {
 		arr[rand_int2] = temp;
 
 		System.out.println(Arrays.toString(arr));
-		System.out.println("---");
 	}
 }

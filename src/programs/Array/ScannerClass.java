@@ -15,11 +15,6 @@ public class ScannerClass {
 
 		System.out.println("The marks is " + marks);
 
-		Scanner sc1 = new Scanner(System.in);
-		System.out.println("Who are you?");
-		String who = sc.next();
-
-		System.out.println("The name is " + who);
 	}
 
 }
