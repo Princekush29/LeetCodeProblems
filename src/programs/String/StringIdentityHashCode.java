@@ -4,7 +4,7 @@ public class StringIdentityHashCode {
 
 	public static void main(String[] args) {
 		String a = "Apple";// SCP
-		String b = "Apple";// SCP
+		String b = "Apple1";// SCP
 		String c = new String("Apple");// Heap
 
 		System.out.println(a == b);

@@ -101,6 +101,7 @@ public class Anagram {
 		// s1 = lisateanaa
 		System.out.println("Length is " + s1.length());
 		for (int i = 0; i < s1.length();) {
+			//listen, silent
 			String c = s1.charAt(i) + "";
 			System.out.println(c);
 			s1 = s1.replaceFirst(c, "");

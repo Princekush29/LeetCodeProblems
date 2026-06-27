@@ -10,16 +10,17 @@ public class RemoveDuplicateFromArray {
 	public static void main(String[] args) {
 
 		int arr[] = { 10, 20, 30, 35, 12, 18, 19, 10, 19 };
-		// Example output: {20, 30, 35, 12, 18} - print element which are present once - Method 2
-		//[18, 35, 19, 20, 10, 12, 30] - print element atleast once - Method1
+		// Example output: {20, 30, 35, 12, 18} - print element which are present once -
+		// Method 2
+		// [18, 35, 19, 20, 10, 12, 30] - print element atleast once - Method1
 
-		//Method 1
+		// Method 1
 		Set<Integer> set = new HashSet<Integer>();
-		for(int i=0;i<arr.length;i++) {
+		for (int i = 0; i < arr.length; i++) {
 			set.add(arr[i]);
 		}
-		System.out.println("Array after removing element"+set);
-		
+		System.out.println("Array after removing element" + set);
+
 		// Method 2
 		Map<Integer, Integer> hm = new LinkedHashMap<Integer, Integer>();
 

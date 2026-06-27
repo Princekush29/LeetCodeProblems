@@ -2,13 +2,18 @@ package programs.String;
 
 public class StringQuestions {
 	public static void main(String args[]) {
+		int t= 2;
+		short l= 3;
+		long w = l+2*(t+ l);
+		System.out.print(w);
+		
 		System.out.println(".equals will check the value");
 		System.out.println("== will check the address");
-		
+
 		// below method is used to print
 		String z = "hello";
 		System.out.println(System.identityHashCode(z));
-		System.out.println(System.identityHashCode(null)); //will print zero
+		System.out.println(System.identityHashCode(null)); // will print zero
 
 		// Q1
 		String str = "ONE" + 1 + 2 + "TWO" + "THREE" + 3 + 4 + "FOUR" + "FIVE" + 5;
@@ -77,10 +82,16 @@ public class StringQuestions {
 
 		// Q4
 		System.out.println("----Q4----");
+		String n = "hello";
+		String j = new String(n);
+		System.out.println((n == j) + " " + (n.equals(j)));
+
+		// Q5
+		System.out.println("----Q5----");
 		String str5 = null;
 		System.out.println(str5);
 		System.out.println(str5 + "hello");
 		System.out.println(str5.length());
-		
+
 	}
 }

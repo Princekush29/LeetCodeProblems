@@ -6,11 +6,11 @@ public class Byte {
 
 		byte a = (byte) 128;
 		a = (byte) (a + 1);
-		System.out.println(a);
+		System.out.println(a);//-127
 
 		// int range -2,147,483,648 to 2,147,483,647
 		int abc = 2147483647;
-		System.out.println(abc + 1);
+		System.out.println(abc + 1); // -2147483648
 
 		byte c = 127;
 		System.out.println(c + 2); // 129
@@ -21,11 +21,11 @@ public class Byte {
 		 */
 		
 		byte b = 121;
-		System.out.println(b+1);
+		System.out.println(b+1);//122
 		
 		byte d= 121;
 		d=(byte)(d+7);
-		System.out.println(d);
+		System.out.println(d);//-128
 	}
 
 }

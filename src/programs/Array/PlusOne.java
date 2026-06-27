@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class PlusOne {
 	public static void main(String[] args) {
-		int arr[] = { 1, 9, 9 }; // 100
+		int arr[] = { 1, 9, 9 }; // 200
 		// System.out.println(plusOne(arr));
 		int[] storage = plusOne(arr);
 
@@ -12,24 +12,27 @@ public class PlusOne {
 			System.out.print(storage[i] + " ");
 
 		System.out.println("----");
-		plusone();
+		System.out.println(plusone());
 	}
 
 	// Method 1
-	public static void plusone() {
-		int arr[] = { 9, 9 }; // 100
+	public static int[] plusone() {
+		System.out.println("start");
+		int arr[] = { 1,9, 9 }; // 100
 
 		for (int i = arr.length - 1; i >= 0; i--) {
 			if (arr[i] == 9)
 				arr[i] = 0;
 			else {
 				arr[i] = arr[i] + 1;
-				break;
+				System.out.println(Arrays.toString(arr));
+				return arr;
 			}
 		}
 		arr= new int[arr.length+1];
 		arr[0]=1;
 		System.out.println(Arrays.toString(arr));
+		return arr;
 	}
 
 	// Method 2

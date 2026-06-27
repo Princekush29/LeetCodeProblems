@@ -14,7 +14,7 @@ public class GetAllSubString {
 				j = i;
 			}
 		}
-		System.out.println("+++");
+		System.out.println("Method 2+++");
 		// Method2
 		for (int i = 0; i < len; i++) {
 			for (int j = i + 1; j <= len; j++) {

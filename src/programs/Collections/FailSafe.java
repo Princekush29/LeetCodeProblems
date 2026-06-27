@@ -28,7 +28,7 @@ public class FailSafe {
 			// Hence, it has not created separate copy
 			
             map.put("SEVEN", 7);
-            map.put("AA", 11); 
+            map.put("ZAAAAAA", 88); 
 		}
 	}
 }

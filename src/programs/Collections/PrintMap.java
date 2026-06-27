@@ -14,6 +14,7 @@ class PrintMap {
 		tm.put('b', 1);
 		tm.put('c', 1);
 		tm.size();
+		
 		// Method1
 		System.out.println(tm);
 		// Method2

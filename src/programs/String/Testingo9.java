@@ -15,7 +15,8 @@ public class Testingo9 {
 		 */
 
 		/*
-		 * Input: s = "abc", t = "ahbgdc" Output: true Input: s = "axc", t = "ahbgdc"
+		 * Input: s = "abc", t = "ahbgdc" Output: true 
+		 * Input: s = "axc", t = "ahbgdc"
 		 * Output: false axc --> hbxafdc
 		 */
 

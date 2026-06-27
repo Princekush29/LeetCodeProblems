@@ -50,5 +50,4 @@ class FirstNotRepeatingNumber {
 		}
 		return -1;
 	}
-
 }

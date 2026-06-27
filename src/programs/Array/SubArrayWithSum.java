@@ -14,14 +14,13 @@ public class SubArrayWithSum {
 	 */
 	public static void test() {
 		int arr[] = { 1, 4, 20, 3, 10, 5 }; //sum==33
-		int sum = 33, newSum = 0, token = 1;
+		int sum = 33, newSum = 0, flag = 1;
 		for (int i = 0, j = i + 1; j < arr.length; j++) {
 			int a = arr[i];
-			if (token == 1) {
+			if (flag == 1) {
 				newSum = newSum + a;
 				newSum = newSum + arr[j];
-				token = 2;
-
+				flag = 2;
 			} else {
 				newSum = newSum + arr[j];
 			}
@@ -31,12 +30,11 @@ public class SubArrayWithSum {
 				break;
 			}
 			if (j == arr.length - 1 || newSum > sum) {
-				token = 1;
+				flag = 1;
 				i = i + 1;
 				j = i;
 				newSum = 0;
 			}
-
 		}
 	}
 

@@ -8,26 +8,6 @@ public class ReverseTheNumberInTheString {
 	}
 
 	public static void method1() {
-		String str = "Java 2000 is 2025";//Java 0002 is 5202
-		String newStr = "";
-		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < str.length(); i++) {
-			char c = str.charAt(i);
-			if (c >= 48 && c <= 57) {
-				sb.append(c);
-			} else if (!sb.isEmpty() && c == ' ') {
-				newStr = newStr + sb.reverse();
-				sb = sb.delete(0, sb.length());
-				newStr = newStr + " ";
-			} else {
-				newStr = newStr + str.charAt(i);
-
-			}
-		}
-		System.out.println(newStr + sb.reverse());
-	}
-
-	public static void method2() {
 		String str = "Java 1992 is 1998";
 		String strArray[] = str.split(" ");
 		String newStr = "";
@@ -43,5 +23,25 @@ public class ReverseTheNumberInTheString {
 			}
 		}
 		System.out.println(newStr);
+	}
+
+	public static void method2() {
+		String str = "Java 2000 is 2025";// Java 0002 is 5202
+		String newStr = "";
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < str.length(); i++) {
+			char c = str.charAt(i);
+			if (c >= 48 && c <= 57) {
+				sb.append(c);
+			} else if (!sb.isEmpty() && c == ' ') {
+				newStr = newStr + sb.reverse();
+				sb = sb.delete(0, sb.length());
+				newStr = newStr + " ";
+			} else {
+				newStr = newStr + str.charAt(i);
+			}
+		}
+		System.out.println(newStr + sb.reverse());
+
 	}
 }

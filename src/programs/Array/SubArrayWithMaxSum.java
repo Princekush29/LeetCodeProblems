@@ -13,12 +13,12 @@ public class SubArrayWithMaxSum {
 			return nums[0];
 		int sum = 0;
 		int newSum = 0;
-		int token = 1;
+		int flag = 1;
 		for (int i = 0, j = i + 1; j < nums.length; j++) {
 
-			if (token == 1) {
+			if (flag == 1) {
 				sum = nums[i] + nums[j];
-				token = 2;
+				flag = 2;
 			} else {
 				sum = sum + nums[j];
 			}
@@ -27,7 +27,7 @@ public class SubArrayWithMaxSum {
 
 			if (j == nums.length - 1) {
 				i++;
-				token = 1;
+				flag = 1;
 				j = i;
 			}
 		}

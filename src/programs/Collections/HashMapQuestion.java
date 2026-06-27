@@ -18,7 +18,7 @@ public class HashMapQuestion {
 		map2 = map1;
 		System.out.println(map1);
 		System.out.println(map2);
-		map1.put("value3", 42); //
+		map1.put("value3", 42);
 		System.out.println(map1);
 		System.out.println(map2);
 	}

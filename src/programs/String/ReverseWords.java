@@ -1,4 +1,4 @@
-package programs.Array;
+package programs.String;
 
 public class ReverseWords {
 
