@@ -1,0 +1,31 @@
+package pq;
+Programming Question 47 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class First
+{
+    static void staticMethod()
+    {
+        System.out.println("Static Method");
+    }
+}
+
+public class MainClass
+{
+    public static void main(String[] args)
+    {
+        First first = null;
+
+        first.staticMethod();
+    }
+}
+
+
+Share your view in Comment section 😍
+
+Output is?
+Static Method
+Throws a NullPointerException
+Compile-time error
+Runtime error

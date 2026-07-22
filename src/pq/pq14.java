@@ -1,0 +1,22 @@
+package pq;
+Programming Question 14 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+
+	public static void main(String[] args) {
+		String str = "Hello";
+		str += " World!";
+		System.out.println(str.length());
+
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is ?
+5
+11
+12
+Compile time error

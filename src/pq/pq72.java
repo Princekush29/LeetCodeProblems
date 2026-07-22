@@ -1,0 +1,29 @@
+package pq;
+Programming Question 72 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class box {
+	int width;
+	int height;
+	int length;
+}
+
+class Testing {
+	public static void main(String args[]) {
+		box obj = new box();
+		obj.width = 10;
+		obj.height = 2;
+		obj.length = 10;
+		int y = obj.width * obj.height * obj.length;
+		System.out.print(y);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+100
+400
+200
+12

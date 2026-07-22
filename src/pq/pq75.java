@@ -1,0 +1,20 @@
+package pq;
+Programming Question 75 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class Testing {
+	public static void main(String args[]) {
+		StringBuffer s1 = new StringBuffer("Quiz");
+		StringBuffer s2 = s1.reverse();
+		System.out.println(s2);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+QuizziuQ
+ziuQQuiz
+Quiz
+ziuQ

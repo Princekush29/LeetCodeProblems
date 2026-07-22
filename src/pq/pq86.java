@@ -1,0 +1,23 @@
+package pq;
+Programming Question 86 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+	public static void main(String args[]) {
+		char c = 'a';
+		char c2 = '1';
+		int a = c;
+		int b = c2;
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+a 1
+1 a
+Compile Time error
+97 49 

@@ -1,0 +1,31 @@
+package pq;
+Question 51 What is Glue in Cucumber??
+
+#interviewquestions #interviewtips
+
+👨💻 What is Glue in Cucumber?
+
+👉 Glue Option helps Cucumber to locate the step definition file.
+
+👉 We specify the package to load glue code (step definitions or hooks) in the glue option.
+
+👉 When no glue is provided, Cucumber will use the package of the annotated class. For example, if the annotated class is com.example.Runner then glue is assumed to be located in com.example
+
+👨💻 Cucumber Glue Example
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		plugin = {"pretty", "html:target/cucumber"},
+		features = {"src/test/resources/features" }, 
+		glue = {"com.pb.cucumbertest.stepdefinitions"}, 
+		)
+
+public class Runner {
+}
+
+Share your view in Comment section 😍
+
+Do you use cucumber in your project ?
+Yes
+No
+I am new to Automation

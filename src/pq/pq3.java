@@ -1,0 +1,20 @@
+package pq;
+Programming Question 3 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips 
+
+class increment {
+        public static void main(String args[]) 
+        {        
+             int g = 3;
+             System.out.print(++g * 8);
+        } 
+    }
+
+Share your view in Comment section 😍
+
+Output is ?
+24
+25
+33
+32

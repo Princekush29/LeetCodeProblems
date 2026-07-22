@@ -1,0 +1,33 @@
+package pq;
+Programming Question 2 : What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+class exception_handling 
+    {
+        public static void main(String args[]) 
+        {
+            try 
+           {
+                int a, b;
+                b = 0;
+                a = 5 / b;
+                System.out.print("Apple ");
+            }
+            catch(ArithmeticException e) 
+            {
+        	System.out.print("Ball");        	
+            }
+        }
+    }
+
+Share your view in Comment section 😍
+
+
+Output is ?
+
+Apple
+Ball
+Apple Ball
+Runtime Error	
+	

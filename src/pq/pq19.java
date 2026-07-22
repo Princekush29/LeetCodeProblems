@@ -1,0 +1,22 @@
+package pq;
+Programming Question 19 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+
+	public static void main(String[] args) {
+		String[] os = new String[] { "Mac", "Linux", "Windows" };
+		Arrays.sort(os);
+		System.out.println(Arrays.binarySearch(os, "Mac"));
+	}
+}
+
+
+Share your view in Comment section 😍
+
+Output is?
+0
+1
+2
+Not Defined

@@ -1,0 +1,20 @@
+package pq;
+Programming Question 101 What will be the output of the following Java program?
+
+#interviewquestions #interviewtips
+
+public class Testing {
+	public static void main(String[] args) {
+		String str = "hello";
+		String s = str.charAt(0);
+		System.out.println(s);
+	}
+}
+
+Share your view in Comment section 😍
+
+Output is?
+hello
+h
+Compile time error
+Runtime time error
