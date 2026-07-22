@@ -14,6 +14,7 @@ class Product implements Comparable<Product> {
 		this.price = price;
 	}
 
+	
 	@Override
 	public int compareTo(Product other) {
 		// Natural Order: Smallest ID to Largest ID

@@ -14,7 +14,7 @@ public class Array1 {
 		 * less than "9" in character comparison.
 		 */
 
-		int arr[] = { 1, 9, 10 };
+		int arr[] = { 9, 1, 10 };
 		Arrays.sort(arr);
 		System.out.println(Arrays.toString(arr));
 		/*
