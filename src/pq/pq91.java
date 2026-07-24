@@ -3,7 +3,7 @@ Programming Question 91 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq91 {
 	public static void main(String[] args) {
 		int a = 10;
 		float f = a;
