@@ -9,7 +9,7 @@ class Hello{
 	}
 }
 
-public class Main{
+public class pq38{
 
 	Hello hello = new Hello();
 

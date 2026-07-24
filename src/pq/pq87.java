@@ -3,7 +3,7 @@ Programming Question 87 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq87 {
 	public static void main(String args[]) {
 		char c = '1';
 		int a = Integer.parseInt(String.valueOf(c));

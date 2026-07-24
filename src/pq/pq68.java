@@ -3,7 +3,7 @@ Programming Question 68 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-class Testing {
+public class pq68 {
 	public static void main(String args[]) {
 		char chars[] = { 'a', 'b', 'c' };
 		String s = new String(chars);

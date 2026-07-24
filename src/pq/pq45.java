@@ -5,10 +5,10 @@ Programming Question 45 What will be the output of the following Java program?
 
 import java.util.Hashtable;
 
-public class Testing {
+public class pq45 {
 	int hashcode;
 
-	Testing(int hashcode) {
+	pq45(int hashcode) {
 		this.hashcode = hashcode;
 	}
 

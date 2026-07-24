@@ -3,7 +3,7 @@ Programming Question 29 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq29 {
 
 	public static void main(String[] args) {
 		for (int i = 0; i < 5; i++) {

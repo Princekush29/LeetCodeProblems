@@ -1,9 +1,6 @@
 package pq;
-Programming Question 2 : What will be the output of the following Java program?
 
-#interviewquestions #interviewtips
-
-class exception_handling 
+public class pq2 
     {
         public static void main(String args[]) 
         {

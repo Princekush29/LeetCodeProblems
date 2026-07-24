@@ -3,7 +3,7 @@ Programming Question 31 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq31_imp {
 	public static void main(String args[]) {
 		One one = new Two();
 		one.print();

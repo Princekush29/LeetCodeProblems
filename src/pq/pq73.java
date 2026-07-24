@@ -14,7 +14,7 @@ class Recursion
             return result;
         }
     } 
-class Testing 
+public class pq73 
     {
         public static void main(String args[]) 
         {

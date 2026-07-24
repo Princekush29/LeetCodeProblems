@@ -3,7 +3,7 @@ Programming Question 41 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq41 {
   public static void main(String arg[]) {
     int i;
     for (i = 1; i <= 12; i += 2) {

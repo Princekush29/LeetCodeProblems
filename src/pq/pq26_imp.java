@@ -21,7 +21,7 @@ class DeriDerived extends Derived {
 	}
 }
 
-public class Testing {
+public class pq26_imp {
 	public static void main(String[] args) {
 		Derived b = new DeriDerived();
 	}

@@ -3,7 +3,7 @@ Programming Question 75 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-class Testing {
+public class pq75 {
 	public static void main(String args[]) {
 		StringBuffer s1 = new StringBuffer("Quiz");
 		StringBuffer s2 = s1.reverse();

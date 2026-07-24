@@ -18,7 +18,7 @@ abstract class Car {
     }
 }
 
-public class Testing extends Car {
+public class pq49_imp extends Car {
     {
         System.out.print("4");
     }

@@ -11,7 +11,7 @@ class First
     }
 }
 
-public class Testing
+public class pq40
 {
     public static void main(String[] args)
     {

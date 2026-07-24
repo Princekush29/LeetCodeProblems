@@ -3,7 +3,7 @@ Programming Question 71 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-class Testing {
+public class pq71 {
 	public static void main(String args[]) {
 		int arr[] = { 1, 2, 3, 4, 5 };
 		for (int i = 0; i < arr.length - 2; ++i)

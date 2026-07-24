@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-class Testing {
+public class pq79 {
 	public static void main(String args[]) {
 		LinkedList list = new LinkedList();
 		list.add(new Integer(2));

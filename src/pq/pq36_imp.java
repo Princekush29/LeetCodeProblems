@@ -10,7 +10,7 @@ class Demo{
 
 }
 
-public class Test{
+public class pq36_imp{
 
 	public static void main(String[] args){
 		Demo demo = new Demo();

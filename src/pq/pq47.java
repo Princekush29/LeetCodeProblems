@@ -11,7 +11,7 @@ class First
     }
 }
 
-public class MainClass
+public class pq47
 {
     public static void main(String[] args)
     {

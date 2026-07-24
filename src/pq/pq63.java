@@ -3,7 +3,7 @@ Programming Question 63 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq63 {
 	public static void main(String[] args) {
 		   Integer i;
            for(i = 1; i < 6; i++){ 

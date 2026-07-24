@@ -1,9 +1,6 @@
 package pq;
-Programming Question 3 What will be the output of the following Java program?
 
-#interviewquestions #interviewtips 
-
-class increment {
+public class pq3 {
         public static void main(String args[]) 
         {        
              int g = 3;

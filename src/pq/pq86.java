@@ -3,7 +3,7 @@ Programming Question 86 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq86 {
 	public static void main(String args[]) {
 		char c = 'a';
 		char c2 = '1';

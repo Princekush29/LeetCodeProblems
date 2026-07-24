@@ -3,7 +3,7 @@ Programming Question 46 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class ConcatNull {
+public class pq46 {
   public static void main(String[] args) {
     String str1 = "include";
     String str2 = "help";

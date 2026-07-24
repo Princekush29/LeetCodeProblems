@@ -15,7 +15,7 @@ class Car extends Automobile {
     }
 }
 
-public class ElectricCar extends Car {
+public class pq48_imp extends Car {
 
     @Override
     public final String drive() {

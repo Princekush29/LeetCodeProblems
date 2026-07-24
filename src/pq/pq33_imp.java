@@ -14,7 +14,7 @@ class Child extends Parent{
 	}
 }
 
-public class Testing{
+public class pq33_imp{
 
 	public static void main(String[] args){
 		Parent parent = new Child();

@@ -20,7 +20,7 @@ Question 51 What is Glue in Cucumber??
 		glue = {"com.pb.cucumbertest.stepdefinitions"}, 
 		)
 
-public class Runner {
+public class pq51 {
 }
 
 Share your view in Comment section 😍

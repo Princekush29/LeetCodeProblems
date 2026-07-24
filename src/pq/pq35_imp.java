@@ -15,7 +15,7 @@ class Two extends One{
 	}
 }
 
-public class Test{
+public class pq35_imp{
 	public static void main(String args[]){
 		One one = new Two();
 		one.print();

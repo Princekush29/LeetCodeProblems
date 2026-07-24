@@ -3,7 +3,7 @@ Programming Question 82 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq82 {
 }
 
 enum Enums extends A{

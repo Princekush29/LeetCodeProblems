@@ -3,7 +3,7 @@ Programming Question 74 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-class Testing {
+public class pq74 {
 	public static void main(String args[]) {
 		String c = "Hello, How are you ?";
 		boolean var;

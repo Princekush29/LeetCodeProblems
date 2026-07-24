@@ -3,7 +3,7 @@ Programming Question 8 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq8 {
 
 	public static void main(String[] args) {
 		String s = new String("5");

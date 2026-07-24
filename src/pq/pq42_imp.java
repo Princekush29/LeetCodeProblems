@@ -14,7 +14,7 @@ class ThisKeyword {
   }
 }
 
-public class Testing {
+public class pq42_imp {
   public static void main(String args[]) {
     ThisKeyword T = new ThisKeyword();
     T.getSum(3, 5);

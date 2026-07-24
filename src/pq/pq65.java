@@ -3,7 +3,7 @@ Programming Question 65 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq65 {
 
 	public static void main(String[] args) {
 

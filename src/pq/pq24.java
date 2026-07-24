@@ -3,7 +3,7 @@ Programming Question 24 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq24 {
 	public static void main(String[] args) {
 		String regex = "\\d+";
 		String input = "1234";

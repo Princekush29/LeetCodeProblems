@@ -3,7 +3,7 @@ Programming Question 20 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq20 {
 
 	public static void main(String[] args) {
 		String str1 = "Java";

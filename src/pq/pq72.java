@@ -9,7 +9,7 @@ class box {
 	int length;
 }
 
-class Testing {
+public class pq72 {
 	public static void main(String args[]) {
 		box obj = new box();
 		obj.width = 10;

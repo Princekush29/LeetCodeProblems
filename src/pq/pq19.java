@@ -3,7 +3,7 @@ Programming Question 19 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq19 {
 
 	public static void main(String[] args) {
 		String[] os = new String[] { "Mac", "Linux", "Windows" };

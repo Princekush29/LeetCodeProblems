@@ -3,7 +3,7 @@ Programming Question 80 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq80 {
 	public static void main(String[] args) {
 		boolean var1 = true;
 		boolean var2 = false;

@@ -15,7 +15,7 @@ class Demo{
 	}
 }
 
-public class Testing{
+public class pq34_imp{
 
 	public static void main(String[] args){
 		short s = 10;

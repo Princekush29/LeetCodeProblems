@@ -3,7 +3,7 @@ Programming Question 12 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq12 {
 
 	public static void main(String[] args) {
 		String[] nums = new String[] { "1", "9", "10" };

@@ -3,7 +3,7 @@ Programming Question 83 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq83 {
 	public static void main(String[] args) {
 		int number = 20;
 		switch (number) {

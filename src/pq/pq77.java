@@ -3,7 +3,7 @@ Programming Question 77 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-class Testing {
+public class pq77 {
 	public static void main(String args[]) {
 		double x = 2.0;
 		double y = 3.0;

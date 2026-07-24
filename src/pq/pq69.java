@@ -3,7 +3,7 @@ Programming Question 69 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-class Testing {
+public class pq69 {
 	public static void main(String args[]) {
 		byte x = 64;
 		int i;

@@ -3,7 +3,7 @@ Programming Question 9 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing3 {
+public class pq9 {
 
 	public static void main(String[] args) {
 		String s1 = null;

@@ -1,9 +1,7 @@
 package pq;
-Programming Question 100 What will be the output of the following Java program?
 
-#interviewquestions #interviewtips
 
-public class Testing {
+public class pq100 {
 	public static void main(String[] args) {
 		
 		String s = "1234";
@@ -12,10 +10,3 @@ public class Testing {
 	}
 }
 
-Share your view in Comment section 😍
-
-Output is?
-Compile time error
-Runtime time error
-1234
-4321

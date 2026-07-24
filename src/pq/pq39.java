@@ -3,7 +3,7 @@ Programming Question 39 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Main{
+public class pq39{
 
 	static String name = "Ramesh";
 

@@ -3,7 +3,7 @@ Programming Question 25 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq25 {
 	public void print(Integer i) {
 		System.out.println("Integer");
 	}
@@ -17,7 +17,7 @@ public class Testing {
 	}
 
 	public static void main(String args[]) {
-		Testing test = new Testing();
+		pq25 test = new pq25();
 		test.print(10);
 	}
 }

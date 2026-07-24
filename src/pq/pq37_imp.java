@@ -19,7 +19,7 @@ class Three extends Two{
 	}
 }
 
-public class Testing{
+public class pq37_imp{
 
 	public static void main(String[] args){
 		Three three = new Three();

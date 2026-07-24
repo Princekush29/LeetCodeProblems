@@ -3,7 +3,7 @@ Programming Question 81 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq81 {
 	public static void main(String[] args) {
 		double num[] = { 5.5, 10.1, 11, 12.8, 56.9, 2.5 };
 		double result;

@@ -14,7 +14,7 @@ class One{
 	}
 }
 
-public class Testing{
+public class pq32{
 
 	public static void main(String[] args){
 		long l = 20L;
