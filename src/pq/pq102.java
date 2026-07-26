@@ -1,9 +1,6 @@
 package pq;
-Programming Question 102 What will be the output of the following Java program?
 
-#interviewquestions #interviewtips
-
-public class Testing {
+public class pq102 {
 	public static void main(String[] args) {
 		int a = 10;
 		Integer b = a;
@@ -14,11 +11,3 @@ public class Testing {
 		System.out.println(d);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-Compile time error
-Runtime time error
-10 20
-20 10

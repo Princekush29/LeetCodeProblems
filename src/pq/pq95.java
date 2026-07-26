@@ -3,7 +3,7 @@ Programming Question 95 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-class Testing {
+public class pq95 {
 	public static void main(String args[]) {
 		try {
 			int number = 25 / 5;

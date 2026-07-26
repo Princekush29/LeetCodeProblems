@@ -3,7 +3,7 @@ Programming Question 97 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-public class Testing {
+public class pq97 {
 	public static void main(String args[]) {
 
 		Pattern p = Pattern.compile(".s");

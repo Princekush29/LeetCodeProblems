@@ -3,7 +3,7 @@ Programming Question 96 What will be the output of the following Java program?
 
 #interviewquestions #interviewtips
 
-class Testing {
+public class pq96 {
 	public static void main(String args[]) {
 
 		boolean isJavaFun = true;
