@@ -1,9 +1,4 @@
 package pq;
-Programming Question 44 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
-
-The Math.copySign() returns the first floating-point argument with the sign of the second floating-point argument.
 
 public class Main {
   public static void main(String[] args) {
@@ -11,11 +6,3 @@ public class Main {
     System.out.println(StrictMath.copySign(100.6, -200.6));
   }
 }
-
-Share your view in Comment section 😍
-
-Output is?
-100.6
--100.6
--200.6
-200.6

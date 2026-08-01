@@ -1,12 +1,12 @@
 package pq;
 
-class One{
+class One1111{
 
-	public One(int x){
+	public One1111(int x){
 		System.out.print("int constructor");
 	}
 
-	public One(long l){
+	public One1111(long l){
 		System.out.print("long constructor");
 	}
 }
@@ -15,6 +15,6 @@ public class pq32{
 
 	public static void main(String[] args){
 		long l = 20L;
-		One one = new One(l);
+		One1111 one = new One1111(l);
 	}
 }

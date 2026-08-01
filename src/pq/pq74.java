@@ -1,7 +1,4 @@
 package pq;
-Programming Question 74 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq74 {
 	public static void main(String args[]) {
@@ -11,11 +8,3 @@ public class pq74 {
 		System.out.println(var);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-0
-true
-1
-false

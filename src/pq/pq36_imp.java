@@ -1,7 +1,4 @@
 package pq;
-Programming Question 36 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 class Demo{
 	void Demo(){
@@ -16,12 +13,3 @@ public class pq36_imp{
 		Demo demo = new Demo();
 	}
 }
-
-
-Share your view in Comment section 😍
-
-Output is?
-Demo
-No Output
-Runtime error
-Compile-time error

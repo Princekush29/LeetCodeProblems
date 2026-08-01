@@ -1,7 +1,4 @@
 package pq;
-Programming Question 68 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq68 {
 	public static void main(String args[]) {
@@ -10,11 +7,3 @@ public class pq68 {
 		System.out.println(s);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-abc
-a
-b
-c
