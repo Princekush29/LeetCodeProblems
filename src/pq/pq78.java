@@ -1,8 +1,4 @@
 package pq;
-Programming Question 78 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
-
 public class pq78 {
 	public static void main(String args[]) {
 		double x = 3.14;
@@ -10,11 +6,3 @@ public class pq78 {
 		System.out.print(y);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-3
-0
-4
-3.0

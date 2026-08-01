@@ -1,8 +1,4 @@
 package pq;
-Programming Question 70 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
-
 class Testing
 {
     public static void main(String args[])
@@ -11,11 +7,3 @@ class Testing
         System.out.println(args.length);
     }
 }
-
-Share your view in Comment section 😍
-
-Output is?
-Compiles, not print anything
-Compiles, runs and prints 0
-Compiles, runs and prints 1
-Does not compile

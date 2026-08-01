@@ -1,7 +1,6 @@
 package pq;
-Programming Question 19 What will be the output of the following Java program?
 
-#interviewquestions #interviewtips
+import java.util.Arrays;
 
 public class pq19 {
 
@@ -11,12 +10,3 @@ public class pq19 {
 		System.out.println(Arrays.binarySearch(os, "Mac"));
 	}
 }
-
-
-Share your view in Comment section 😍
-
-Output is?
-0
-1
-2
-Not Defined

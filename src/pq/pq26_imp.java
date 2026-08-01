@@ -1,8 +1,4 @@
 package pq;
-Programming Question 26 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
-
 class Base {
 	public Base() {
 		System.out.println("Base");
@@ -27,10 +23,3 @@ public class pq26_imp {
 	}
 }
 
-Share your view in Comment section 😍
-
-Output is?
-Base Derived DeriDerived
-Derived DeriDerived
-DeriDerived Derived Base
-DeriDerived Derived
