@@ -15,17 +15,17 @@ abstract class Car {
     }
 }
 
-public class pq49_imp extends Car {
+public class InitializationOrderDemo extends Car {
     {
         System.out.print("4");
     }
 
-    public Testing() {
+    public InitializationOrderDemo() {
         super("blue");
         System.out.print("5");
     }
 
     public static void main(String[] gears) {
-        new Testing();
+        new InitializationOrderDemo();
     }
 }
