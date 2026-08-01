@@ -5,5 +5,11 @@ public class BooleanExample {
 
 		boolean isJavaFun = true;
 		System.out.println(!isJavaFun);
+		
+		if (1 + 1 + 1 + 1 + 1 == 5) {
+			System.out.print("TRUE");
+		} else {
+			System.out.print("FALSE");
+		}
 	}
 }

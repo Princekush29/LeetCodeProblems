@@ -1,5 +1,6 @@
 package pq;
-class box {
+
+class Box1 {
 	int width;
 	int height;
 	int length;
@@ -7,7 +8,7 @@ class box {
 
 public class BoxVolumeDemo {
 	public static void main(String args[]) {
-		box obj = new box();
+		Box1 obj = new Box1();
 		obj.width = 10;
 		obj.height = 2;
 		obj.length = 10;

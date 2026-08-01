@@ -7,6 +7,7 @@ public class BlockScopeDemo {
 			int y = 6;
 			System.out.print(x + " " + y);
 		}
-		System.out.println(x + " " + y);
+		// y = 10; // Error: y cannot be resolved to a variable
+		//System.out.println(x + " " + y);
 	}
 }
