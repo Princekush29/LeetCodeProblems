@@ -1,7 +1,4 @@
 package pq;
-Programming Question 25 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq25 {
 	public void print(Integer i) {
@@ -21,12 +18,3 @@ public class pq25 {
 		test.print(10);
 	}
 }
-
-
-Share your view in Comment section 😍
-
-Output is?
-compiler error
-long
-Integer
-int

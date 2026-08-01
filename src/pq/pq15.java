@@ -1,7 +1,4 @@
 package pq;
-Programming Question 15 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq15 {
 
@@ -11,12 +8,3 @@ public class pq15 {
 		System.out.println(str1 == str2);
 	}
 }
-
-Share your view in Comment section 😍
-
-
-Output is ?
-true
-false
-compilation error
-runtime exception
