@@ -1,7 +1,4 @@
 package pq;
-Programming Question 65 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq65 {
 
@@ -14,11 +11,3 @@ public class pq65 {
 		}
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-TRUE
-Compile time error
-FALSE
-None

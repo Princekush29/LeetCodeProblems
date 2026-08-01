@@ -1,7 +1,7 @@
 package pq;
-Programming Question 24 What will be the output of the following Java program?
 
-#interviewquestions #interviewtips
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class pq24 {
 	public static void main(String[] args) {
@@ -16,11 +16,3 @@ public class pq24 {
 		}
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-1 
-1234 
-123456789 
-Compile-time error

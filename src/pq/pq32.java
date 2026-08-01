@@ -1,7 +1,4 @@
 package pq;
-Programming Question 32 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 class One{
 
@@ -21,11 +18,3 @@ public class pq32{
 		One one = new One(l);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-int constructor
-long constructor
-Runtime error
-Compile-time error
