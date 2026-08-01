@@ -1,7 +1,4 @@
 package pq;
-Programming Question 69 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq69 {
 	public static void main(String args[]) {
@@ -13,11 +10,3 @@ public class pq69 {
 		System.out.print(i + " " + y);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-0 256
-0 64
-256 0
-64 0

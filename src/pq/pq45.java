@@ -1,7 +1,4 @@
 package pq;
-Programming Question 45 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 import java.util.Hashtable;
 
@@ -30,12 +27,3 @@ public class pq45 {
 		System.out.println(ht);
 	}
 }
-
-
-Share your view in Comment section 😍
-
-Output is?
-{10 =Java, 6 =null, 3 =C}
-{10 =Java, 3 =C, 6 =null}
-{6 =null, 3 =C, 10 =Java}
-None of these

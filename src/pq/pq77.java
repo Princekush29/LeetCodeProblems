@@ -1,7 +1,4 @@
 package pq;
-Programming Question 77 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq77 {
 	public static void main(String args[]) {
@@ -11,11 +8,3 @@ public class pq77 {
 		System.out.print(z);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-9.0
-8.0
-4.0
-2.0

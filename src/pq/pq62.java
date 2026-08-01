@@ -1,7 +1,4 @@
 package pq;
-Programming Question 62 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq62 {
 
@@ -11,11 +8,3 @@ public class pq62 {
 		System.out.println(++a);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-101
-Compile time error
-100
-None

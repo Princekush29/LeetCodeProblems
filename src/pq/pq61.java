@@ -1,22 +1,11 @@
 package pq;
-Programming Question 61 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq61 {
 
 	public static void main(String[] args) {
 
 		String str1 = "one";
-        String str2 = "two";
-        System.out.println(str1.concat(str2));
+		String str2 = "two";
+		System.out.println(str1.concat(str2));
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-one
-two
-onetwo
-twoone

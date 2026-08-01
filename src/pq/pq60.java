@@ -1,7 +1,4 @@
 package pq;
-Programming Question 60 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq60 {
 
@@ -10,16 +7,8 @@ public class pq60 {
 		int[] A = {0,2,4,1,3};
 		for(int i = 0; i < A.length; i++){
 		A[i] = A[(A[i] + 3) % A.length];
-		
+        
 		}
 		System.out.println(A[1]);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-0
-1
-2
-3

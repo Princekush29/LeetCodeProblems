@@ -1,7 +1,4 @@
 package pq;
-Programming Question 15 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq16 {
 
@@ -16,11 +13,3 @@ public class pq16 {
 			System.out.println("Cat");
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is ?
-Apple
-Ball
-Cat
-compilation error

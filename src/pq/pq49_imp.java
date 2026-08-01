@@ -1,7 +1,4 @@
 package pq;
-Programming Question 49 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 abstract class Car {
     static {
@@ -32,12 +29,3 @@ public class pq49_imp extends Car {
         new Testing();
     }
 }
-
-
-Share your view in Comment section 😍
-
-Output is?
-23451
-12354
-13245
-The code does not compile

@@ -1,7 +1,4 @@
 package pq;
-Programming Question 48 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 class Automobile {
     private String drive() {
@@ -27,11 +24,3 @@ public class pq48_imp extends Car {
         System.out.print(car.drive());
     }
 }
-
-Share your view in Comment section 😍
-
-Output is?
-Driving vehicle
-Driving an electric car
-Driving car
-The code does not compile

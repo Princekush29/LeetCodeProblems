@@ -1,7 +1,4 @@
 package pq;
-Programming Question 42 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 class ThisKeyword {
   private int a = 4;
@@ -20,12 +17,3 @@ public class pq42_imp {
     T.getSum(3, 5);
   }
 }
-
-
-Share your view in Comment section 😍
-
-Output is?
-5
-9
-8
-4
