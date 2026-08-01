@@ -1,7 +1,4 @@
 package pq;
-Programming Question 49 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 class Math {
     public final double secret = 2;
@@ -19,11 +16,3 @@ public class pq50_imp extends ComplexMath {
         System.out.print(math.secret);
     }
 }
-
-Share your view in Comment section 😍
-
-Output is?
-2.0
-4.0
-8.0
-The code does not compile

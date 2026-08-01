@@ -1,7 +1,4 @@
 package pq;
-Programming Question 58 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq58 {
 
@@ -11,11 +8,3 @@ public class pq58 {
 		System.out.println(str.indexOf('t'));
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-0
-1
-true
--1

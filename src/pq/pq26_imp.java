@@ -1,25 +1,25 @@
 package pq;
-class Base {
-	public Base() {
+class Base1 {
+	public Base1() {
 		System.out.println("Base");
 	}
 }
 
-class Derived extends Base {
-	public Derived() {
+class Derived1 extends Base1 {
+	public Derived1() {
 		System.out.println("Derived");
 	}
 }
 
-class DeriDerived extends Derived {
-	public DeriDerived() {
+class DeriDerived1 extends Derived1 {
+	public DeriDerived1() {
 		System.out.println("DeriDerived");
 	}
 }
 
 public class pq26_imp {
 	public static void main(String[] args) {
-		Derived b = new DeriDerived();
+		Derived1 b = new DeriDerived1();
 	}
 }
 
