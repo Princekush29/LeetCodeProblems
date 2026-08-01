@@ -1,7 +1,7 @@
 package pq;
 
-class Demo{
-	void Demo(){
+class Demo11{
+	public Demo11(){
 		System.out.println("Demo");
 	}
 
@@ -10,6 +10,6 @@ class Demo{
 public class pq36_imp{
 
 	public static void main(String[] args){
-		Demo demo = new Demo();
+		Demo11 demo11 = new Demo11();
 	}
 }
