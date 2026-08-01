@@ -16,6 +16,6 @@ public class Constructor{
 
 	public static void main(String[] args){
 		long l = 20L;
-		Six one = new Six(l);
+		Six six = new Six(l);
 	}
 }

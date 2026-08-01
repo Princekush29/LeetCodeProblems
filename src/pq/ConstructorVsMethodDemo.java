@@ -1,7 +1,7 @@
 package pq;
 
 class DemoHello {
-	
+
 	public DemoHello(int i) {
 		System.out.println("int");
 	}
@@ -11,10 +11,16 @@ class DemoHello {
 	}
 }
 
-public class Constructor2 {
+public class ConstructorVsMethodDemo {
 
 	public static void main(String[] args) {
 		short s = 10;
 		DemoHello demo = new DemoHello(s);
 	}
 }
+
+/*
+ * Since there is no constructor that accepts a short, Java performs widening
+ * primitive conversion: short → int
+ * 
+ */
