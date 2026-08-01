@@ -1,21 +1,12 @@
 package pq;
-Programming Question 12 What will be the output of the following Java program?
 
-#interviewquestions #interviewtips
+import java.util.Arrays;
 
 public class pq12 {
 
 	public static void main(String[] args) {
-		String[] nums = new String[] { "1", "9", "10" };
+		String[] nums = new String[] { "1", "9", "10" }; // string array
 		Arrays.sort(nums);
 		System.out.println(Arrays.toString(nums));
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is ?
-[1, 9, 10]
-[1, 10, 9]
-[10, 1, 9]
-None of the above
