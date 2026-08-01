@@ -1,7 +1,4 @@
 package pq;
-Programming Question 39 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq39{
 
@@ -15,11 +12,3 @@ public class pq39{
 		System.out.println("The name is " + name);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-Prabhas
-The name is Ramesh
-No Output
-Runtime error
