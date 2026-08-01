@@ -1,7 +1,4 @@
 package pq;
-Programming Question 47 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 class First
 {
@@ -20,12 +17,3 @@ public class pq47
         first.staticMethod();
     }
 }
-
-
-Share your view in Comment section 😍
-
-Output is?
-Static Method
-Throws a NullPointerException
-Compile-time error
-Runtime error

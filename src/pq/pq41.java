@@ -1,7 +1,4 @@
 package pq;
-Programming Question 41 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq41 {
   public static void main(String arg[]) {
@@ -14,12 +11,3 @@ public class pq41 {
     }
   }
 }
-
-
-Share your view in Comment section 😍
-
-Output is?
-1
-No output
-8
-1357911
