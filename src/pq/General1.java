@@ -15,7 +15,7 @@ public class General1 {
 	}
 
 	public static void main(String[] args) {
-		General test = new General();
-		test.print(null); // ❌ Compile-time error: ambiguous method call
+		General1 test = new General1();
+		//test.print(null); // ❌ Compile-time error: ambiguous method call
 	}
 }
