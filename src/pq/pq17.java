@@ -1,7 +1,4 @@
 package pq;
-Programming Question 17 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq17 {
 
@@ -12,11 +9,3 @@ public class pq17 {
         System.out.println(z);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is ?
-10
-5
-15
-compilation error

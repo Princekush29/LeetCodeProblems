@@ -1,8 +1,4 @@
 package pq;
-Programming Question 5  What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
-
 public class pq5 {
 	public static void main(String[] args) {
 		for (int i = 0; i < 10; i++) {
@@ -13,10 +9,3 @@ public class pq5 {
 		}
 	}
 }
-Share your view in Comment section 😍
-
-Output is?
-2 4 6 8 10
-1 3 5 7 9
-Compile Time Error
-Exception

@@ -1,8 +1,4 @@
 package pq;
-Programming Question 56 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
-
 public class pq56 {
 
 	public static void main(String[] args) {
@@ -13,11 +9,3 @@ public class pq56 {
 
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-50
-10
-Compile time error
-Runtime time error

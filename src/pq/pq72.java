@@ -1,8 +1,4 @@
 package pq;
-Programming Question 72 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
-
 class box {
 	int width;
 	int height;
@@ -19,11 +15,3 @@ public class pq72 {
 		System.out.print(y);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-100
-400
-200
-12

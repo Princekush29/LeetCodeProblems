@@ -1,8 +1,4 @@
 package pq;
-Programming Question 46 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
-
 public class pq46 {
   public static void main(String[] args) {
     String str1 = "include";
@@ -10,11 +6,3 @@ public class pq46 {
     System.out.println(str1 + str2);
   }
 }
-
-Share your view in Comment section 😍
-
-Output is?
-Compile time error
-Runtime error
-includehelp
-include
