@@ -7,6 +7,6 @@ public class DoubleArray {
 		result = 0;
 		for (int i = 0; i < 6; i++)
 			result = result + num[i];
-		System.out.println(result/6);
+		System.out.println(result / 6);
 	}
 }
