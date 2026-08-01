@@ -1,7 +1,4 @@
 package pq;
-Programming Question 31 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq31_imp {
 	public static void main(String args[]) {
@@ -21,11 +18,3 @@ class Two extends One {
 		System.out.println("2");
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-2
-1
-Runtime error
-Compile-time error

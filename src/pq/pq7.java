@@ -1,20 +1,9 @@
 package pq;
-Programming Question 7  What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq7 {
 
 	public static void main(String[] args) {
 		String str = null;
-        System.out.println(str.valueOf(10));
+		System.out.println(str.valueOf(10));
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-Compile Time Error
-Null Pointer Exception
-10
-Null
