@@ -1,13 +1,11 @@
 package pq;
 
-// Deprecated: moved implementation to HashTableHashCodeDemo.java
-
 import java.util.Hashtable;
 
-public class pq45 {
+public class HashTableHashCodeDemo {
 	int hashcode;
 
-	pq45(int hashcode) {
+	HashTableHashCodeDemo(int hashcode) {
 		this.hashcode = hashcode;
 	}
 
