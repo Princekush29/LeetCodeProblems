@@ -1,7 +1,4 @@
 package pq;
-Programming Question 79 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 import java.util.Collections;
 import java.util.Iterator;
@@ -21,12 +18,3 @@ public class pq79 {
 			System.out.print(i.next() + " ");
 	}
 }
-
-
-Share your view in Comment section 😍
-
-Output is?
-1 2 5 8
-2 1 8 5
-1 5 8 2
-2 8 5 1
