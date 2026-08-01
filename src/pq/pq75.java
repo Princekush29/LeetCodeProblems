@@ -1,7 +1,4 @@
 package pq;
-Programming Question 75 What will be the output of the following Java program?
-
-#interviewquestions #interviewtips
 
 public class pq75 {
 	public static void main(String args[]) {
@@ -10,11 +7,3 @@ public class pq75 {
 		System.out.println(s2);
 	}
 }
-
-Share your view in Comment section 😍
-
-Output is?
-QuizziuQ
-ziuQQuiz
-Quiz
-ziuQ
