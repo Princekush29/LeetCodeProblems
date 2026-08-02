@@ -1,21 +1,20 @@
 package pq;
 
-class Parent {
-	public void className() {
-		System.out.println("Parent");
+class Seven {
+	public static void print() {
+		System.out.println("777");
 	}
 }
 
-class Child extends Parent {
-	public void className() {
-		System.out.println("Child");
+class Eight extends Seven {
+	public static void print() {
+		System.out.println("888");
 	}
 }
 
 public class Inheritance3 {
-
-	public static void main(String[] args) {
-		Parent parent = new Child();
-		parent.className();
+	public static void main(String args[]) {
+		Seven seven = new Eight();
+		seven.print();
 	}
 }
