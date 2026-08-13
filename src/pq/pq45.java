@@ -22,9 +22,9 @@ public class pq45 {
 	public static void main(String[] args) {
 		Hashtable ht = new Hashtable();
 
-		ht.put(new Testing(10), "Java");
-		ht.put(new Testing(3), "C");
-		ht.put(new Testing(6), "null");
+		ht.put(new Test1(10), "Java");
+		ht.put(new Test1(3), "C");
+		ht.put(new Test1(6), "null");
 
 		System.out.println(ht);
 	}

@@ -1,6 +1,6 @@
 package pq;
 
-public class TryCatchFinallyExample {
+public class Exception2 {
 	public static void main(String args[]) {
 		try {
 			int number = 25 / 5;
