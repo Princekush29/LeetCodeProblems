@@ -1,6 +1,6 @@
 package pq;
 
-public class StringValueOfDemo {
+public class StringNullPointerExceptionExample2 {
 
 	public static void main(String[] args) {
 		String str = null;
