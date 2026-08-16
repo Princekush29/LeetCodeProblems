@@ -7,12 +7,12 @@ class FirstNotRepeatingNumber {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 9, 4, 9, 6, 5, 7, 4 }; //o/p=6
+		int arr[] = { 9, 4, 9, 6, 5, 7, 4 }; // o/p=6
 		int n = arr.length;
 
 		System.out.println(firstNonRepeating(arr, n));
 		System.out.println(firstNonRepeating1(arr, n));
-
+		System.out.println(firstNonRepeating_OneForLoop(arr, n));
 	}
 
 	static int firstNonRepeating(int arr[], int n) {
@@ -25,6 +25,25 @@ class FirstNotRepeatingNumber {
 				if (i != j && arr[i] == arr[j])
 					break;
 			}
+			if (j == n)
+				return arr[i];
+		}
+
+		return -1;
+	}
+
+	static int firstNonRepeating_OneForLoop(int arr[], int n) {
+		// Loop for checking each element
+//int arr[] = { 9, 4, 9, 6, 5, 7, 4 }; // o/p=6
+		// Method1
+		int j = 0;
+		for (int i = 0; i < n;) {
+			if (i != j && arr[i] == arr[j]) {
+				i++;
+				j=0;
+				//break;
+			} else
+				j++;
 			if (j == n)
 				return arr[i];
 		}
