@@ -1,6 +1,6 @@
 package pq;
 
-public class pq76 {
+public class Other {
 	public static void main(String args[]) {
 		Integer i = new Integer(257);
 		byte x = i.byteValue();

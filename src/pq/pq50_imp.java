@@ -1,10 +1,10 @@
 package pq;
 
-class Math {
+class Math1 {
     public final double secret = 2;
 }
 
-class ComplexMath extends Math {
+class ComplexMath extends Math1 {
     public final double secret = 4;
 }
 
@@ -12,7 +12,7 @@ public class pq50_imp extends ComplexMath {
     public final double secret = 8;
 
     public static void main(String[] numbers) {
-        Math math = new InfiniteMath();
+        Math1 math = new InfiniteMath();
         System.out.print(math.secret);
     }
 }

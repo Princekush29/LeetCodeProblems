@@ -6,5 +6,8 @@ public class PreIncrementOperatorDemo {
 
 		int a = 100;
 		System.out.println(++a);
+		
+		 int g = 3;
+         System.out.print(++g * 8);
 	}
 }
