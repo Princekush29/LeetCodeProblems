@@ -99,30 +99,6 @@ public class AllZeroInStartOrEndInArray {
 		System.out.println(Arrays.toString(arr));
 		System.out.println("+++++++");
 
-		// Method4 - this require creation of another array
-		int arr1[] = { 1, 2, 3, 0, 1, 0, 2, 4, 0, 9, 0 };
-		int count = 0;
-		int arr2[] = new int[arr1.length];
-
-		for (int i = 0; i < arr1.length; i++) {
-			if (arr1[i] == 0)
-				count++;
-			System.out.println(count);
-		}
-
-		for (int i = 0, j = 0; j < arr1.length;) {
-			if (arr1[j] != 0) {
-				arr2[i] = arr1[j];
-				j++;
-				i++;
-
-			} else {
-				j++;
-
-			}
-		}
-		System.out.println(Arrays.toString(arr2));
-		System.out.println("Method 4 ends");
 
 		// Method 5 - Create a array of same length, and if the value is not equal to
 		// zero
