@@ -12,7 +12,7 @@ class Car extends Automobile {
     }
 }
 
-public class pq48_imp extends Car {
+public class Inhertitance9 extends Car {
 
     @Override
     public final String drive() {

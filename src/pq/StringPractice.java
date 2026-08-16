@@ -48,6 +48,12 @@ public class StringPractice {
 		String str21 = "Java";
 		String str3 = new String("Java");
 
-		System.out.println(str12.equals(str21) && str12.equals(str3));
+		System.out.println(str12.equals(str21) && str1.equals(str3));
+		
+		int Integer = 24;
+		char String = 'I';
+		System.out.print(Integer);
+		System.out.print(String);
+
 	}
 }

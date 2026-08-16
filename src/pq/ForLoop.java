@@ -46,5 +46,14 @@ public class ForLoop {
 			}
 			System.out.println(i);
 		}
+		
+		System.out.println("++++++");
+		int i;
+	    for (i = 1; i <= 12; i += 2) {
+	      if (i == 8) {
+	        System.out.print(i);
+	        break;
+	      }
+	    }
 	}
 }

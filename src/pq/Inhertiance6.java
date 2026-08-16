@@ -8,7 +8,7 @@ class ComplexMath extends Math1 {
     public final double secret = 4;
 }
 
-public class pq50_imp extends ComplexMath {
+public class Inhertiance6 extends ComplexMath {
     public final double secret = 8;
 
     public static void main(String[] numbers) {

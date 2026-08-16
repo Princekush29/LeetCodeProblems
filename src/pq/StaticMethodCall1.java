@@ -7,7 +7,7 @@ class First
     }
 }
 
-public class pq40
+public class StaticMethodCall1
 {
     public static void main(String[] args)
     {

@@ -1,6 +1,6 @@
 package pq;
 
-class First
+class First1s
 {
     static void staticMethod()
     {
@@ -8,11 +8,11 @@ class First
     }
 }
 
-public class pq47
+public class StaticMethodCall
 {
     public static void main(String[] args)
     {
-        First first = null;
+    	First1s first = null;
 
         first.staticMethod();
     }

@@ -18,8 +18,8 @@ public class IntegerPractice2 {
 		test.print(10);
 		
 		short x = 10;
-        x =  x * 5;
-        System.out.print(x);
+       // x =  x * 5;
+       // System.out.print(x);
 	}
 	
 }

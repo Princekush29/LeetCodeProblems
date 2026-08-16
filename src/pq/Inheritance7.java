@@ -1,15 +1,15 @@
 package pq;
 
-class Demo11{
-	public Demo11(){
+class Demo111{
+	public Demo111(){
 		System.out.println("Demo");
 	}
 
 }
 
-public class pq36_imp{
+public class Inheritance7 {
 
 	public static void main(String[] args){
-		Demo11 demo11 = new Demo11();
+		Demo111 demo11 = new Demo111();
 	}
 }
