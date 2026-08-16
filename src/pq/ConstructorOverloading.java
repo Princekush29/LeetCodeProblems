@@ -1,20 +1,20 @@
 package pq;
 
-class One1111{
+class One11111{
 
-	public One1111(int x){
+	public One11111(int x){
 		System.out.print("int constructor");
 	}
 
-	public One1111(long l){
+	public One11111(long l){
 		System.out.print("long constructor");
 	}
 }
 
-public class pq32{
+public class ConstructorOverloading {
 
 	public static void main(String[] args){
 		long l = 20L;
-		One1111 one = new One1111(l);
+		One11111 one = new One11111(l);
 	}
 }

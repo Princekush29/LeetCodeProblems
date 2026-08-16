@@ -1,6 +1,6 @@
 package pq;
 
-public class pq31_imp {
+public class Inheritance5 {
 	public static void main(String args[]) {
 		One111 one111 = new Two111();
 		one111.print();

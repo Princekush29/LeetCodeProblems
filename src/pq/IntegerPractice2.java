@@ -1,6 +1,6 @@
 package pq;
 
-public class pq25 {
+public class IntegerPractice2 {
 	public void print(Integer i) {
 		System.out.println("Integer");
 	}
@@ -14,7 +14,12 @@ public class pq25 {
 	}
 
 	public static void main(String args[]) {
-		pq25 test = new pq25();
+		IntegerPractice2 test = new IntegerPractice2();
 		test.print(10);
+		
+		short x = 10;
+        x =  x * 5;
+        System.out.print(x);
 	}
+	
 }

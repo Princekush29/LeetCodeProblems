@@ -1,4 +1,5 @@
 package pq;
+
 class Base1 {
 	public Base1() {
 		System.out.println("Base");
@@ -17,7 +18,7 @@ class DeriDerived1 extends Derived1 {
 	}
 }
 
-public class pq26_imp {
+public class Inheritance4 {
 	public static void main(String[] args) {
 		Derived1 b = new DeriDerived1();
 	}

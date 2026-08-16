@@ -39,5 +39,15 @@ public class StringPractice {
 		String str121 = "Hello";
 		str121 += " World!";
 		System.out.println(str121.length());
+		
+		String str222 = "Java";
+		str222.concat(" Programming");
+		System.out.println(str222);
+		
+		String str12 = "Java";
+		String str21 = "Java";
+		String str3 = new String("Java");
+
+		System.out.println(str12.equals(str21) && str12.equals(str3));
 	}
 }
