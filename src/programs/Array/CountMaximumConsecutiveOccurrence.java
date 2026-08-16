@@ -22,5 +22,4 @@ public class CountMaximumConsecutiveOccurrence {
 		System.out.println(newCount);
 		System.out.println("+++");
 	}
-
 }
