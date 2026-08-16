@@ -12,7 +12,7 @@ public class MergeArray {
 		}
 		int len = arr1.length;
 		for (int i = 0; i < arr2.length; i++, len++) {
-			arr3[len] = arr1[i];
+			arr3[len] = arr2[i];
 		}
 
 		int temp;

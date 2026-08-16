@@ -55,6 +55,7 @@ public class MaxMinInArray {
 				i = -1;
 			}
 		}
+		
 		System.out.println("Maximum number is " + arr[arr.length - 1]);
 		System.out.println("Minimum number is " + arr[0]);
 		end = System.nanoTime();
