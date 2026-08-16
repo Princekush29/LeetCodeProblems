@@ -1,10 +1,10 @@
-package programs.Array;
+package leetCode;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-class FindIntersectionValues {
+class FindIntersectionValues2956 {
 
 	public static void main(String[] args) {
 
