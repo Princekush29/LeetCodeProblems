@@ -1,5 +1,5 @@
 package pq;
-public class pq67 {
+public class Other2 {
 	public static void main(String args[]) {
 		int x;
 		x = 5;
@@ -7,6 +7,6 @@ public class pq67 {
 			int y = 6;
 			System.out.print(x + " " + y);
 		}
-		System.out.println(x + " " + y);
+		//System.out.println(x + " " + y);
 	}
 }

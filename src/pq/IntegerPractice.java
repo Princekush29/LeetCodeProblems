@@ -1,6 +1,6 @@
 package pq;
 
-public class pq102 {
+public class IntegerPractice {
 	public static void main(String[] args) {
 		int a = 10;
 		Integer b = a;

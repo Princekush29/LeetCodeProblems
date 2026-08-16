@@ -1,6 +1,6 @@
 package pq;
 
-public class pq57 {
+public class ByteOverflow {
 
 	public static void main(String[] args) {
 
