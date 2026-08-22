@@ -24,6 +24,7 @@ public class Anagram {
 			alphabet[s1.charAt(i) - 'a']++;
 		for (int i = 0; i < s2.length(); i++)
 			alphabet[s2.charAt(i) - 'a']--;
+		
 		for (int a : alphabet) {
 			if (a != 0)
 				return false;

@@ -16,7 +16,6 @@ public class AllZeroInStartingInString {
 
 		System.out.println("-----Method 2-----");
 		test();
-		test1();
 	}
 
 	// Method2
