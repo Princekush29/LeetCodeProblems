@@ -6,6 +6,7 @@ public class AdditionOfNumberInAString {
 		String s = "12abc13erty14r1";
 		// Method1
 		String temp = "0", temp1 = "0";
+		int num = 0;
 		int sum = 0, sum1 = 0;
 		for (int i = 0; i < s.length(); i++) {
 			char c = s.charAt(i);

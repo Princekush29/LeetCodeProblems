@@ -29,6 +29,7 @@ public class NegativeNumberToLeftSide {
 		}
 		// Method 2 - this can also we solved like how we swap zero at the end of the
 		// array. Only problem with this is it will not be able to maintain the sequence
+		// Refer this class - AllZeroInStartOrEndInArray, there are multiple way to solve this
 		int arr2[] = { -12, 11, -13, -5, 6, -7, 5, -3, -6 };
 		int temp;
 		for (int i = 0, j = arr2.length - 1; i < arr2.length; i++) {

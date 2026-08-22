@@ -9,6 +9,7 @@ public class ProductOfNumbers {
 		int arr[] = { 1, 2, 3, 4 };
 		int arr1[] = new int[arr.length];
 		int product = 1;
+		
 		// Method 1
 		int count = 0;
 		for (int i = 0, j = 0; i < arr.length; j++) {
